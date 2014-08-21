@@ -1,0 +1,2 @@
+Features used from foundation:
+- Grid system 
