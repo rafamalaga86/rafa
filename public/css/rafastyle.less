@@ -26,9 +26,25 @@
 //--------------- IMPORTS ---------------//
  
 @import "normalize.css";
-
+@import "../icons/style.css"; // Icons
+@import "/public/form/component.css"; // Form
+// @import "/public/form/demo.css";
 //---------------- FONTS ----------------//
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light|Indie+Flower|Gloria+Hallelujah);
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy|Oswald:700|Montserrat:700|Lobster|Anton|Pacifico|Crafty+Girls|Changa+One);
+
 //---------------- COLORS ---------------//
+@purple: #9e0fe0;
+
+@grey: #4E4E56;
+@red: #DA635D;
+@skin: #DCD0C0;
+@brown: #B1938B;
+
+@black: #232323;
  
 //------------ PARENTS STYLES -----------//
 //------------ OOCSS CLASSES ------------//
@@ -45,3 +61,40 @@
 ////////////////////////////////////////////////////////////////
 // HOME PAGE
 ////////////////////////////////////////////////////////////////
+
+
+
+html{
+	font: 16px Roboto;
+	color: @grey;
+}
+
+
+.s-first{
+	width: 100%;
+	background: url(/public/images/hot-air-balloon.jpg) top right no-repeat;
+	background-size: cover;
+	.floating-box{
+		padding: 100px 0 0 100px;
+		h1,h2,h3{
+			margin: 0;
+			font-family: 'Lobster';
+			color: @black;
+
+		}
+		h3{
+			font-size: 280px;
+			margin-bottom: 50px;
+		}
+		h1{
+			font-size: 40px;
+			margin-bottom: 30px;
+		}
+	}
+}
+
+
+
+
+
+
