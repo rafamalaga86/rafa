@@ -5,6 +5,7 @@
 //-------- MEDIA QUERY VARIABLES --------//
 @2000: ~"screen and (max-width: 2000px)";
 @1600: ~"screen and (max-width: 1600px)";
+@1500: ~"screen and (max-width: 1500px)";
 @1400: ~"screen and (max-width: 1400px)";
 @1300: ~"screen and (max-width: 1300px)";
 @1200: ~"screen and (max-width: 1200px)";
@@ -45,9 +46,22 @@
 @brown: #B1938B;
 
 @black: #232323;
+
+@transparent-grey: rgba(220,208,192, 0.5);
  
 //------------ PARENTS STYLES -----------//
+
+a{
+	text-decoration: none;
+	color: @purple;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
 //------------ OOCSS CLASSES ------------//
+
 .hold{
 	max-width: 1000px;
 	margin: 0 auto;
@@ -58,6 +72,19 @@
 		width: 90%;
 	}
 }
+
+.long-hold{
+	width: 95%;
+}
+
+.button{
+	padding: 15px 20px;
+	background-color: @red;
+	color: white;
+	display: inline-block;
+	cursor: pointer;
+}
+
 ////////////////////////////////////////////////////////////////
 // HOME PAGE
 ////////////////////////////////////////////////////////////////
@@ -70,9 +97,12 @@ html{
 }
 
 
+
+
+//////////////// FIRST SECTION //////////////////////////////////
 .s-first{
 	width: 100%;
-	background: url(/public/images/hot-air-balloon.jpg) top right no-repeat;
+	background: url(/public/images/hot-air-balloon.jpg) top 	right no-repeat;
 	background-size: cover;
 	.floating-box{
 		padding: 100px 0 0 100px;
@@ -80,7 +110,6 @@ html{
 			margin: 0;
 			font-family: 'Lobster';
 			color: @black;
-
 		}
 		h3{
 			font-size: 280px;
@@ -95,6 +124,144 @@ html{
 
 
 
+
+//////////////// PORTFOLIO SECTION //////////////////////////////////
+.s-portfolio{
+	.greetings{
+		background-color: @grey;
+		text-align: center;
+		padding: 60px 0;
+		.first{
+			width: 100%;
+			display: inline-block;
+			h2{
+				color: white;
+				font-family: Lobster;
+				font-size: 40px;
+			}
+		}
+		.second{
+			width: 100%;
+			display: inline-block;
+			p{
+				color: white;
+				font-size: 24px;
+			}
+		}
+	}
+	ul{
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+	}
+	.box{
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+		background: no-repeat center center;
+		position: relative;
+		&.box-1{background-image: url(//placekitten.com/600/600);}
+		&.box-2{background-image: url(//placekitten.com/600/600);}
+		&.box-3{background-image: url(//placekitten.com/1000/600);}
+		&.box-4{background-image: url(//placekitten.com/600/1000);}
+		&.box-5{background-image: url(//placekitten.com/600/1000);}
+		&::after{
+			padding-top: 56.25%; /*16:9 ratio*/
+			display: block;
+			content: '';
+		}
+		&.horizontal{
+			.inner{
+				.inside-inner{
+					padding-top: 7%;
+				}
+			}
+			&::after{
+				padding-top: 28.125%;
+			}
+		}
+		&.vertical{
+			.inner{
+				.inside-inner{
+					padding-top: 40%;
+				}
+			}
+			&::after{
+				padding-top: 112.55%;
+			}
+		}
+		.inner{
+			position: absolute;
+			opacity: 0;
+    		top: 0; bottom: 0; right: 0; left: 0; /*fill parent*/
+    		background-color: @transparent-grey;
+			&:hover{
+				opacity: 1;
+				transition: opacity .2s ease-out;
+			}
+			.inside-inner{
+				text-align: center;
+				padding-top: 15%;
+				@media @1500{
+					padding-top: 10%;
+				}
+				h5{
+					font-size: 25px;
+					font-family: Lobster;
+					padding-bottom: 5%;
+					@media @1100{
+						font-size: 20px;
+					}
+				}
+				.button{
+					display: inline-block;
+					color: white;
+				}	
+			}
+		}
+	}
+	.horizontal{
+		width: 100%;
+	}
+}
+
+
+.s-bars{
+
+}
+
+
+
+//////////////// FORM SECTION //////////////////////////////////
+.s-cta{
+	height: 600px;
+	background: url(//placekitten.com/2100/600) center top;
+	.floating-text{
+		max-width: 500px;
+		padding-top: 220px;
+		h2{
+			font-size: 40px;
+			font-weight: 700;
+			padding-bottom: 30px;
+		}
+		p{
+			font: 20px Roboto;
+		}
+		.button{
+			display: inline-block;
+			margin: 20px 10px 0 0;
+		}
+	}
+}
+
+
+
+
+
+//////////////// FORM SECTION //////////////////////////////////
+.s-form{
+	background-color: @red;
+}
 
 
 

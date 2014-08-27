@@ -1,9 +1,9 @@
+<!-- Hey! Thank you for taking some time to look the code, hope you like what you see. If you want to ask anything, please contact me. Rafael. -->
 <?php 
     include 'functions.php';
  ?>
 
 <!doctype html>
-<!-- Hey! Thank you for taking some time to look the code, hope you like what you see. If you want to ask anything, please contact me. Rafael. -->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -32,11 +32,75 @@
             </div>
         </section>
 
+        <section class="s-portfolio">
+            <div class="greetings"><div class="long-hold">
+                <div class="first">
+                    <h2>This is what I do</h2>
+                </div><!--
+            i--><div class="second">
+                    <p>Love websites. To plan them, to study every detail, to work along my friend designers, to discuss about UX...</p>
+                </div>
+
+            </div></div>
+
+            <ul class="half large-6">
+                <li class="box unit box-1">
+                    <div class="inner">
+                        <div class="inside-inner">
+                            <h5>Clickcreacion Website</h5>
+                            <a href="#" class="button">See more</a>
+                        </div>
+                    </div>
+
+                <li class="box unit box-2">
+                    <div class="inner">
+                        <div class="inside-inner">
+                            <h5>Hidromainake Website</h5>
+                            <a href="#" class="button">See more</a>
+                        </div>
+                    </div>
+
+                <li class="box unit horizontal box-3">
+                    <div class="inner">
+                        <div class="inside-inner">
+                            <h5>Biberodromo Website</h5>
+                            <a href="#" class="button">See more</a>
+                        </div>
+                    </div>
+            </ul><!--
+        i--><ul>
+                <li class="box unit vertical box-4">
+                    <div class="inner">
+                        <div class="inside-inner">
+                            <h5>Wonderlabs Website</h5>
+                            <a href="#" class="button">See more</a>
+                        </div>
+                    </div>
+
+                <li class="box unit vertical box-5">
+                    <div class="inner">
+                        <div class="inside-inner">
+                            <h5>MyRedLights Website</h5>
+                            <a href="#" class="button">See more</a>
+                        </div>
+                    </div>
+            </ul>
+        </section>
+
+
+        <section class="s-bars">
+        </section>
+
 
         <section class="s-cta">
-            <h2>Building creative & effective websites</h2>
-            <p>Specialising in JavaScript, WordPress, responsive design, animation, and performance</p>
-            <button>Get in touch</button>
+            <div class="hold">
+                <div class="floating-text">
+                    <h2>This is me. Rafa.</h2>
+                    <p>I always answer my emails and text messages, but not always pick the phone because I could be at work. I would love to hear from you.</p>
+                    <a href="" class="button mail-rafa">Mail Rafa</a>
+                    <div href="" class="button call-rafa">Call Rafa.</div>
+                </div>
+            </div>
         </section>
 
 
@@ -49,7 +113,7 @@
         </section>
 
 
-        <footer class="s-form">
+        <footer class="s-form full-screen-section">
             <form id="theForm" class="simform" autocomplete="off">
                 <div class="simform-inner">
                     <ol class="questions">
