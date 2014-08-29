@@ -33,7 +33,7 @@
 //---------------- FONTS ----------------//
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 @import url(http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light|Indie+Flower|Gloria+Hallelujah);
 @import url(http://fonts.googleapis.com/css?family=Luckiest+Guy|Oswald:700|Montserrat:700|Lobster|Anton|Pacifico|Crafty+Girls|Changa+One);
 
@@ -46,8 +46,12 @@
 @brown: #B1938B;
 
 @black: #232323;
-
 @transparent-grey: rgba(220,208,192, 0.5);
+
+@facebook: #3b5998;
+@twitter: #00aced;
+@linkedin: #007bb6;
+@skype: #12A5F4;
  
 //------------ PARENTS STYLES -----------//
 
@@ -125,34 +129,43 @@ html{
 
 
 
-//////////////// PORTFOLIO SECTION //////////////////////////////////
-.s-portfolio{
-	.greetings{
-		background-color: @grey;
-		text-align: center;
-		padding: 60px 0;
-		.first{
-			width: 100%;
-			display: inline-block;
-			h2{
-				color: white;
-				font-family: Lobster;
-				font-size: 40px;
-			}
-		}
-		.second{
-			width: 100%;
-			display: inline-block;
-			p{
-				color: white;
-				font-size: 24px;
-			}
+//////////////// GREETINGS SECTION //////////////////////////////////
+.s-greetings{
+	background-color: @grey;
+	text-align: center;
+	padding: 60px 0;
+	.first{
+		width: 100%;
+		display: inline-block;
+		h2{
+			color: white;
+			font-family: Lobster;
+			font-size: 40px;
 		}
 	}
+	.second{
+		width: 100%;
+		display: inline-block;
+		p{
+			color: white;
+			font-size: 24px;
+		}
+	}
+	.button{
+		margin-top: 40px;
+	}
+}
+
+
+//////////////// PORTFOLIO SECTION //////////////////////////////////
+.s-portfolio{
 	ul{
 		display: inline-block;
 		vertical-align: top;
 		width: 50%;
+		@media @1000{
+			width: 100%;
+		}
 	}
 	.box{
 		width: 50%;
@@ -160,11 +173,11 @@ html{
 		vertical-align: top;
 		background: no-repeat center center;
 		position: relative;
-		&.box-1{background-image: url(//placekitten.com/600/600);}
-		&.box-2{background-image: url(//placekitten.com/600/600);}
-		&.box-3{background-image: url(//placekitten.com/1000/600);}
-		&.box-4{background-image: url(//placekitten.com/600/1000);}
-		&.box-5{background-image: url(//placekitten.com/600/1000);}
+		&.box-1{background-image: url(//placekitten.com/800/600);}
+		&.box-2{background-image: url(//placekitten.com/800/600);}
+		&.box-3{background-image: url(//placekitten.com/1400/600);}
+		&.box-4{background-image: url(//placekitten.com/800/1000);}
+		&.box-5{background-image: url(//placekitten.com/800/1000);}
 		&::after{
 			padding-top: 56.25%; /*16:9 ratio*/
 			display: block;
@@ -177,7 +190,7 @@ html{
 				}
 			}
 			&::after{
-				padding-top: 28.125%;
+				padding-top: 28.16%;
 			}
 		}
 		&.vertical{
@@ -227,7 +240,8 @@ html{
 
 
 .s-bars{
-
+	min-height: 300px;
+	background-color: @skin;
 }
 
 
@@ -255,12 +269,106 @@ html{
 }
 
 
+//////////////// CURRICULUM SECTION //////////////////////////////////
+.s-download{
+	background-color: @skin;
+}
+
+
+//////////////// TESTIMONIALS SECTION //////////////////////////////////
+.s-testimonials{
+	padding: 50px 0;
+	li{
+		display: inline-block;
+		width: 33.33%;
+		box-sizing: border-box;
+		vertical-align: top;
+		text-align: center;
+		@media @1000{
+			width: 50%;
+		}
+		@media @500{
+			width: 100%;
+		}
+		&:nth-child(1){
+			padding-right: 3%;
+			@media @500{
+				padding: 0;
+			}
+		}
+		&:nth-child(2){
+			@media @1000{
+				padding-left: 3%;
+			}
+			@media @500{
+				padding: 0;
+			}
+		}
+		&:nth-child(3){
+			padding-left: 3%;
+			@media @1000{
+				display: none;
+			}
+		}
+		.i-container{
+			display: block;
+			text-align: center;
+			width: 100%;
+			i{
+				display: inline-block;
+				font-size: 50px;
+				transform: rotate(180deg);
+				color: @grey;
+			}
+		}
+		p{
+			padding: 20px 0;
+		}
+		.name{
+			font-size: 30px;
+		}
+		.sub-title{
+			font-size: 13px;
+		}
+	}
+}
+
+
+//////////////// SOCIAL NETWORKS SECTION //////////////////////////////////
+.s-socia-networks{
+	min-height: 200px;
+	li{
+		width: 25%;
+		vertical-align: top;
+		display: inline-block;
+		text-align: center;
+		&.twitter{background-color: @twitter;}
+		&.linkedin{background-color: @linkedin;}
+		&.skype{background-color: @skype;}
+		&.facebook{background-color: @facebook;}
+		&:hover{
+			i{
+				font-size: 80px;
+			}
+		}
+		i{
+			transition: font-size .2s;
+			color: white;
+			font-size: 70px;
+			line-height: 200px;
+		}
+	}
+}
 
 
 
 //////////////// FORM SECTION //////////////////////////////////
 .s-form{
 	background-color: @red;
+	overflow: hidden;
+	form{
+		max-width: 90%;
+	}
 }
 
 

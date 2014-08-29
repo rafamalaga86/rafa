@@ -32,18 +32,38 @@
             </div>
         </section>
 
-        <section class="s-portfolio">
-            <div class="greetings"><div class="long-hold">
+        <section class="s-greetings">
+            <div class="long-hold">
                 <div class="first">
                     <h2>This is what I do</h2>
                 </div><!--
             i--><div class="second">
                     <p>Love websites. To plan them, to study every detail, to work along my friend designers, to discuss about UX...</p>
+                    <p>Love Sublime Text and like to keep up to date in website techonology</p>
                 </div>
+                <a href="#" class="button">Download my CV</a>
+            </div>
+        </section>
 
-            </div></div>
+        <section class="s-portfolio">
+            <ul>
+                <li class="box unit vertical box-4">
+                    <div class="inner">
+                        <div class="inside-inner">
+                            <h5>Wonderlabs Website</h5>
+                            <a href="#" class="button">See more</a>
+                        </div>
+                    </div>
 
-            <ul class="half large-6">
+                <li class="box unit vertical box-5">
+                    <div class="inner">
+                        <div class="inside-inner">
+                            <h5>MyRedLights Website</h5>
+                            <a href="#" class="button">See more</a>
+                        </div>
+                    </div>
+            </ul><!--
+        i--><ul>
                 <li class="box unit box-1">
                     <div class="inner">
                         <div class="inside-inner">
@@ -67,23 +87,6 @@
                             <a href="#" class="button">See more</a>
                         </div>
                     </div>
-            </ul><!--
-        i--><ul>
-                <li class="box unit vertical box-4">
-                    <div class="inner">
-                        <div class="inside-inner">
-                            <h5>Wonderlabs Website</h5>
-                            <a href="#" class="button">See more</a>
-                        </div>
-                    </div>
-
-                <li class="box unit vertical box-5">
-                    <div class="inner">
-                        <div class="inside-inner">
-                            <h5>MyRedLights Website</h5>
-                            <a href="#" class="button">See more</a>
-                        </div>
-                    </div>
             </ul>
         </section>
 
@@ -98,18 +101,51 @@
                     <h2>This is me. Rafa.</h2>
                     <p>I always answer my emails and text messages, but not always pick the phone because I could be at work. I would love to hear from you.</p>
                     <a href="" class="button mail-rafa">Mail Rafa</a>
-                    <div href="" class="button call-rafa">Call Rafa.</div>
+                    <div href="" class="button call-rafa">Call Rafa</div>
                 </div>
             </div>
         </section>
 
+        <section class="s-download">
+            Download my CV
+        </section>
+
 
         <section class="s-testimonials">
-            <div class="testi small-12 medium-6 large-4"><i class="icon-quote"></i>Working with Ian was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.
-                <h6>Adam Houston, <a href="//google.es">Bridge Creative</a></h6>
+            <div class="hold">
+                <ul>
+                    <li>
+                        <div class="i-container"><i class="icon-quote"></i></div>
+                        <p>Working with Rafa was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
+                        <h5 class="name">Adam Houston</h5>
+                        <h6 class="sub-title">Bridge Creative</h6>
+
+                    <li>
+                        <div class="i-container"><i class="icon-quote"></i></div>
+                        <p>Working with Rafa was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
+                        <h5 class="name">Adam Houston</h5>
+                        <h6 class="sub-title">Bridge Creative</h6>
+
+                    <li>
+                        <div class="i-container"><i class="icon-quote"></i></div>
+                        <p>Working with Rafa was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
+                        <h5 class="name">Adam Houston</h5>
+                        <h6 class="sub-title">Bridge Creative</h6>
+                </ul>
             </div>
-            <div class="testi small-12 medium-6 large-4"><i class="icon-quote"></i>Working with Ian was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</div>
-            <div class="testi small-12 medium-6 large-4"><i class="icon-quote"></i>Working with Ian was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</div>
+        </section>
+
+        <section class="s-socia-networks">
+            <ul>
+                <li class="twitter">
+                    <i class="icon-twitter"></i>
+                <li class="linkedin">
+                    <i class="icon-linkedin"></i>
+                <li class="skype">
+                    <i class="icon-skype"></i>
+                <li class="facebook">
+                    <i class="icon-facebook"></i>
+            </ul>
         </section>
 
 
