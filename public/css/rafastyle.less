@@ -28,16 +28,14 @@
  
 @import "normalize.css";
 @import "../icons/style.css"; // Icons
-@import "/public/form/component.css"; // Form
-// @import "/public/form/demo.css";
+@import "/public/css/form-component.css"; // Form
+@import "/public/css/morphing-component.css"; // Morphing Devices
+
 //---------------- FONTS ----------------//
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
-@import url(http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light|Indie+Flower|Gloria+Hallelujah);
-@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy|Oswald:700|Montserrat:700|Lobster|Anton|Pacifico|Crafty+Girls|Changa+One);
 
-//---------------- COLORS ---------------//
+//---------------- COLOURS ---------------//
 @purple: #9e0fe0;
 
 @grey: #4E4E56;
@@ -67,7 +65,7 @@ h1, h2, h3, h4, h5, h6, p {
 //------------ OOCSS CLASSES ------------//
 
 .hold{
-	max-width: 1000px;
+	max-width: 1024px;
 	margin: 0 auto;
 	@media @1000{
 		width: 95%;
@@ -81,12 +79,80 @@ h1, h2, h3, h4, h5, h6, p {
 	width: 95%;
 }
 
+.red{
+	color: @red;
+}
+
 .button{
 	padding: 15px 20px;
 	background-color: @red;
 	color: white;
 	display: inline-block;
 	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Open Sans";
+	overflow: hidden;
+		i::before{
+			font-size: 25px;
+		}
+}
+
+.vertical-swap{
+	// overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	.first-content{
+		transition: transform .3s;
+		display: block;
+	}
+	.second-content{
+		padding-top: inherit;
+	}
+	.second-content::before{
+		position: absolute;
+		display: block;
+		padding-top: inherit;
+		text-align: center;
+		width: 100%;
+		top: -100%;
+		left: 0;
+		transition: all .3s;
+	}
+	&:hover .second-content::before{
+		top: 0;
+	}
+	&:hover .first-content{
+		display: block;
+		transform: translateY(300%);
+	}
+}
+
+.vertical-swap-opposite{
+	// overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	.first-content::before{
+		transition: transform .3s;
+		display: block;
+	}
+	.second-content{
+		position: absolute;
+		display: block;
+		padding-top: inherit;
+		text-align: center;
+		width: 100%;
+		top: -100%;
+		left: 0;
+		transition: all .3s;
+	}
+	&:hover .second-content{
+		top: 0;
+	}
+	&:hover .first-content::before{
+		display: block;
+		transform: translateY(200%);
+	}
 }
 
 ////////////////////////////////////////////////////////////////
@@ -95,33 +161,43 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
-html{
-	font: 16px Roboto;
+body{
+	font: 16px "Open Sans", Arial;
 	color: @grey;
 }
 
+.wrapper{
+	position: relative;
+	z-index: 1;
+}
 
 
 
 //////////////// FIRST SECTION //////////////////////////////////
 .s-first{
 	width: 100%;
-	background: url(/public/images/hot-air-balloon.jpg) top 	right no-repeat;
+	background: url(/public/images/first-section-bg.jpg) top right no-repeat;
 	background-size: cover;
 	.floating-box{
-		padding: 100px 0 0 100px;
-		h1,h2,h3{
+		padding: 50px 0 0 100px;
+		h1,h2,h3,p{
 			margin: 0;
-			font-family: 'Lobster';
 			color: @black;
+			font-weight: bold;
+			font-size: 30px;
 		}
 		h3{
-			font-size: 280px;
-			margin-bottom: 50px;
+			font-size: 110px;
+			margin-bottom: 30px;
 		}
 		h1{
 			font-size: 40px;
-			margin-bottom: 30px;
+		}
+		p{
+			.curly-brackets{
+				font-size: 45px;
+				color: @grey;
+			}
 		}
 	}
 }
@@ -139,7 +215,6 @@ html{
 		display: inline-block;
 		h2{
 			color: white;
-			font-family: Lobster;
 			font-size: 40px;
 		}
 	}
@@ -156,6 +231,22 @@ html{
 	}
 }
 
+
+//////////////// MORPHING SECTION //////////////////////////////////
+.s-morphing{
+	background-color: @brown;
+	.md-slider{
+		margin: 0;
+	}
+	.md-device{
+		 button::before{
+			font-family: 'icomoon';
+			content: "\e606";
+			transform: scaleX(-1);
+			display: block;
+		 }
+	}
+}
 
 //////////////// PORTFOLIO SECTION //////////////////////////////////
 .s-portfolio{
@@ -220,7 +311,6 @@ html{
 				}
 				h5{
 					font-size: 25px;
-					font-family: Lobster;
 					padding-bottom: 5%;
 					@media @1100{
 						font-size: 20px;
@@ -249,35 +339,54 @@ html{
 //////////////// FORM SECTION //////////////////////////////////
 .s-cta{
 	height: 600px;
-	background: url(//placekitten.com/2100/600) center top;
+	background: url(/public/images/about-section-bg.jpg) center top;
+	background-size: auto 600px;
+	.hold{
+		overflow: hidden;
+	}
 	.floating-text{
-		max-width: 500px;
-		padding-top: 220px;
+		max-width: 412px;
+		padding-top: 125px;
+		float: right;
+		color: white;
 		h2{
-			font-size: 40px;
+			font-size: 60px;
 			font-weight: 700;
-			padding-bottom: 30px;
+			text-transform: uppercase;
+			line-height: 76px;
+			padding-bottom: 10px;
+			span{
+				color: @red;
+			}
 		}
 		p{
-			font: 20px Roboto;
+			font-size: 17px;
 		}
-		.button{
-			display: inline-block;
-			margin: 20px 10px 0 0;
+		.mt{
+			padding-top: 20px;
+		}
+		.container{
+			text-align: center;
+			margin-top: 25px;
+			.button{
+				display: inline-block;
+				margin-right: 30px;
+				&:last-child{
+					margin-right: 0;
+				}
+			}
 		}
 	}
 }
 
 
-//////////////// CURRICULUM SECTION //////////////////////////////////
-.s-download{
-	background-color: @skin;
-}
 
 
 //////////////// TESTIMONIALS SECTION //////////////////////////////////
 .s-testimonials{
 	padding: 50px 0;
+	background-color: @grey;
+	color: white;
 	li{
 		display: inline-block;
 		width: 33.33%;
@@ -297,6 +406,7 @@ html{
 			}
 		}
 		&:nth-child(2){
+			padding: 0 1.66%;
 			@media @1000{
 				padding-left: 3%;
 			}
@@ -318,7 +428,6 @@ html{
 				display: inline-block;
 				font-size: 50px;
 				transform: rotate(180deg);
-				color: @grey;
 			}
 		}
 		p{
@@ -336,25 +445,29 @@ html{
 
 //////////////// SOCIAL NETWORKS SECTION //////////////////////////////////
 .s-socia-networks{
-	min-height: 200px;
+	a{
+		display: block;
+	}
 	li{
 		width: 25%;
 		vertical-align: top;
+		height: 200px;
 		display: inline-block;
 		text-align: center;
-		&.twitter{background-color: @twitter;}
-		&.linkedin{background-color: @linkedin;}
+		overflow: hidden;
+		&.twitter{background-color: @twitter; cursor: pointer;}
+		&.linkedin{background-color: @linkedin; cursor: pointer;}
 		&.skype{background-color: @skype;}
-		&.facebook{background-color: @facebook;}
-		&:hover{
-			i{
-				font-size: 80px;
-			}
-		}
-		i{
-			transition: font-size .2s;
+		&.facebook{background-color: @facebook; cursor: pointer;}
+		i::before, span{
+			display: inline-block;
 			color: white;
 			font-size: 70px;
+			line-height: 200px;
+		}
+		span{
+			font-size: 30px;
+			padding: 70px 0;
 			line-height: 200px;
 		}
 	}
@@ -365,9 +478,14 @@ html{
 //////////////// FORM SECTION //////////////////////////////////
 .s-form{
 	background-color: @red;
+	position: fixed;
+	z-index: 0;
 	overflow: hidden;
+	bottom: 0;
+	width: 100%;
 	form{
-		max-width: 90%;
+		padding-top: 20%;
+		max-width: 1000px;
 	}
 }
 
