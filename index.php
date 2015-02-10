@@ -1,6 +1,7 @@
 <!-- Hey! Thank you for taking some time to look the code, hope you like what you see. If you want to ask anything, please contact me. Rafael. -->
-<!doctype html>
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Rafael García Doblas</title>
@@ -19,10 +20,20 @@
 
     <body>
         <div class="wrapper">
+
+            <section class="s-navigation">
+                <nav class="hold">
+                    <a href="#" class="left"><h1>Rafael García Doblas</h1></a><!--
+                i--><a href="#"><span>Projects</span></a><!--
+                i--><a href="#"><span>Curriculum Vitae</span></a><!--
+                i--><a class="contact" href="#"><span>Contact me</span></a>
+                </nav>
+            </section>
+
             <section class="s-first full-screen-section">
-                <div class="floating-box">
+                <div class="hold">
                     <h3>Hi <span class="red">There!</span></h3>
-                    <h1>I am <span class="red">Rafael García Doblas</span></h1>
+                    <h2>I am <span class="red">Rafael García Doblas</span></h2>
                     <p>A proud <span class="red">web developer</span>. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></p>
                 </div>
             </section>
@@ -34,7 +45,7 @@
                     </div><!--
                 i--><div class="second">
                         <p>Love websites. To plan them, to study every detail, to work along my friend designers, to discuss about UX...</p>
-                        <p>Love Sublime Text and like to keep up to date in website techonology</p>
+                        <p>Love Sublime Text and like to keep up to date in website techonology. I enjoy both back-end and front-end development. Always take the risk to try something new. I always fancy a coffee. Splendid.</p>
                     </div>
                     <a href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx" class="button vertical-swap">
                         <span class="first-content">Download my CV</span>
@@ -43,65 +54,146 @@
                 </div>
             </section>
 
-            <section class="s-morphing">
-                <div class="md-slider">
-                    <div class="md-device-wrapper">
-                        <div class="md-device md-device-1">
-                            <a href="#"><img src="/public/images/morphing/site1.jpg"></a>
-                            <div class="md-border-element"></div>
-                            <div class="md-base-element"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
+
+<!-- 
+            <section class="s-see-some-projects">
+                Take a glance on some of my project
+            </section>
+ -->
+
+<?php /*
             <section class="s-portfolio">
                 <ul>
                     <li class="box unit vertical box-4">
-                        <div class="inner">
+                        <a class="inner" rel="nofollow" href="//wearewonderlabs.com">
                             <div class="inside-inner">
-                                <h5>Wonderlabs Website</h5>
-                                <a href="#" class="button">See more</a>
+                                <h5>Wonderlabs</h5>
+                                <h6>As a member of Wonderlabs' Digital Agency Team</h6>
                             </div>
-                        </div>
+                        </a>
+                <!--</li> -->
 
                     <li class="box unit vertical box-5">
-                        <div class="inner">
+                        <a class="inner" rel="nofollow" href="//uniqueliving.com/mobile-version/">
                             <div class="inside-inner">
-                                <h5>MyRedLights Website</h5>
-                                <a href="#" class="button">See more</a>
+                                <h5>Unique Living</h5>
+                                <h6>As a member of Wonderlabs' Digital Agency Team</h6>
                             </div>
-                        </div>
+                        </a>
+                <!--</li> -->
                 </ul><!--
-            i--><ul>
-                    <li class="box unit box-1">
-                        <div class="inner">
-                            <div class="inside-inner">
-                                <h5>Clickcreacion Website</h5>
-                                <a href="#" class="button">See more</a>
-                            </div>
-                        </div>
 
-                    <li class="box unit box-2">
-                        <div class="inner">
+            i--><ul>
+                    <li class="box unit small box-1">
+                        <a class="inner" href="//clickcreacion.com">
                             <div class="inside-inner">
-                                <h5>Hidromainake Website</h5>
-                                <a href="#" class="button">See more</a>
+                                <h5>ClickCreación</h5>
+                                <h6>As a member of the Wonderlabs Team</h6>
                             </div>
-                        </div>
+                        </a>
+                <!--</li> -->
+
+                    <li class="box unit small box-2">
+                        <a class="inner" rel="nofollow" href="//biberodromo.com">
+                            <div class="inside-inner">
+                                <h5>Biberodromo</h5>
+                                <h6>Spanish ONG</h6>
+                            </div>
+                        </a>
+                <!--</li> -->
 
                     <li class="box unit horizontal box-3">
-                        <div class="inner">
+                        <a class="inner" rel="nofollow" href="//maritalaffair.com">
                             <div class="inside-inner">
-                                <h5>Biberodromo Website</h5>
-                                <a href="#" class="button">See more</a>
+                                <h5>Marital Affair</h5>
+                                <h6>As a member of Wonderlabs' Digital Agency Team</h6>
                             </div>
-                        </div>
+                        </a>
+                <!--</li> -->
                 </ul>
             </section>
 
+*/  ?>
+
+
+
+            <section class="s-portfolio">
+                
+                <figure>
+                    <img src="//placekitten.com/800/500" alt="img16">
+                    <figcaption>
+                        <h2>Fresh <span>Bubba</span></h2>
+                        <p>Bubba likes to appear out of thin air.</p>
+                        <a href="#"></a>
+                    </figcaption>           
+                </figure>
+
+                
+                <figure>
+                    <img src="//placekitten.com/800/500" alt="img16">
+                    <figcaption>
+                        <h2>Fresh <span>Bubba</span></h2>
+                        <p>Bubba likes to appear out of thin air.</p>
+                        <a href="#"></a>
+                    </figcaption>           
+                </figure>
+                    
+                
+                <figure>
+                    <img src="//placekitten.com/800/500" alt="img16">
+                    <figcaption>
+                        <h2>Fresh <span>Bubba</span></h2>
+                        <p>Bubba likes to appear out of thin air.</p>
+                        <a href="#"></a>
+                    </figcaption>           
+                </figure>
+                    
+                
+                <figure>
+                    <img src="//placekitten.com/800/500" alt="img16">
+                    <figcaption>
+                        <h2>Fresh <span>Bubba</span></h2>
+                        <p>Bubba likes to appear out of thin air.</p>
+                        <a href="#"></a>
+                    </figcaption>           
+                </figure>
+                    
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <section class="s-bars">
+
+                Git
+                NodeJS
+                Laravel
+                Ghost blog
+                Sublime Text
+                MongoDB
+                Grunt
+                Foundation
+                AngularJS
+                NginX
+                Linux
+                ElementaryOS
+
+                Javasript.
+                Object Oriented PHP.
+
+                I have developed in Linux, Mac and Windows.
+
             </section>
 
 
@@ -130,21 +222,24 @@
                     <ul>
                         <li>
                             <div class="i-container"><i class="icon-quote"></i></div>
-                            <p>Working with Rafa was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
-                            <h5 class="name">Adam Houston</h5>
-                            <h6 class="sub-title">Bridge Creative</h6>
+                            <p>Rafael is an extremely talented developer who was a true asset to our company, whereby he single-handedly added huge value to our service offerings He is totally focussed on the task at hand and has the ability to balance work at great speeds whilst still paying meticulous attention to detail. As well as this, Rafael really is great company in the workplace.</p>
+                            <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
+                            <h5 class="name">Arni Lochner</h5>
+                            <h6 class="sub-title">Creative Director at Wonderlabs</h6>
 
                         <li>
                             <div class="i-container"><i class="icon-quote"></i></div>
-                            <p>Working with Rafa was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
-                            <h5 class="name">Adam Houston</h5>
-                            <h6 class="sub-title">Bridge Creative</h6>
+                            <p>Rafael is one of the most talented, dedicated and nicest people I have ever had the pleasure to work with. During his time at Wonderlabs, Rafael has managed complete projects from start to completion, with perfect time management and attention to detail. He will be greatly missed in the office and I wish him all the best for the future.</p>
+                            <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
+                            <h5 class="name">Craig Curchin</h5>
+                            <h6 class="sub-title">Production Director at Wonderlabs</h6>
 
                         <li>
                             <div class="i-container"><i class="icon-quote"></i></div>
-                            <p>Working with Rafa was better than expected and we had really high expectations. He is an incredibly talented developer but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
-                            <h5 class="name">Adam Houston</h5>
-                            <h6 class="sub-title">Bridge Creative</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quo, accusantium magni eveniet aperiam reiciendis doloremque, accusantium magni eveniet aperiam reiciendis doloremque, accusantium magni eveniet aperiam reiciendis doloremque, expedita velit aspernatur soluta iusto quos aut voluptatum tempore. Optio distinctio ad laboriosam repudiandae.</p>
+                            <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
+                            <h5 class="name">Daniel Algarra</h5>
+                            <h6 class="sub-title">Amazing Web Designer at ClickCreacion</h6>
                     </ul>
                 </div>
             </section>
@@ -152,21 +247,21 @@
             <section class="s-socia-networks">
                 <ul>
                     <li class="twitter">
-                        <a href="">
+                        <a href="//twitter.com/rafamalaga86">
                             <i class="icon-twitter"></i>
                         </a>
                     <li class="linkedin">
-                        <a href="https://www.linkedin.com/pub/rafael-garcia-doblas/41/691/b75">
+                        <a href="//www.linkedin.com/pub/rafael-garcia-doblas/41/691/b75">
                             <i class="icon-linkedin"></i>
                         </a>
-                    <li class="skype vertical-swap-opposite">
-                        <div>
-                            <i class="first-content icon-skype"></i>
-                            <span class="second-content">ID: rafamalaga86</span>
-                        </div>
-                    <li class="facebook">
-                        <a href="https://www.facebook.com/rafamalaga86">
-                            <i class="icon-facebook"></i>
+                    <li class="github">
+                        <a href="//github.com/rafamalaga86">
+                            <i class="icon-github"></i>
+                        </a>
+
+                    <li class="skype">
+                        <a href="//www.facebook.com/rafamalaga86">
+                            <i class="icon-skype"></i>
                         </a>
                 </ul>
             </section>
@@ -177,7 +272,7 @@
                 <div class="simform-inner">
                     <ol class="questions">
                         <li>
-                            <span><label for="q1">Tell me something</label></span>
+                            <span><label for="q1">Send me an email. Write it in here.</label></span>
                             <input id="q1" name="mess" type="text"/>
                         </li>
                         <li>
@@ -221,7 +316,6 @@
         <!-- TIME FOR SCRIPTS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="/public/js/fastclick.js"></script>
-        <script src="/public/js/foundation.min.js"></script>
 
         <!-- form -->
         <script src="/public/js/classie.js"></script>
@@ -230,7 +324,7 @@
 
 
         <!-- morphing device -->
-        <script src="/public/js/morphingdevice.js"></script>
+        <!-- <script src="/public/js/morphingdevice.js"></script> -->
 
         <script>
             

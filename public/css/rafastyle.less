@@ -4,6 +4,7 @@
 
 //-------- MEDIA QUERY VARIABLES --------//
 @2000: ~"screen and (max-width: 2000px)";
+@1700: ~"screen and (max-width: 1700px)";
 @1600: ~"screen and (max-width: 1600px)";
 @1500: ~"screen and (max-width: 1500px)";
 @1400: ~"screen and (max-width: 1400px)";
@@ -44,9 +45,11 @@
 @brown: #B1938B;
 
 @black: #232323;
-@transparent-grey: rgba(220,208,192, 0.5);
+@transparent-grey: rgba(0,0,0, 0.2);
+@transparent-grey2: rgba(0,0,0, 0.4);
 
 @facebook: #3b5998;
+@github: #8c429c;
 @twitter: #00aced;
 @linkedin: #007bb6;
 @skype: #12A5F4;
@@ -67,7 +70,8 @@ h1, h2, h3, h4, h5, h6, p {
 .hold{
 	max-width: 1024px;
 	margin: 0 auto;
-	@media @1000{
+	width: 100%;
+	@media @1100{
 		width: 95%;
 	}
 	@media @500{
@@ -76,7 +80,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .long-hold{
-	width: 95%;
+	width: 97.5%;
+	max-width: 1600px;
+	display: inline-block;
+	@media @1700{
+		width: 95%;
+	}
+	@media @500{
+		display: none;
+	}
 }
 
 .red{
@@ -155,8 +167,17 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 }
 
+
+
+
+
+
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 // HOME PAGE
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 
 
@@ -173,14 +194,89 @@ body{
 
 
 
+/////////////////// NAV MENU /////////////////////////////
+
+.s-navigation{
+	position: fixed;
+	z-index: 10;
+	text-align: center;
+	width: 100%;
+	background-color: @grey;
+	opacity: 0;
+	transition: opacity 0.2s;
+	@media @1000{
+		text-align: right;
+	}
+	@media @600{
+		display: none;
+	}
+
+	&.opaque{
+		opacity: 1;
+	}
+
+	.hold{
+		display: inline-block;
+		text-align: right;
+		@media @1100{
+			width: 97.5%;
+		}
+	}
+
+	nav{
+		a{
+			display: inline-block;
+			vertical-align: top;
+			line-height: 70px;
+			padding: 0 20px;
+			color: white;
+			font-size: 20px;
+			font-weight: 700;
+			transition: background-color .3s;
+			@media @800{
+				font-size: 16px;
+				line-height: 50px;
+				padding: 0 10px;
+			}
+			&.contact{
+				background-color: @red;
+			}
+			&:hover{
+				background-color: black;
+			}
+			&.left{
+				float: left;
+				background-color: transparent;
+			}
+
+			&:first-child{
+				padding-left: 0;
+			}
+			h1{
+				font-size: 20px;
+				font-weight: 700;
+				color: @red;
+				@media @800{
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
 //////////////// FIRST SECTION //////////////////////////////////
 .s-first{
 	width: 100%;
 	background: url(/public/images/first-section-bg.jpg) top right no-repeat;
 	background-size: cover;
-	.floating-box{
-		padding: 50px 0 0 100px;
-		h1,h2,h3,p{
+	.hold{
+		h2,h3,p{
 			margin: 0;
 			color: @black;
 			font-weight: bold;
@@ -189,9 +285,7 @@ body{
 		h3{
 			font-size: 110px;
 			margin-bottom: 30px;
-		}
-		h1{
-			font-size: 40px;
+			margin-left: -8px;
 		}
 		p{
 			.curly-brackets{
@@ -249,6 +343,8 @@ body{
 }
 
 //////////////// PORTFOLIO SECTION //////////////////////////////////
+
+/*
 .s-portfolio{
 	ul{
 		display: inline-block;
@@ -264,22 +360,22 @@ body{
 		vertical-align: top;
 		background: no-repeat center center;
 		position: relative;
-		&.box-1{background-image: url(//placekitten.com/800/600);}
-		&.box-2{background-image: url(//placekitten.com/800/600);}
+		&.box-1{background-image: url(//placekitten.com/800/300);}
+		&.box-2{background-image: url(//placekitten.com/800/300);} // 800/600
 		&.box-3{background-image: url(//placekitten.com/1400/600);}
 		&.box-4{background-image: url(//placekitten.com/800/1000);}
 		&.box-5{background-image: url(//placekitten.com/800/1000);}
 		&::after{
-			padding-top: 56.25%; /*16:9 ratio*/
+			padding-top: 56.25%; 
 			display: block;
 			content: '';
 		}
-		&.horizontal{
-			.inner{
-				.inside-inner{
-					padding-top: 7%;
-				}
+		&.small{
+			@media @500{
+				display: none;
 			}
+		}
+		&.horizontal{
 			&::after{
 				padding-top: 28.16%;
 			}
@@ -296,30 +392,35 @@ body{
 		}
 		.inner{
 			position: absolute;
-			opacity: 0;
-    		top: 0; bottom: 0; right: 0; left: 0; /*fill parent*/
+			display: block;
+    		top: 0; bottom: 0; right: 0; left: 0; 
     		background-color: @transparent-grey;
 			&:hover{
-				opacity: 1;
-				transition: opacity .2s ease-out;
+				transition: background-color .2s ease-out;
+    			background-color: @transparent-grey2;
+    			.inside-inner{
+    				bottom: 100px;
+    			}
+
 			}
 			.inside-inner{
 				text-align: center;
-				padding-top: 15%;
-				@media @1500{
-					padding-top: 10%;
-				}
+				position: absolute;
+				bottom: 10px;
+				width: 100%;
+				transition: bottom .3s;
 				h5{
+					text-transform: uppercase;
+					font-weight: 600;
+					color: white;
 					font-size: 25px;
-					padding-bottom: 5%;
 					@media @1100{
 						font-size: 20px;
 					}
 				}
-				.button{
-					display: inline-block;
+				h6{
 					color: white;
-				}	
+				}
 			}
 		}
 	}
@@ -327,6 +428,133 @@ body{
 		width: 100%;
 	}
 }
+
+*/
+
+
+.s-portfolio{
+	position: relative;
+	overflow: hidden;
+
+	h2{
+		color: white;
+		text-transform: uppercase;
+	}
+
+	p{
+		color: white;
+	}
+
+	figure {
+		background: @skin;
+		position: relative;
+		float: left;
+		overflow: hidden;
+		width: 25%;
+		text-align: center;
+		cursor: pointer;
+		@media @1400{
+			width: 50%;
+		}
+		@media @800{
+			width: 100%;
+		}
+	}
+
+	figure img {
+		opacity: 0.7;
+		-webkit-transition: opacity 0.35s;
+		transition: opacity 0.35s;
+		position: relative;
+		display: block;
+		min-height: 100%;
+		max-width: 100%;
+	}
+
+	figure:hover img {
+		opacity: 0.4;
+	}
+
+	figure figcaption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	figure figcaption::before,
+	figure figcaption::after {
+		position: absolute;
+		top: 30px;
+		right: 30px;
+		bottom: 30px;
+		left: 30px;
+		content: '';
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+	}
+
+	figure figcaption::before {
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		-webkit-transform: scale(0,1);
+		transform: scale(0,1);
+	}
+
+	figure figcaption::after {
+		border-right: 1px solid #fff;
+		border-left: 1px solid #fff;
+		-webkit-transform: scale(1,0);
+		transform: scale(1,0);
+	}
+
+	figure h2 {
+		padding-top: 30%;
+		-webkit-transition: -webkit-transform 0.35s;
+		transition: transform 0.35s;
+		-webkit-transform: translate3d(0,-20px,0);
+		transform: translate3d(0,-20px,0);
+	}
+
+	figure p {
+		padding: 20px 2.5em;
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: translate3d(0,20px,0);
+		transform: translate3d(0,20px,0);
+	}
+
+	figure a {
+		z-index: 9;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		outline: 0;
+	}
+
+	figure:hover figcaption::before,
+	figure:hover figcaption::after {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	figure:hover h2,
+	figure:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+}
+
+
+
+/////////// TECHONOLOGIES THAT I LIKE SECTION //////////////////
 
 
 .s-bars{
@@ -430,6 +658,10 @@ body{
 				transform: rotate(180deg);
 			}
 		}
+		img{
+			border-radius: 50%;
+			width: 50px;
+		}
 		p{
 			padding: 20px 0;
 		}
@@ -457,13 +689,37 @@ body{
 		overflow: hidden;
 		&.twitter{background-color: @twitter; cursor: pointer;}
 		&.linkedin{background-color: @linkedin; cursor: pointer;}
-		&.skype{background-color: @skype;}
+		&.skype{background-color: @skype; cursor: pointer;}
 		&.facebook{background-color: @facebook; cursor: pointer;}
+		&.github{background-color: @github; cursor: pointer;}
+		&:hover{
+			i::before, span{
+				display: inline-block;
+				color: white;
+				font-size: 80px;
+				line-height: 200px;
+
+				@media @600{
+					font-size: 60px;
+					line-height: 100px;
+				}
+			}
+		}
+		@media @600{
+			height: 100px;
+		}
 		i::before, span{
 			display: inline-block;
 			color: white;
 			font-size: 70px;
 			line-height: 200px;
+			transition: font-size .2s;
+			-webkit-transition: font-size .2s;
+
+			@media @600{
+				font-size: 50px;
+				line-height: 100px;
+			}
 		}
 		span{
 			font-size: 30px;
