@@ -30,8 +30,7 @@
 	width: 14px;
 	height: 14px;
 	background: #ddd;
-	margin: 3px;
-	border-radius: 2px;
+	margin: 3px 10px;
 	outline: none;
 }
 
@@ -43,7 +42,7 @@
 
 .md-slider > .slider-nav a:hover,
 .md-slider > .slider-nav a.md-current {
-	background: #aaa;
+	background: #DA635D;
 }
 
 /* General style for all devices */

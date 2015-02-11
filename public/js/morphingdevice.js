@@ -169,8 +169,8 @@ function isHidden() {
             devices : [ 
                 { cName : 'md-device-1', canRotate : false, imgsrc : 'public/images/morphing/site1.jpg' },
                 { cName : 'md-device-2', canRotate : false, imgsrc : 'public/images/morphing/site2.jpg' },
-                { cName : 'md-device-3', canRotate : true, imgsrc : 'public/images/morphing/site3.jpg', rotatedsrc : 'images/site3r.jpg' },
-                { cName : 'md-device-4', canRotate : true, imgsrc : 'public/images/morphing/site4.jpg', rotatedsrc : 'images/site4r.jpg' }
+                { cName : 'md-device-3', canRotate : true, imgsrc : 'public/images/morphing/site3.jpg', rotatedsrc : 'public/images/morphing/site3r.jpg' },
+                { cName : 'md-device-4', canRotate : true, imgsrc : 'public/images/morphing/site4.jpg', rotatedsrc : 'public/images/morphing/site4r.jpg' }
             ]
         },
         devicesTotal = settings.devices.length,

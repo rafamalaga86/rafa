@@ -214,7 +214,6 @@ h1, h2, h3, h4, h5, h6, p {
 	width: 50%;
 	box-sizing: border-box;
 	vertical-align: top;
-	text-align: center;
 	@media @600{
 		width: 100px;
 	}
@@ -384,8 +383,10 @@ body{
 
 
 //////////////// MORPHING SECTION //////////////////////////////////
-.s-morphing{
-	background-color: @brown;
+.s-introduction{
+	background-color: @skin;
+	padding: 100px;
+
 	.md-slider{
 		margin: 0;
 	}
@@ -396,6 +397,14 @@ body{
 			transform: scaleX(-1);
 			display: block;
 		 }
+	}
+
+	p{
+		font-size: 21px;
+	}
+
+	.what-i-do{
+		text-align: left;
 	}
 }
 

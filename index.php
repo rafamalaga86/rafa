@@ -56,7 +56,7 @@
             </section>
 
 
-            <section class="introduction">
+            <section class="s-introduction">
                 <div class="hold">
 
 
@@ -74,13 +74,14 @@
                                 </div>
                             </div>
 
-                        </div><!-- .column1-2 -->
+                        </div><!-- .column1-2
 
 
 
-                        <div class="column1-2">
+                    i--><div class="column1-2">
 
-                            <p>Love websites. To plan them, to study every detail, to work along my friend designers, to discuss about UX...</p>
+                            <p>Love to plan websites, to study every detail, to work along my friend designers, to discuss about UX...</p>
+                            <br>
                             <p>Love Sublime Text and like to keep up to date in website techonology. I enjoy both back-end and front-end development. Always take the risk to try something new. I always fancy a coffee.</p>
                             
                         </div><!-- .column1-2 -->
@@ -118,7 +119,7 @@
                 <figure>
                     <img src="//placekitten.com/800/500" alt="img16">
                     <figcaption>
-                        <h2>Fresh <span>Bubba</span></h2>
+                        <h4>Fresh <span>Bubba</span></h4>
                         <p>Bubba likes to appear out of thin air.</p>
                         <a href="#"></a>
                     </figcaption>           
@@ -128,7 +129,7 @@
                 <figure>
                     <img src="//placekitten.com/800/500" alt="img16">
                     <figcaption>
-                        <h2>Fresh <span>Bubba</span></h2>
+                        <h4>Fresh <span>Bubba</span></h4>
                         <p>Bubba likes to appear out of thin air.</p>
                         <a href="#"></a>
                     </figcaption>           
@@ -138,7 +139,7 @@
                 <figure>
                     <img src="//placekitten.com/800/500" alt="img16">
                     <figcaption>
-                        <h2>Fresh <span>Bubba</span></h2>
+                        <h4>Fresh <span>Bubba</span></h4>
                         <p>Bubba likes to appear out of thin air.</p>
                         <a href="#"></a>
                     </figcaption>           
@@ -148,7 +149,7 @@
                 <figure>
                     <img src="//placekitten.com/800/500" alt="img16">
                     <figcaption>
-                        <h2>Fresh <span>Bubba</span></h2>
+                        <h4>Fresh <span>Bubba</span></h4>
                         <p>Bubba likes to appear out of thin air.</p>
                         <a href="#"></a>
                     </figcaption>           
@@ -174,15 +175,17 @@
                 Git
                 NodeJS
                 Laravel
-                Ghost blog
-                Sublime Text
                 MongoDB
                 Grunt
                 Foundation
-                AngularJS
-                NginX
+                
                 Linux
+                AngularJS
+
+                Sublime Text
                 ElementaryOS
+                NginX
+                Ghost blog
 
                 Splendid
 
