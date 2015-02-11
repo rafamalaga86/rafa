@@ -171,6 +171,62 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
+.column1-3{
+	display: inline-block;
+	width: 33.33%;
+	box-sizing: border-box;
+	vertical-align: top;
+	text-align: center;
+	@media @1000{
+		width: 50%;
+	}
+	@media @500{
+		width: 100%;
+	}
+	&:nth-child(1){
+		padding-right: 3%;
+		@media @500{
+			padding: 0;
+		}
+	}
+	&:nth-child(2){
+		padding: 0 1.66%;
+		@media @1000{
+			padding-left: 3%;
+		}
+		@media @500{
+			padding: 0;
+		}
+	}
+	&:nth-child(3){
+		padding-left: 3%;
+		@media @1000{
+			display: none;
+		}
+	}
+}
+
+
+
+
+.column1-2{
+	display: inline-block;
+	width: 50%;
+	box-sizing: border-box;
+	vertical-align: top;
+	text-align: center;
+	@media @600{
+		width: 100px;
+	}
+	&:nth-child(1){
+		padding-right: 2.5%;
+	}
+	&:nth-child(2){
+		padding-left: 2.5%;
+	}
+}
+
+
 
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
@@ -190,6 +246,7 @@ body{
 .wrapper{
 	position: relative;
 	z-index: 1;
+	background-color: white;
 }
 
 
@@ -566,9 +623,8 @@ body{
 
 //////////////// FORM SECTION //////////////////////////////////
 .s-cta{
-	height: 600px;
-	background: url(/public/images/about-section-bg.jpg) center top;
-	background-size: auto 600px;
+	height: 576px;
+	background: #2e2e30 url(/public/images/about-section-bg.jpg) no-repeat center top;
 	.hold{
 		overflow: hidden;
 	}
@@ -616,38 +672,6 @@ body{
 	background-color: @grey;
 	color: white;
 	li{
-		display: inline-block;
-		width: 33.33%;
-		box-sizing: border-box;
-		vertical-align: top;
-		text-align: center;
-		@media @1000{
-			width: 50%;
-		}
-		@media @500{
-			width: 100%;
-		}
-		&:nth-child(1){
-			padding-right: 3%;
-			@media @500{
-				padding: 0;
-			}
-		}
-		&:nth-child(2){
-			padding: 0 1.66%;
-			@media @1000{
-				padding-left: 3%;
-			}
-			@media @500{
-				padding: 0;
-			}
-		}
-		&:nth-child(3){
-			padding-left: 3%;
-			@media @1000{
-				display: none;
-			}
-		}
 		.i-container{
 			display: block;
 			text-align: center;

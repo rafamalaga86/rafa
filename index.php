@@ -8,6 +8,8 @@
         <meta name="description" content="Rafael García Doblas, Web Developer">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, minimal-ui">
         <meta name="format-detection" content="telephone=no">
+        <meta name="author" content="Rafael Garcia Doblas">
+
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
         <!-- <link rel="stylesheet" href="/public/css/rafastyle.css"> -->
@@ -44,8 +46,7 @@
                         <h2>This is what I do</h2>
                     </div><!--
                 i--><div class="second">
-                        <p>Love websites. To plan them, to study every detail, to work along my friend designers, to discuss about UX...</p>
-                        <p>Love Sublime Text and like to keep up to date in website techonology. I enjoy both back-end and front-end development. Always take the risk to try something new. I always fancy a coffee. Splendid.</p>
+                        
                     </div>
                     <a href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx" class="button vertical-swap">
                         <span class="first-content">Download my CV</span>
@@ -55,68 +56,62 @@
             </section>
 
 
+            <section class="introduction">
+                <div class="hold">
+
+
+                    <div class="what-i-like">
+
+                        <div class="column1-2">
+                            
+                            <div class="md-slider">
+                                <div class="md-device-wrapper">
+                                    <div class="md-device md-device-1">
+                                        <div class="md-inner"><img src="public/images/morphing/site1.jpg" /></div>
+                                        <div class="md-border-element"></div>
+                                        <div class="md-base-element"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- .column1-2 -->
+
+
+
+                        <div class="column1-2">
+
+                            <p>Love websites. To plan them, to study every detail, to work along my friend designers, to discuss about UX...</p>
+                            <p>Love Sublime Text and like to keep up to date in website techonology. I enjoy both back-end and front-end development. Always take the risk to try something new. I always fancy a coffee.</p>
+                            
+                        </div><!-- .column1-2 -->
+                    </div>
+
+
+                    <div class="what-i-do">
+                        
+                        <div class="column1-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In necessitatibus repudiandae at, reiciendis molestias consequuntur aliquid nesciunt, inventore distinctio et, placeat obcaecati asperiores ex consectetur quis sapiente porro ipsa itaque.
+                        </div><!--
+
+                    i--><div class="column1-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In necessitatibus repudiandae at, reiciendis molestias consequuntur aliquid nesciunt, inventore distinctio et, placeat obcaecati asperiores ex consectetur quis sapiente porro ipsa itaque.
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </section>
+
+
+
+
 
 <!-- 
             <section class="s-see-some-projects">
                 Take a glance on some of my project
             </section>
  -->
-
-<?php /*
-            <section class="s-portfolio">
-                <ul>
-                    <li class="box unit vertical box-4">
-                        <a class="inner" rel="nofollow" href="//wearewonderlabs.com">
-                            <div class="inside-inner">
-                                <h5>Wonderlabs</h5>
-                                <h6>As a member of Wonderlabs' Digital Agency Team</h6>
-                            </div>
-                        </a>
-                <!--</li> -->
-
-                    <li class="box unit vertical box-5">
-                        <a class="inner" rel="nofollow" href="//uniqueliving.com/mobile-version/">
-                            <div class="inside-inner">
-                                <h5>Unique Living</h5>
-                                <h6>As a member of Wonderlabs' Digital Agency Team</h6>
-                            </div>
-                        </a>
-                <!--</li> -->
-                </ul><!--
-
-            i--><ul>
-                    <li class="box unit small box-1">
-                        <a class="inner" href="//clickcreacion.com">
-                            <div class="inside-inner">
-                                <h5>ClickCreación</h5>
-                                <h6>As a member of the Wonderlabs Team</h6>
-                            </div>
-                        </a>
-                <!--</li> -->
-
-                    <li class="box unit small box-2">
-                        <a class="inner" rel="nofollow" href="//biberodromo.com">
-                            <div class="inside-inner">
-                                <h5>Biberodromo</h5>
-                                <h6>Spanish ONG</h6>
-                            </div>
-                        </a>
-                <!--</li> -->
-
-                    <li class="box unit horizontal box-3">
-                        <a class="inner" rel="nofollow" href="//maritalaffair.com">
-                            <div class="inside-inner">
-                                <h5>Marital Affair</h5>
-                                <h6>As a member of Wonderlabs' Digital Agency Team</h6>
-                            </div>
-                        </a>
-                <!--</li> -->
-                </ul>
-            </section>
-
-*/  ?>
-
-
 
             <section class="s-portfolio">
                 
@@ -189,6 +184,8 @@
                 Linux
                 ElementaryOS
 
+                Splendid
+
                 Javasript.
                 Object Oriented PHP.
 
@@ -220,21 +217,21 @@
             <section class="s-testimonials">
                 <div class="hold">
                     <ul>
-                        <li>
+                        <li class="column1-3">
                             <div class="i-container"><i class="icon-quote"></i></div>
                             <p>Rafael is an extremely talented developer who was a true asset to our company, whereby he single-handedly added huge value to our service offerings He is totally focussed on the task at hand and has the ability to balance work at great speeds whilst still paying meticulous attention to detail. As well as this, Rafael really is great company in the workplace.</p>
                             <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
                             <h5 class="name">Arni Lochner</h5>
                             <h6 class="sub-title">Creative Director at Wonderlabs</h6>
 
-                        <li>
+                        <li class="column1-3">
                             <div class="i-container"><i class="icon-quote"></i></div>
                             <p>Rafael is one of the most talented, dedicated and nicest people I have ever had the pleasure to work with. During his time at Wonderlabs, Rafael has managed complete projects from start to completion, with perfect time management and attention to detail. He will be greatly missed in the office and I wish him all the best for the future.</p>
                             <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
                             <h5 class="name">Craig Curchin</h5>
                             <h6 class="sub-title">Production Director at Wonderlabs</h6>
 
-                        <li>
+                        <li class="column1-3">
                             <div class="i-container"><i class="icon-quote"></i></div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quo, accusantium magni eveniet aperiam reiciendis doloremque, accusantium magni eveniet aperiam reiciendis doloremque, accusantium magni eveniet aperiam reiciendis doloremque, expedita velit aspernatur soluta iusto quos aut voluptatum tempore. Optio distinctio ad laboriosam repudiandae.</p>
                             <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
@@ -324,7 +321,7 @@
 
 
         <!-- morphing device -->
-        <!-- <script src="/public/js/morphingdevice.js"></script> -->
+        <script src="/public/js/morphingdevice.js"></script>
 
         <script>
             
