@@ -1,13 +1,5 @@
-/**
- * stepsForm.js v1.0.0
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2014, Codrops
- * http://www.codrops.com
- */
+
+
 ;( function( window ) {
 	
 	'use strict';
@@ -201,7 +193,18 @@
 	stepsForm.prototype._validade = function() {
 		// current question´s input
 		var input = this.questions[ this.current ].querySelector( 'input' ).value;
-		if( input === '' ) {
+
+		var type = this.questions[ this.current ].querySelector( 'input' ).getAttribute('type');
+
+		var mail_validator = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    	
+		if ( type === 'email' && ! mail_validator.test(input) ) {
+
+			this._showError( 'INVALIDEMAIL' );
+			return false;
+
+		} else if( input === '' ) {
+
 			this._showError( 'EMPTYSTR' );
 			return false;
 		}

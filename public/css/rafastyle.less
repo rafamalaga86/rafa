@@ -31,6 +31,7 @@
 @import "../icons/style.css"; // Icons
 @import "/public/css/form-component.css"; // Form
 @import "/public/css/morphing-component.css"; // Morphing Devices
+@import "/public/css/foundation.tooltip.css"; // Morphing Devices
 
 //---------------- FONTS ----------------//
 
@@ -44,6 +45,9 @@
 @skin: #DCD0C0;
 @brown: #B1938B;
 
+@red_lighter: #e9756f;
+@red_icon: #ff6666;
+@red_darker: #f14b42;
 @black: #232323;
 @transparent-grey: rgba(0,0,0, 0.2);
 @transparent-grey2: rgba(0,0,0, 0.4);
@@ -56,13 +60,31 @@
  
 //------------ PARENTS STYLES -----------//
 
+body{
+	font-size: 16px;
+}
+
 a{
 	text-decoration: none;
 	color: @purple;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+
+h1, h2, h3, h4, h5, h6, p{
 	margin: 0;
+	line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+
+	strong{
+		color: @red;
+	}
+}
+
+h5, h6{
+	font-size: 26px;
 }
 
 //------------ OOCSS CLASSES ------------//
@@ -95,80 +117,88 @@ h1, h2, h3, h4, h5, h6, p {
 	color: @red;
 }
 
-.button{
-	padding: 15px 20px;
-	background-color: @red;
-	color: white;
-	display: inline-block;
+
+/* General button style (reset) */
+.button {
+	background: @red;
+	border: none;
+	font-family: inherit;
+	font-size: 16px;
+	color: inherit;
 	cursor: pointer;
+	padding: 25px 45px;
+	display: inline-block;
 	text-transform: uppercase;
-	font-weight: bold;
-	font-family: "Open Sans";
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	// -webkit-transition: all 0.3s;
+	// transition: all 0.3s;
+}
+
+.button-effect:active {
+	background: @red_darker;
+	top: 2px;
+}
+
+.button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+
+
+/* Button 5 */
+.button-effect {
+	color: #fff;
+	height: 70px;
+	// min-width: 260px;
+	line-height: 24px;
 	overflow: hidden;
-		i::before{
-			font-size: 25px;
-		}
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
-.vertical-swap{
-	// overflow: hidden;
-	position: relative;
-	vertical-align: top;
-	.first-content{
-		transition: transform .3s;
-		display: block;
-	}
-	.second-content{
-		padding-top: inherit;
-	}
-	.second-content::before{
-		position: absolute;
-		display: block;
-		padding-top: inherit;
-		text-align: center;
-		width: 100%;
-		top: -100%;
-		left: 0;
-		transition: all .3s;
-	}
-	&:hover .second-content::before{
-		top: 0;
-	}
-	&:hover .first-content{
-		display: block;
-		transform: translateY(300%);
-	}
+.button-effect span {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 0.3s;
+	-webkit-backface-visibility: hidden;
+	-moz-transition: all 0.3s;
+	-moz-backface-visibility: hidden;
+	transition: all 0.3s;
+	backface-visibility: hidden;
 }
 
-.vertical-swap-opposite{
-	// overflow: hidden;
-	position: relative;
-	vertical-align: top;
-	.first-content::before{
-		transition: transform .3s;
-		display: block;
-	}
-	.second-content{
-		position: absolute;
-		display: block;
-		padding-top: inherit;
-		text-align: center;
-		width: 100%;
-		top: -100%;
-		left: 0;
-		transition: all .3s;
-	}
-	&:hover .second-content{
-		top: 0;
-	}
-	&:hover .first-content::before{
-		display: block;
-		transform: translateY(200%);
-	}
+.button-effect:before {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	line-height: 2.5;
+	font-size: 180%;
+	left: 0;
+	top: -100%;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
+/* Button 5a */
+.button-effect:hover span {
+	-webkit-transform: translateY(300%);
+	-ms-transform: translateY(300%);
+	transform: translateY(300%);
+}
 
-
+.button-effect:hover:before {
+	top: 0;
+}
 
 
 .column1-3{
@@ -214,6 +244,7 @@ h1, h2, h3, h4, h5, h6, p {
 	width: 50%;
 	box-sizing: border-box;
 	vertical-align: top;
+	overflow: hidden;
 	@media @600{
 		width: 100px;
 	}
@@ -230,7 +261,7 @@ h1, h2, h3, h4, h5, h6, p {
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
-// HOME PAGE
+/////////////////// HOME PAGE 
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
@@ -311,6 +342,7 @@ body{
 			h1{
 				font-size: 20px;
 				font-weight: 700;
+				line-height: 70px;
 				color: @red;
 				@media @800{
 					font-size: 16px;
@@ -327,26 +359,47 @@ body{
 
 
 //////////////// FIRST SECTION //////////////////////////////////
-.s-first{
+header{
 	width: 100%;
-	background: url(/public/images/first-section-bg.jpg) top right no-repeat;
+	background: url(/public/images/first-section-bg.jpg) no-repeat;
 	background-size: cover;
+	@media @1000{
+		background-position-x: -400px;
+	}
+	@media @800{
+		background-position-x: -440px;
+	}
 	.hold{
 		h2,h3,p{
 			margin: 0;
 			color: @black;
 			font-weight: bold;
 			font-size: 30px;
+			@media @1400{
+				font-size: 25px;
+			}
+			@media @700{
+				font-size: 20px;
+			}
 		}
 		h3{
 			font-size: 110px;
 			margin-bottom: 30px;
 			margin-left: -8px;
+			@media @1400{
+				font-size: 80px;
+			}
+			@media @700{
+				font-size: 60px;
+			}
 		}
 		p{
 			.curly-brackets{
 				font-size: 45px;
 				color: @grey;
+				@media @700{
+					font-size: 30px;
+				}
 			}
 		}
 	}
@@ -356,6 +409,8 @@ body{
 
 
 //////////////// GREETINGS SECTION //////////////////////////////////
+
+/*
 .s-greetings{
 	background-color: @grey;
 	text-align: center;
@@ -380,12 +435,23 @@ body{
 		margin-top: 40px;
 	}
 }
+*/
 
 
 //////////////// MORPHING SECTION //////////////////////////////////
+
 .s-introduction{
 	background-color: @skin;
 	padding: 100px;
+
+	h3{
+		letter-spacing: -2.1px;
+		margin-top: -20px;
+		font-size: 45px;
+		margin-left: -3px;
+		padding-bottom: 30px;
+	}
+
 
 	.md-slider{
 		margin: 0;
@@ -400,109 +466,49 @@ body{
 	}
 
 	p{
-		font-size: 21px;
+		font-size: 18px;
+		padding-bottom: 15px;
 	}
+}
 
-	.what-i-do{
+
+
+/////////// TECHONOLOGIES THAT I LIKE SECTION //////////////////
+
+
+.s-techs{
+	background-color: @skin;
+	padding-bottom: 150px;
+
+	.d-icons{
 		text-align: left;
+		li{
+			display: inline-block;
+			width: 118px;
+			height: 97px;
+			&:hover{
+				i:before{
+					color: @red_lighter;	
+				}
+			}
+			i:before{
+				font-size: 90px;
+				color: @red;
+				-webkit-transition: color .2s;
+				transition: color .2s;
+			}
+		}
 	}
 }
 
 //////////////// PORTFOLIO SECTION //////////////////////////////////
-
-/*
-.s-portfolio{
-	ul{
-		display: inline-block;
-		vertical-align: top;
-		width: 50%;
-		@media @1000{
-			width: 100%;
-		}
-	}
-	.box{
-		width: 50%;
-		display: inline-block;
-		vertical-align: top;
-		background: no-repeat center center;
-		position: relative;
-		&.box-1{background-image: url(//placekitten.com/800/300);}
-		&.box-2{background-image: url(//placekitten.com/800/300);} // 800/600
-		&.box-3{background-image: url(//placekitten.com/1400/600);}
-		&.box-4{background-image: url(//placekitten.com/800/1000);}
-		&.box-5{background-image: url(//placekitten.com/800/1000);}
-		&::after{
-			padding-top: 56.25%; 
-			display: block;
-			content: '';
-		}
-		&.small{
-			@media @500{
-				display: none;
-			}
-		}
-		&.horizontal{
-			&::after{
-				padding-top: 28.16%;
-			}
-		}
-		&.vertical{
-			.inner{
-				.inside-inner{
-					padding-top: 40%;
-				}
-			}
-			&::after{
-				padding-top: 112.55%;
-			}
-		}
-		.inner{
-			position: absolute;
-			display: block;
-    		top: 0; bottom: 0; right: 0; left: 0; 
-    		background-color: @transparent-grey;
-			&:hover{
-				transition: background-color .2s ease-out;
-    			background-color: @transparent-grey2;
-    			.inside-inner{
-    				bottom: 100px;
-    			}
-
-			}
-			.inside-inner{
-				text-align: center;
-				position: absolute;
-				bottom: 10px;
-				width: 100%;
-				transition: bottom .3s;
-				h5{
-					text-transform: uppercase;
-					font-weight: 600;
-					color: white;
-					font-size: 25px;
-					@media @1100{
-						font-size: 20px;
-					}
-				}
-				h6{
-					color: white;
-				}
-			}
-		}
-	}
-	.horizontal{
-		width: 100%;
-	}
-}
-
-*/
 
 
 .s-portfolio{
 	position: relative;
 	overflow: hidden;
 
-	h2{
+	h4{
 		color: white;
 		text-transform: uppercase;
 	}
@@ -527,7 +533,7 @@ body{
 		}
 	}
 
-	figure img {
+	figure img{
 		opacity: 0.7;
 		-webkit-transition: opacity 0.35s;
 		transition: opacity 0.35s;
@@ -549,8 +555,7 @@ body{
 		height: 100%;
 	}
 
-	figure figcaption::before,
-	figure figcaption::after {
+	figure figcaption::before, figure figcaption::after {
 		position: absolute;
 		top: 30px;
 		right: 30px;
@@ -576,7 +581,7 @@ body{
 		transform: scale(1,0);
 	}
 
-	figure h2 {
+	figure h4 {
 		padding-top: 30%;
 		-webkit-transition: -webkit-transform 0.35s;
 		transition: transform 0.35s;
@@ -603,29 +608,17 @@ body{
 		outline: 0;
 	}
 
-	figure:hover figcaption::before,
-	figure:hover figcaption::after {
+	figure:hover figcaption::before, figure:hover figcaption::after {
 		opacity: 1;
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
 
-	figure:hover h2,
-	figure:hover p {
+	figure:hover h4, figure:hover p {
 		opacity: 1;
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 	}
-}
-
-
-
-/////////// TECHONOLOGIES THAT I LIKE SECTION //////////////////
-
-
-.s-bars{
-	min-height: 300px;
-	background-color: @skin;
 }
 
 
@@ -659,11 +652,13 @@ body{
 			padding-top: 20px;
 		}
 		.container{
-			text-align: center;
+			text-align: left;
 			margin-top: 25px;
 			.button{
 				display: inline-block;
-				margin-right: 30px;
+				margin-right: 28px;
+				padding-right: 38px;
+				padding-left: 38px;
 				&:last-child{
 					margin-right: 0;
 				}
@@ -680,10 +675,10 @@ body{
 	padding: 50px 0;
 	background-color: @grey;
 	color: white;
-	li{
+	li.column1-2{
+		text-align: center;
 		.i-container{
 			display: block;
-			text-align: center;
 			width: 100%;
 			i{
 				display: inline-block;
@@ -694,9 +689,11 @@ body{
 		img{
 			border-radius: 50%;
 			width: 50px;
+			display: inline-block;
 		}
 		p{
 			padding: 20px 0;
+			text-align: center;
 		}
 		.name{
 			font-size: 30px;

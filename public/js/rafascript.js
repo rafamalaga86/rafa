@@ -24,6 +24,16 @@ preload([
 
 
 
+// Activate foundation scripts
+            
+
+$(document).foundation({
+    tooltip: {
+        hover_delay: 0
+    }
+});
+
+
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -114,19 +124,63 @@ new stepsForm( theForm, {
         // hide form
         classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
 
+
         /*
-        form.submit()
+        form.submit();
+
         or
         AJAX request (maybe show loading indicator while we don't have an answer..)
         */
-
-        var post = $.post("mail_data.php", {name: "Peter", message: "Hola que ase", email: "petergriffing@sdfasd.com"}, function(data){
+/*
+        var post = $.post("contact_me.php", {name: "Peter", message: "Hola que ase", email: "petergriffing@sdfasd.com"}, function(data){
 
             var messageEl = theForm.querySelector( '.final-message' );
+
             messageEl.innerHTML = 'Thank you! I\'ll reply you soon.';
+            
             classie.addClass( messageEl, 'show' );
 
         } ,'json');
+*/
+
+
+        var user_name       = $('input[name=name]').val();
+        var user_email      = $('input[name=email]').val();
+        var user_subject    = "Email from rafaelgarciadoblas.com page:";
+        var user_message    = $('input[name=mess]').val();
+       
+        //data to be sent to server
+        post_data = {'userName':user_name, 'userEmail':user_email, 'userSubject':user_subject, 'userMessage':user_message};
+       
+        //Ajax post data to server
+        $.post('contact_me.php', post_data, function(response){ 
+
+             var messageEl = theForm.querySelector( '.final-message' );
+           
+            //load json data from server and output message    
+            if(response.type == 'error') {
+
+
+                messageEl.innerHTML = '<span class="error">'+response.text+'</span>';
+
+                
+            } else {
+           
+                messageEl.innerHTML = '<span class="success">'+ response.text +'</span>';
+               
+                //reset values in all input fields
+                // $('#email-form input').val('');
+                // $('#email-form textarea').val('');
+            }
+
+            classie.addClass( messageEl, 'show' );
+
+           
+
+        }, 'json');
+
+
+
 
     }
 } );

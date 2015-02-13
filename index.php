@@ -1,6 +1,7 @@
+<!DOCTYPE html>
+
 <!-- Hey! Thank you for taking some time to look the code, hope you like what you see. If you want to ask anything, please contact me. Rafael. -->
 
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -9,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, minimal-ui">
         <meta name="format-detection" content="telephone=no">
         <meta name="author" content="Rafael Garcia Doblas">
-
+        <meta name="robots" content="noindex, nofollow">
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
         <!-- <link rel="stylesheet" href="/public/css/rafastyle.css"> -->
@@ -32,14 +33,16 @@
                 </nav>
             </section>
 
-            <section class="s-first full-screen-section">
+            <header class="full-screen-section">
                 <div class="hold">
                     <h3>Hi <span class="red">There!</span></h3>
                     <h2>I am <span class="red">Rafael García Doblas</span></h2>
                     <p>A proud <span class="red">web developer</span>. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></p>
                 </div>
-            </section>
+            </header>
 
+
+            <?php /* DELETE
             <section class="s-greetings">
                 <div class="hold">
                     <div class="first">
@@ -54,52 +57,118 @@
                     </a>
                 </div>
             </section>
+            */ ?>
 
 
             <section class="s-introduction">
                 <div class="hold">
 
 
-                    <div class="what-i-like">
 
-                        <div class="column1-2">
-                            
-                            <div class="md-slider">
-                                <div class="md-device-wrapper">
-                                    <div class="md-device md-device-1">
-                                        <div class="md-inner"><img src="public/images/morphing/site1.jpg" /></div>
-                                        <div class="md-border-element"></div>
-                                        <div class="md-base-element"></div>
-                                    </div>
+
+                    <div class="column1-2">
+
+                        <h3><strong>Back-End</strong> and <strong>Front-End</strong></h3>
+                        <p>As a Back-End I aim to write clean, efficient and elegant code. As a Fron-End my goal is to make good looking highly responsive websites.</p>
+                        <p>Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser in all of them.</p>
+                        <p>Love to plan websites, to study every detail, to work along my friend designers, to discuss about UX...</p>
+                        <br><p><strong>Always</strong> fancy a coffee.</p>
+
+                    </div><!-- .column1-2 
+
+
+
+                i--><div class="column1-2">
+                        
+                        <div class="md-slider">
+                            <div class="md-device-wrapper">
+                                <div class="md-device md-device-1">
+                                    <div class="md-inner"><img src="public/images/morphing/site1.jpg" /></div>
+                                    <div class="md-border-element"></div>
+                                    <div class="md-base-element"></div>
                                 </div>
                             </div>
-
-                        </div><!-- .column1-2
-
-
-
-                    i--><div class="column1-2">
-
-                            <p>Love to plan websites, to study every detail, to work along my friend designers, to discuss about UX...</p>
-                            <br>
-                            <p>Love Sublime Text and like to keep up to date in website techonology. I enjoy both back-end and front-end development. Always take the risk to try something new. I always fancy a coffee.</p>
-                            
-                        </div><!-- .column1-2 -->
-                    </div>
-
-
-                    <div class="what-i-do">
-                        
-                        <div class="column1-2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In necessitatibus repudiandae at, reiciendis molestias consequuntur aliquid nesciunt, inventore distinctio et, placeat obcaecati asperiores ex consectetur quis sapiente porro ipsa itaque.
-                        </div><!--
-
-                    i--><div class="column1-2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In necessitatibus repudiandae at, reiciendis molestias consequuntur aliquid nesciunt, inventore distinctio et, placeat obcaecati asperiores ex consectetur quis sapiente porro ipsa itaque.
                         </div>
 
-                    </div>
+                    </div><!-- .column1-2 -->
 
+
+
+
+                </div>
+            </section>
+
+
+
+            <section class="s-techs">
+                <div class="hold">
+
+
+                    <div class="column1-2 d-icons">
+                        <ul>
+                            <li><i class="icon-git-plain-wordmark" title="I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, often I do deploy with Git as well." data-tooltip data-options="hover_delay: 300;"></i></li>
+                            <li><i class="icon-php-plain" title="I understand why so many developers avoid PHP. This language could be often inconsistent, full of exceptions and does not have a clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face. I also have worked with Wordpress or Codeigniter often." data-tooltip></i></li>
+                            <li><i class="icon-laravel-plain" title="I was feeling down on the PHP language till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating..." data-tooltip></i></li>
+
+                            <li><i class="icon-linux-plain" title="I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many type Linux servers." data-tooltip></i></li>
+                            <li><i class="icon-ubuntu-plain" title="My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu." data-tooltip></i></li>
+                            <!-- <li><i class="icon-elementary-plain" title="ola k ase" data-tooltip></i></li> -->
+                            <li><i class="icon-vim-plain" title="Just VIM." data-tooltip></i></li>
+                            <li><i class="icon-sublimetext-plain" title="I have been using Sublime Text for years. I agree that is not that powerful as some IDEs, but the flexibility and speed of Sublime is essential to me." data-tooltip></i></li>
+
+                            <li><i class="icon-digitalocean-plain-wordmark" title="I've using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to." data-tooltip></i></li>
+                            <li><i class="icon-amazonwebservices-plain-wordmark" title="I have tried it and the experience was really good. Sadly, never had an app big enough to need such a platform." data-tooltip></i></li>
+
+                            <li><i class="icon-nodejs-plain-wordmark" title="Using Javascript in both Back-End and Front-End development always sounded good for me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and have use for Ghost thought." data-tooltip></i></li>
+                            <li><i class="icon-nodejs-plain-wordmark NGINEX" title="I used to use Apache, but I moved to Nginx due to better performance." data-tooltip></i></li>
+                            <li><i class="icon-ghost-plain-wordmark" title="I felt in love with Ghost in the very first momment I saw the Admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress different." data-tooltip></i></li>
+                            <!-- <li><i class="icon-mongodb-plain" title="" data-tooltip></i></li> -->
+                            <li><i class="icon-npm-plain-wordmark" title="I could not work without NPM. It has all type of packages. In addition of Browserify, you can also use it for Front-End development." data-tooltip></i></li>
+
+                            <li><i class="icon-angularjs-plain-wordmark" title="Before diggin in AngularJS I want to master Node. But really feels like somehting I have to learn soon. I have tried Backbone but Angular is gaining more and more fans." data-tooltip></i></li>
+                            <li><i class="icon-foundation-plain-wordmark" title="I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosify is being an 'skeleton' rather than a bunch of elements already made. And I like that." data-tooltip></i></li>
+
+
+                            <li><i class="icon-html5-plain" title="Just HTML5. There is no place for XHTML or HTML4 these days." data-tooltip></i></li>
+                            <li><i class="icon-javascript-plain" title="Vanilla Javascript has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it. Always enjoy doing vanilla Javascript." data-tooltip></i></li>
+                            <li><i class="icon-grunt-line-wordmark" title="ola k ase" data-tooltip></i></li>
+
+                            <li><i class="icon-less-plain-wordmark" title="I can use Less or Sass equally, I find advantages and disadvantages in them both." data-tooltip></i></li>
+                            <li><i class="icon-sass-original" title="I can use Less or Sass equally, I find advantages and disadvantages in them both." data-tooltip></i></li>
+
+                        </ul>
+                        
+                    </div><!-- end .column1-2
+
+                i--><div class="column1-2 d-comments">
+
+                        <p>I think that taking the risk of trying a new technology is always woth it. However, the main programming languages I use are PHP (with Laravel Framework) and Javascript</p><br>
+
+                 Love Laravel PHP framework and Javascript.
+                        
+                        Git
+                        NodeJS
+                        Laravel
+                        MongoDB
+                        Grunt
+                        Foundation
+                        
+                        Linux
+                        AngularJS
+
+                        Sublime Text
+                        ElementaryOS
+                        NginX
+                        Ghost blog
+
+                        Splendid
+
+                        Javasript.
+                        Object Oriented PHP.
+
+                        I have developed in Linux, Mac and Windows.
+
+                    </div>
 
                 </div>
             </section>
@@ -117,41 +186,41 @@
             <section class="s-portfolio">
                 
                 <figure>
-                    <img src="//placekitten.com/800/500" alt="img16">
+                    <img src="/public/images/projects/ma.png" alt="img16">
                     <figcaption>
-                        <h4>Fresh <span>Bubba</span></h4>
-                        <p>Bubba likes to appear out of thin air.</p>
-                        <a href="#"></a>
+                        <h4>Marital Affair</h4>
+                        <p>As a part of digital agency team, Wonderlabs</p>
+                        <a href="//maritalaffair.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
 
                 
                 <figure>
-                    <img src="//placekitten.com/800/500" alt="img16">
+                    <img src="/public/images/projects/wl.jpg" alt="img16">
                     <figcaption>
-                        <h4>Fresh <span>Bubba</span></h4>
-                        <p>Bubba likes to appear out of thin air.</p>
-                        <a href="#"></a>
+                        <h4>Wonderlabs Website</h4>
+                        <p>As a part of digital agency team, Wonderlabs</p>
+                        <a href="//wearewonderlabs.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
                     
                 
                 <figure>
-                    <img src="//placekitten.com/800/500" alt="img16">
+                    <img src="/public/images/projects/ul.png" alt="img16">
                     <figcaption>
-                        <h4>Fresh <span>Bubba</span></h4>
-                        <p>Bubba likes to appear out of thin air.</p>
-                        <a href="#"></a>
+                        <h4>Unique Living Mobile</h4>
+                        <p>As a part of digital agency team, Wonderlabs</p>
+                        <a href="//uniqueliving.com/mobile-version" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
                     
                 
                 <figure>
-                    <img src="//placekitten.com/800/500" alt="img16">
+                    <img src="//placekitten.com/640/480" alt="img16">
                     <figcaption>
-                        <h4>Fresh <span>Bubba</span></h4>
+                        <h4>Biberódromo</h4>
                         <p>Bubba likes to appear out of thin air.</p>
-                        <a href="#"></a>
+                        <a href="//biberodromo.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
                     
@@ -160,87 +229,40 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-            <section class="s-bars">
-
-                Git
-                NodeJS
-                Laravel
-                MongoDB
-                Grunt
-                Foundation
-                
-                Linux
-                AngularJS
-
-                Sublime Text
-                ElementaryOS
-                NginX
-                Ghost blog
-
-                Splendid
-
-                Javasript.
-                Object Oriented PHP.
-
-                I have developed in Linux, Mac and Windows.
-
-            </section>
-
-
-            <section class="s-cta">
-                <div class="hold">
-                    <div class="floating-text">
-                        <h2>This is <span>Rafa</span>.</h2>
-                        <p>I mean, it's me. I answer my emails, I answer my phone, and I enjoy helping clients to find solutions to business challenges.</p>
-                        <p class="red mt">I'd love to hear from you.</p>
-                        <div class="container">
-                            <a href="" class="button mail-rafa vertical-swap">
-                                <span class="first-content">Mail Rafa</span>
-                                <i class="second-content icon-paperplane"></i>
-                            </a>
-                            <div href="" class="button call-rafa vertical-swap">
-                                <span class="first-content">Call Rafa</span>
-                                <i class="second-content icon-phone"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section class="s-testimonials">
                 <div class="hold">
                     <ul>
-                        <li class="column1-3">
+                        <li class="column1-2">
                             <div class="i-container"><i class="icon-quote"></i></div>
                             <p>Rafael is an extremely talented developer who was a true asset to our company, whereby he single-handedly added huge value to our service offerings He is totally focussed on the task at hand and has the ability to balance work at great speeds whilst still paying meticulous attention to detail. As well as this, Rafael really is great company in the workplace.</p>
                             <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
                             <h5 class="name">Arni Lochner</h5>
                             <h6 class="sub-title">Creative Director at Wonderlabs</h6>
 
-                        <li class="column1-3">
+                        <li class="column1-2">
                             <div class="i-container"><i class="icon-quote"></i></div>
                             <p>Rafael is one of the most talented, dedicated and nicest people I have ever had the pleasure to work with. During his time at Wonderlabs, Rafael has managed complete projects from start to completion, with perfect time management and attention to detail. He will be greatly missed in the office and I wish him all the best for the future.</p>
                             <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
                             <h5 class="name">Craig Curchin</h5>
                             <h6 class="sub-title">Production Director at Wonderlabs</h6>
 
-                        <li class="column1-3">
-                            <div class="i-container"><i class="icon-quote"></i></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quo, accusantium magni eveniet aperiam reiciendis doloremque, accusantium magni eveniet aperiam reiciendis doloremque, accusantium magni eveniet aperiam reiciendis doloremque, expedita velit aspernatur soluta iusto quos aut voluptatum tempore. Optio distinctio ad laboriosam repudiandae.</p>
-                            <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
-                            <h5 class="name">Daniel Algarra</h5>
-                            <h6 class="sub-title">Amazing Web Designer at ClickCreacion</h6>
                     </ul>
+                </div>
+            </section>
+
+            <section class="s-cta">
+                <div class="hold">
+                    <div class="floating-text">
+                        <h2>This is <span>Rafa</span>.</h2>
+                        <p>I mean, it's me. I answer my emails, I answer my phone, and I enjoy helping clients to find solutions to business challenges.</p>
+                        <p class="red mt"><strong>I'd love to hear from you.</strong></p>
+                        <div class="container">
+
+                            <button class="button button-effect icon-phone"><span>Call Rafa</span></button><!--
+                        i--><button class="button button-effect icon-paperplane"><span>Mail Rafa</span></button>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -268,21 +290,32 @@
         </div>
 
         <footer class="s-form full-screen-section">
-            <form id="theForm" class="simform" autocomplete="off">
+            <form id="theForm" class="simform" novalidate autocomplete="off">
                 <div class="simform-inner">
                     <ol class="questions">
+
                         <li>
-                            <span><label for="q1">Send me an email. Write it in here.</label></span>
-                            <input id="q1" name="mess" type="text"/>
+                            <span>
+                                <label for="q1">Send me an email. Write it in here.</label>
+                            </span>
+
+                            <input id="mess" name="mess" type="text">
                         </li>
+
                         <li>
-                            <span><label for="q5">What is your name?</label></span>
-                            <input id="q5" name="name" type="text"/>
+                            <span>
+                                <label for="q5">What is your name?</label>
+                            </span>
+                            <input id="name" name="name" type="text">
                         </li>
+
                         <li>
-                            <span><label for="q6">Which is your email?</label></span>
-                            <input id="q6" name="email" type="text"/>
+                            <span>
+                                <label for="q6">Which is your email?</label>
+                            </span>
+                            <input id="email" name="email" type="email">
                         </li>
+
                     </ol><!-- /questions -->
                     <button class="submit" type="submit">Send answers</button>
                     <div class="controls">
@@ -299,19 +332,6 @@
             </form><!-- /simform -->            
         </footer>
 
-<!--
-<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-<div id="SkypeButton_Call_rafamalaga86_1">
-  <script type="text/javascript">
-    Skype.ui({
-      "name": "chat",
-      "element": "SkypeButton_Call_rafamalaga86_1",
-      "participants": ["rafamalaga86"],
-      "imageSize": 32
-    });
-  </script>
-</div>
--->
 
         <!-- TIME FOR SCRIPTS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -322,12 +342,14 @@
         <script src="/public/js/modernizr.custom.js"></script>
         <script src="/public/js/stepsForm.js"></script>
 
-
         <!-- morphing device -->
         <script src="/public/js/morphingdevice.js"></script>
+        
+        <!-- foundation -->
+        <script src="/public/js/foundation.js"></script>
+        <script src="/public/js/foundation.tooltip.js"></script>
 
         <script>
-            
         </script>
 
 
