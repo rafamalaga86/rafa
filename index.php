@@ -27,9 +27,9 @@
             <section class="s-navigation">
                 <nav class="hold">
                     <a href="#" class="left"><h1>Rafael García Doblas</h1></a><!--
-                i--><a href="#"><span>Projects</span></a><!--
-                i--><a href="#"><span>Curriculum Vitae</span></a><!--
-                i--><a class="contact" href="#"><span>Contact me</span></a>
+                i--><a href="#projects-anchor"><span>Projects</span></a><!--
+                i--><a href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx"><span>Curriculum Vitae</span></a><!--
+                i--><a class="contact" href="#contact-anchor"><span>Contact me</span></a>
                 </nav>
             </section>
 
@@ -39,6 +39,9 @@
                     <h2>I am <span class="red">Rafael García Doblas</span></h2>
                     <p>A proud <span class="red">web developer</span>. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></p>
                 </div>
+                <a class="arrow" href="#introduction-anchor">
+                    <img src="/public/images/arrow-down.png" alt="Arrow down" width="53">
+                </a>
             </header>
 
 
@@ -51,7 +54,7 @@
                 i--><div class="second">
                         
                     </div>
-                    <a href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx" class="button vertical-swap">
+                    <a href="" class="button vertical-swap">
                         <span class="first-content">Download my CV</span>
                         <i class="second-content icon-signup"></i>
                     </a>
@@ -63,16 +66,15 @@
             <section class="s-introduction">
                 <div class="hold">
 
-
-
+                    <div id="introduction-anchor"></div>
 
                     <div class="column1-2">
 
                         <h3><strong>Back-End</strong> and <strong>Front-End</strong></h3>
                         <p>As a Back-End I aim to write clean, efficient and elegant code. As a Fron-End my goal is to make good looking highly responsive websites.</p>
                         <p>Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser in all of them.</p>
-                        <p>Love to plan websites, to study every detail, to work along my friend designers, to discuss about UX...</p>
-                        <br><p><strong>Always</strong> fancy a coffee.</p>
+                        <p>Love to plan websites, to study every detail, to work along my colleagues designers, to discuss about UX...</p>
+                        <br><p>I <strong>always</strong> fancy a coffee.</p>
 
                     </div><!-- .column1-2 
 
@@ -106,11 +108,12 @@
 
                     <div class="column1-2 d-icons">
                         <ul>
-                            <li><i class="icon-git-plain-wordmark" title="I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, often I do deploy with Git as well." data-tooltip data-options="hover_delay: 300;"></i></li>
+                            <li><i class="icon-git-plain-wordmark" title="I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, I do deploy with Git as well." data-tooltip data-options="hover_delay: 300;"></i></li>
                             <li><i class="icon-php-plain" title="I understand why so many developers avoid PHP. This language could be often inconsistent, full of exceptions and does not have a clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face. I also have worked with Wordpress or Codeigniter often." data-tooltip></i></li>
                             <li><i class="icon-laravel-plain" title="I was feeling down on the PHP language till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating..." data-tooltip></i></li>
+                            <li><i class="icon-javascript-plain" title="Vanilla Javascript has become really useful. In one side in the server with NodeJS. In the other side, it has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it. Always enjoy doing vanilla Javascript." data-tooltip></i></li>
 
-                            <li><i class="icon-linux-plain" title="I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many type Linux servers." data-tooltip></i></li>
+                            <li><i class="icon-linux-plain" title="I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many types of Linux servers." data-tooltip></i></li>
                             <li><i class="icon-ubuntu-plain" title="My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu." data-tooltip></i></li>
                             <!-- <li><i class="icon-elementary-plain" title="ola k ase" data-tooltip></i></li> -->
                             <li><i class="icon-vim-plain" title="Just VIM." data-tooltip></i></li>
@@ -130,11 +133,10 @@
 
 
                             <li><i class="icon-html5-plain" title="Just HTML5. There is no place for XHTML or HTML4 these days." data-tooltip></i></li>
-                            <li><i class="icon-javascript-plain" title="Vanilla Javascript has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it. Always enjoy doing vanilla Javascript." data-tooltip></i></li>
                             <li><i class="icon-grunt-line-wordmark" title="ola k ase" data-tooltip></i></li>
 
                             <li><i class="icon-less-plain-wordmark" title="I can use Less or Sass equally, I find advantages and disadvantages in them both." data-tooltip></i></li>
-                            <li><i class="icon-sass-original" title="I can use Less or Sass equally, I find advantages and disadvantages in them both." data-tooltip></i></li>
+                            <li><i class="icon-sass-original" title="I can use Sass or Less equally, I find advantages and disadvantages in them both." data-tooltip></i></li>
 
                         </ul>
                         
@@ -144,7 +146,7 @@
 
                         <p>I think that taking the risk of trying a new technology is always woth it. However, the main programming languages I use are PHP (with Laravel Framework) and Javascript</p><br>
 
-                 Love Laravel PHP framework and Javascript.
+                        Love Laravel PHP framework and Javascript.
                         
                         Git
                         NodeJS
@@ -174,29 +176,17 @@
             </section>
 
 
-
-
-
 <!-- 
-            <section class="s-see-some-projects">
+            <section class="s-see-some-projects"> DELETE
                 Take a glance on some of my project
             </section>
  -->
 
             <section class="s-portfolio">
+                <div id="projects-anchor"></div>
                 
                 <figure>
-                    <img src="/public/images/projects/ma.png" alt="img16">
-                    <figcaption>
-                        <h4>Marital Affair</h4>
-                        <p>As a part of digital agency team, Wonderlabs</p>
-                        <a href="//maritalaffair.com" rel="nofollow"></a>
-                    </figcaption>           
-                </figure>
-
-                
-                <figure>
-                    <img src="/public/images/projects/wl.jpg" alt="img16">
+                    <img src="/public/images/projects/wl.jpg" alt="wonderlabs">
                     <figcaption>
                         <h4>Wonderlabs Website</h4>
                         <p>As a part of digital agency team, Wonderlabs</p>
@@ -206,7 +196,7 @@
                     
                 
                 <figure>
-                    <img src="/public/images/projects/ul.png" alt="img16">
+                    <img src="/public/images/projects/ul.jpg" alt="uniqueliving">
                     <figcaption>
                         <h4>Unique Living Mobile</h4>
                         <p>As a part of digital agency team, Wonderlabs</p>
@@ -216,13 +206,23 @@
                     
                 
                 <figure>
-                    <img src="//placekitten.com/640/480" alt="img16">
+                    <img src="/public/images/projects/ma.jpg" alt="maritalaffair">
                     <figcaption>
                         <h4>Biberódromo</h4>
                         <p>Bubba likes to appear out of thin air.</p>
                         <a href="//biberodromo.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
+                
+                <figure> <!-- 700 * 525 -->
+                    <img src="/public/images/projects/bd.jpg" alt="biberodromo">
+                    <figcaption>
+                        <h4>Marital Affair</h4>
+                        <p>As a part of digital agency team, Wonderlabs</p>
+                        <a href="//maritalaffair.com" rel="nofollow"></a>
+                    </figcaption>           
+                </figure>
+
                     
             </section>
 
@@ -286,6 +286,7 @@
                             <i class="icon-skype"></i>
                         </a>
                 </ul>
+                <div id="contact-anchor"></div>
             </section>
         </div>
 
@@ -329,7 +330,7 @@
                     </div><!-- / controls -->
                 </div><!-- /simform-inner -->
                 <span class="final-message"></span>
-            </form><!-- /simform -->            
+            </form><!-- /simform -->
         </footer>
 
 

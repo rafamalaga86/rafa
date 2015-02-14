@@ -361,6 +361,7 @@ body{
 //////////////// FIRST SECTION //////////////////////////////////
 header{
 	width: 100%;
+	position: relative;
 	background: url(/public/images/first-section-bg.jpg) no-repeat;
 	background-size: cover;
 	@media @1000{
@@ -403,6 +404,28 @@ header{
 			}
 		}
 	}
+	.arrow{
+		display: block;
+		position: absolute;
+		left: 50%;
+		width: 100px;
+		height: 100px;
+		background-color: rgba(0,0,0,0.3);
+		cursor: pointer;
+		margin-left: -50px;
+		bottom: 50px;
+		text-align: center;
+		border-radius: 50%;
+		-webkit-transition: background-color .2s;
+		transition: background-color .2s;
+		&:hover{
+			background-color: rgba(0,0,0,0.4);
+		}
+		img{
+			display: inline-block;
+			margin-top: 40px;
+		}
+	}
 }
 
 
@@ -443,6 +466,11 @@ header{
 .s-introduction{
 	background-color: @skin;
 	padding: 100px;
+
+	#introduction-anchor{
+		position: relative;
+		bottom: 170px;
+	}
 
 	h3{
 		letter-spacing: -2.1px;
@@ -508,6 +536,11 @@ header{
 	position: relative;
 	overflow: hidden;
 
+	#projects-anchor{
+		position: relative;
+		bottom: 70px;
+	}
+
 	h4{
 		color: white;
 		text-transform: uppercase;
@@ -540,8 +573,8 @@ header{
 		position: relative;
 		display: block;
 		min-height: 100%;
-		max-width: 100%;
-	}
+		width: 100%;
+	} 
 
 	figure:hover img {
 		opacity: 0.4;
