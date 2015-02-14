@@ -71,7 +71,7 @@
 
                 <div class="hold">
 
-                    <div class="column1-2-big">
+                    <div class="column1-2-big d-introduction">
 
                         <h3><strong>Back-End</strong> and <strong>Front-End</strong></h3>
                         <p>As a Back-End I aim to write clean, efficient and elegant code. As a Fron-End my goal is to make good looking highly responsive websites.</p>
@@ -209,7 +209,7 @@
 
                         <p>Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser.</p>
 
-                        <p>I think that taking the risk of trying a new technology is always woth it.</p><br>
+                        <!-- <p>I think that taking the risk of trying a new technology is always woth it.</p><br> -->
 
                     </div>
 

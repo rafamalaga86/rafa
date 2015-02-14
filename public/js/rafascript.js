@@ -91,11 +91,25 @@ function readjust(){
     $('body').css("padding-bottom", winh);
 }
 
+function listenWidth() {
+
+    if( $(window).width() <= 1040 ){
+
+        $(".d-comments").remove().insertBefore($(".d-icons"));
+
+    } else {
+
+        $(".d-comments").remove().insertAfter($(".d-icons"));
+    }
+}
+
 readjust();
+listenWidth();
 
 $(window).on('resize', function(){ // ON WINDOWS RESIZE
 	readjust();
-});
+    listenWidth();
+}); 
 
 
 
