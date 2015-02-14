@@ -24,6 +24,7 @@
     <body>
         <div class="wrapper">
 
+
             <section class="s-navigation">
                 <nav class="hold">
                     <a href="#" class="left"><h1>Rafael García Doblas</h1></a><!--
@@ -33,6 +34,7 @@
                 </nav>
             </section>
 
+
             <header class="full-screen-section">
                 <div class="hold">
                     <h3>Hi <span class="red">There!</span></h3>
@@ -40,7 +42,7 @@
                     <p>A proud <span class="red">web developer</span>. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></p>
                 </div>
                 <a class="arrow" href="#introduction-anchor">
-                    <img src="/public/images/arrow-down.png" alt="Arrow down" width="53">
+                    <i class="icon-arrow-left"></i>
                 </a>
             </header>
 
@@ -64,15 +66,15 @@
 
 
             <section class="s-introduction">
+
+                <div id="introduction-anchor"></div>
+
                 <div class="hold">
 
-                    <div id="introduction-anchor"></div>
-
-                    <div class="column1-2">
+                    <div class="column1-2-big">
 
                         <h3><strong>Back-End</strong> and <strong>Front-End</strong></h3>
                         <p>As a Back-End I aim to write clean, efficient and elegant code. As a Fron-End my goal is to make good looking highly responsive websites.</p>
-                        <p>Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser in all of them.</p>
                         <p>Love to plan websites, to study every detail, to work along my colleagues designers, to discuss about UX...</p>
                         <br><p>I <strong>always</strong> fancy a coffee.</p>
 
@@ -80,7 +82,7 @@
 
 
 
-                i--><div class="column1-2">
+                i--><div class="column1-2-small">
                         
                         <div class="md-slider">
                             <div class="md-device-wrapper">
@@ -106,69 +108,108 @@
                 <div class="hold">
 
 
-                    <div class="column1-2 d-icons">
+                    <div class="column1-2-big d-icons">
                         <ul>
-                            <li><i class="icon-git-plain-wordmark" title="I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, I do deploy with Git as well." data-tooltip data-options="hover_delay: 300;"></i></li>
-                            <li><i class="icon-php-plain" title="I understand why so many developers avoid PHP. This language could be often inconsistent, full of exceptions and does not have a clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face. I also have worked with Wordpress or Codeigniter often." data-tooltip></i></li>
-                            <li><i class="icon-laravel-plain" title="I was feeling down on the PHP language till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating..." data-tooltip></i></li>
-                            <li><i class="icon-javascript-plain" title="Vanilla Javascript has become really useful. In one side in the server with NodeJS. In the other side, it has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it. Always enjoy doing vanilla Javascript." data-tooltip></i></li>
+                            <li title="I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, I do deploy with Git as well." data-tooltip data-options="hover_delay: 300;">
+                                <i class="icon-git-plain-wordmark"></i>
+                            </li>
+                            <li title="I understand why so many developers avoid PHP. This language could be often inconsistent, full of exceptions and does not have a clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face. I also have worked with Wordpress or Codeigniter often." data-tooltip>
+                                <i class="icon-php-plain"></i>
+                            </li>
+                            <li title="I was feeling down on the PHP language till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating..." data-tooltip>
+                                <i class="icon-laravel-plain"></i>
+                            </li>
+                            <li title="Vanilla Javascript has become really useful. In one side in the server with NodeJS. In the other side, it has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it. Always enjoy doing vanilla Javascript." data-tooltip>
+                                <i class="icon-javascript-plain"></i>
+                            </li>
 
-                            <li><i class="icon-linux-plain" title="I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many types of Linux servers." data-tooltip></i></li>
-                            <li><i class="icon-ubuntu-plain" title="My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu." data-tooltip></i></li>
-                            <!-- <li><i class="icon-elementary-plain" title="ola k ase" data-tooltip></i></li> -->
-                            <li><i class="icon-vim-plain" title="Just VIM." data-tooltip></i></li>
-                            <li><i class="icon-sublimetext-plain" title="I have been using Sublime Text for years. I agree that is not that powerful as some IDEs, but the flexibility and speed of Sublime is essential to me." data-tooltip></i></li>
+                            <li title="I've using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to." data-tooltip>
+                                <img src="/public/images/logos/digital-ocean.svg" alt="digital-ocean">
+                            </li>
+                            <li title="I have tried it and the experience was really good. Sadly, never had an app big enough to need such a platform." data-tooltip>
+                                <i class="icon-amazonwebservices-plain-wordmark"></i>
+                            </li>
+                            <li title="Using Javascript in both Back-End and Front-End development always sounded good for me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and have use for Ghost thought." data-tooltip>
+                                <i class="icon-nodejs-plain-wordmark"></i>
+                            </li>
+                            <li title="I used to use Apache, but I moved to Nginx due to better performance." data-tooltip>
+                                <img src="/public/images/logos/nginx.svg" alt="nginx">
+                            </li>
+                            
+                            <li title="I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many types of Linux servers." data-tooltip>
+                                <i class="icon-linux-plain"></i>
+                            </li>
+                            <li title="My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu." data-tooltip>
+                                <i class="icon-ubuntu-plain"></i>
+                            </li>
 
-                            <li><i class="icon-digitalocean-plain-wordmark" title="I've using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to." data-tooltip></i></li>
-                            <li><i class="icon-amazonwebservices-plain-wordmark" title="I have tried it and the experience was really good. Sadly, never had an app big enough to need such a platform." data-tooltip></i></li>
-
-                            <li><i class="icon-nodejs-plain-wordmark" title="Using Javascript in both Back-End and Front-End development always sounded good for me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and have use for Ghost thought." data-tooltip></i></li>
-                            <li><i class="icon-nodejs-plain-wordmark NGINEX" title="I used to use Apache, but I moved to Nginx due to better performance." data-tooltip></i></li>
-                            <li><i class="icon-ghost-plain-wordmark" title="I felt in love with Ghost in the very first momment I saw the Admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress different." data-tooltip></i></li>
+                            <li title="I don't use MySQL that much anymore thanks to ORMs. But I have been doing queries since my degree." data-tooltip>
+                                <i class="icon-mysql-plain-wordmark"></i>
+                            </li>
+                            <li title="I felt in love with Ghost in the very first momment I saw the Admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress different." data-tooltip>
+                                <i class="icon-ghost-plain-wordmark ghost"></i>
+                            </li>
                             <!-- <li><i class="icon-mongodb-plain" title="" data-tooltip></i></li> -->
-                            <li><i class="icon-npm-plain-wordmark" title="I could not work without NPM. It has all type of packages. In addition of Browserify, you can also use it for Front-End development." data-tooltip></i></li>
+                            <li title="I could not work without NPM. It has all type of packages. In addition of Browserify, you can also use it for Front-End development." data-tooltip>
+                                <i class="icon-npm-plain-wordmark"></i>
+                            </li>
 
-                            <li><i class="icon-angularjs-plain-wordmark" title="Before diggin in AngularJS I want to master Node. But really feels like somehting I have to learn soon. I have tried Backbone but Angular is gaining more and more fans." data-tooltip></i></li>
-                            <li><i class="icon-foundation-plain-wordmark" title="I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosify is being an 'skeleton' rather than a bunch of elements already made. And I like that." data-tooltip></i></li>
+                            <li title="Before diggin in AngularJS I want to master Node. But really feels like somehting I have to learn soon. I have tried Backbone but Angular is gaining more and more fans." data-tooltip>
+                                <i class="icon-angularjs-plain-wordmark"></i>
+                            </li>
+                            <li title="I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosify is being an 'skeleton' rather than a bunch of elements already made. And I like that." data-tooltip>
+                                <i class="icon-foundation-plain-wordmark"></i>
+                            </li>
 
 
-                            <li><i class="icon-html5-plain" title="Just HTML5. There is no place for XHTML or HTML4 these days." data-tooltip></i></li>
-                            <li><i class="icon-grunt-line-wordmark" title="ola k ase" data-tooltip></i></li>
+                            <li title="Just HTML5. There is no place for XHTML or HTML4 these days." data-tooltip>
+                                <i class="icon-html5-plain"></i>
+                            </li>
+                            <li title="ola k ase" data-tooltip>
+                                <i class="icon-grunt-line-wordmark"></i>
+                            </li>
 
-                            <li><i class="icon-less-plain-wordmark" title="I can use Less or Sass equally, I find advantages and disadvantages in them both." data-tooltip></i></li>
-                            <li><i class="icon-sass-original" title="I can use Sass or Less equally, I find advantages and disadvantages in them both." data-tooltip></i></li>
+                            <li title="I can use Less or Sass equally, I find advantages and disadvantages in them both." data-tooltip>
+                                <i class="icon-less-plain-wordmark"></i>
+                            </li>
+                            <li title="I can use Sass or Less equally, I find advantages and disadvantages in them both." data-tooltip>
+                                <i class="icon-sass-original"></i>
+                            </li>
+                            <li title="I can use Sass or Less equally, I find advantages and disadvantages in them both." data-tooltip>
+                                <i class="icon-wordpress-plain-wordmark"></i>
+                            </li>
+
+                            <!-- 
+                            <li title="I can use Sass or Less equally, I find advantages and disadvantages in them both." data-tooltip>
+                                <i class="icon-elementary-plain"></i>
+                            </li> -->
+
+                            <!-- 
+                            <li title="I have been using Sublime Text for years. I agree that is not that powerful as some IDEs, but the flexibility and speed of Sublime is essential to me." data-tooltip>
+                                <i class="icon-sublimetext-plain"></i>
+                            </li> -->
+
+                            <!-- <li title="Just VIM." data-tooltip>
+                                <i class="icon-vim-plain"></i>
+                            </li> -->
 
                         </ul>
                         
                     </div><!-- end .column1-2
 
-                i--><div class="column1-2 d-comments">
+                i--><div class="column1-2-small d-comments">
 
-                        <p>I think that taking the risk of trying a new technology is always woth it. However, the main programming languages I use are PHP (with Laravel Framework) and Javascript</p><br>
+                        <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
 
-                        Love Laravel PHP framework and Javascript.
-                        
-                        Git
-                        NodeJS
-                        Laravel
-                        MongoDB
-                        Grunt
-                        Foundation
-                        
-                        Linux
-                        AngularJS
+                        <p> I use OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I always enjoy work as a part of a team. </p>
 
-                        Sublime Text
-                        ElementaryOS
-                        NginX
-                        Ghost blog
+                        <p> I have an Engineering in Information Technology from Málaga University in Spain.</p>
 
-                        Splendid
+                        <p>In total, I have four years working as a developer. I have been working in Spain, England and Czech Republic, as an employee and as a freelancer.</p>
 
-                        Javasript.
-                        Object Oriented PHP.
+                        <p>Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser.</p>
 
-                        I have developed in Linux, Mac and Windows.
+                        <p>I think that taking the risk of trying a new technology is always woth it.</p><br>
 
                     </div>
 
@@ -251,6 +292,8 @@
                 </div>
             </section>
 
+
+
             <section class="s-cta">
                 <div class="hold">
                     <div class="floating-text">
@@ -265,6 +308,17 @@
                     </div>
                 </div>
             </section>
+
+            <section class="s-cta-mobile">
+                <img src="//placekitten.com/1500/600" alt="super-rafa-mobile">
+            </section>
+
+            <section class="s-ring-mail">
+                <button class="button button-effect icon-phone"><span>Call Rafa</span></button><!--
+            i--><button class="button button-effect icon-paperplane"><span>Mail Rafa</span></button>
+            </section>
+
+
 
             <section class="s-socia-networks">
                 <ul>

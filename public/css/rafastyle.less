@@ -17,6 +17,7 @@
 @800: ~"screen and (max-width: 800px)";
 @ipadpt: ~"screen and (max-width: 768px)";
 @700: ~"screen and (max-width: 700px)";
+@750: ~"screen and (max-width: 750px)";
 @600: ~"screen and (max-width: 600px)";
 @iphonelc: ~"screen and (max-width: 568px)";
 @500: ~"screen and (max-width: 500px)";
@@ -245,17 +246,73 @@ h5, h6{
 	box-sizing: border-box;
 	vertical-align: top;
 	overflow: hidden;
-	@media @600{
-		width: 100px;
-	}
 	&:nth-child(1){
 		padding-right: 2.5%;
 	}
 	&:nth-child(2){
 		padding-left: 2.5%;
 	}
+	@media @600{
+		width: 100%;
+		&:nth-child(1){
+			padding-right: 0;
+		}
+		&:nth-child(2){
+			padding-left: 0;
+		}
+	}
 }
 
+
+
+
+.column1-2-big{
+	display: inline-block;
+	width: 60%;
+	box-sizing: border-box;
+	vertical-align: top;
+	overflow: hidden;
+	&:nth-child(1){
+		padding-right: 4%;
+	}
+	&:nth-child(2){
+		padding-left: 4%;
+	}
+	@media @600{
+		width: 100%;
+		&:nth-child(1){
+			padding-right: 0;
+		}
+		&:nth-child(2){
+			padding-left: 0;
+		}
+	}
+}
+
+
+
+.column1-2-small{
+	display: inline-block;
+	width: 40%;
+	box-sizing: border-box;
+	vertical-align: top;
+	overflow: hidden;
+	&:nth-child(1){
+		padding-right: 4%;
+	}
+	&:nth-child(2){
+		padding-left: 4%;
+	}
+	@media @600{
+		width: 100%;
+		&:nth-child(1){
+			padding-right: 0;
+		}
+		&:nth-child(2){
+			padding-left: 0;
+		}
+	}
+}
 
 
 ////////////////////////////////////////////////////////////////
@@ -346,6 +403,7 @@ body{
 				color: @red;
 				@media @800{
 					font-size: 16px;
+					line-height: 50px;
 				}
 			}
 		}
@@ -421,9 +479,12 @@ header{
 		&:hover{
 			background-color: rgba(0,0,0,0.4);
 		}
-		img{
+		i::before{
 			display: inline-block;
-			margin-top: 40px;
+			color: white;
+			font-size: 50px;
+			margin-top: 30px;
+			transform: rotate(270deg);
 		}
 	}
 }
@@ -465,11 +526,17 @@ header{
 
 .s-introduction{
 	background-color: @skin;
-	padding: 100px;
+	padding: 100px 0;
 
 	#introduction-anchor{
 		position: relative;
 		bottom: 170px;
+		@media @800{
+			bottom: 150px;
+		}
+		@media @600{
+			bottom: 100px;
+		}
 	}
 
 	h3{
@@ -487,7 +554,7 @@ header{
 	.md-device{
 		 button::before{
 			font-family: 'icomoon';
-			content: "\e606";
+			content: "\e608";
 			transform: scaleX(-1);
 			display: block;
 		 }
@@ -508,18 +575,47 @@ header{
 	background-color: @skin;
 	padding-bottom: 150px;
 
+	h3{
+		letter-spacing: -2.1px;
+		margin-top: -20px;
+		font-size: 45px;
+		margin-left: -3px;
+		padding-bottom: 30px;
+	}
+
+	p{
+		font-size: 18px;
+		padding-bottom: 15px;
+	}
+
 	.d-icons{
 		text-align: left;
 		li{
-			display: inline-block;
-			width: 118px;
-			height: 97px;
+			display: block;
+			float: left;
+			width: 90px;
+			height: 95px;
+			margin: 0 30px 25px 0;
+			&:nth-child(5n){
+				margin-right: 0;
+			}
+			img{
+				max-width: 100%;
+				vertical-align: middle;
+				height: 100%;
+				display: inline-block;
+			}
 			&:hover{
 				i:before{
-					color: @red_lighter;	
+					color: @red_lighter;
+					display: inline-block;
 				}
 			}
+			i.ghost:before{
+				font-size: 75px;
+			}
 			i:before{
+				line-height: 90px;
 				font-size: 90px;
 				color: @red;
 				-webkit-transition: color .2s;
@@ -660,6 +756,15 @@ header{
 .s-cta{
 	height: 576px;
 	background: #302e31 url(/public/images/about-section-bg.jpg) no-repeat center top;
+	@media @900{
+		background-position: 85% top;
+	}
+	@media @800{
+		background-position: 75% top;
+	}
+	@media @750{
+		display: none;
+	}
 	.hold{
 		overflow: hidden;
 	}
@@ -700,6 +805,30 @@ header{
 	}
 }
 
+.s-cta-mobile{
+	display: none;
+	img{
+		vertical-align: top;
+		width: 100%;
+	}
+	@media @750{
+		display: block;
+	}
+}
+
+.s-ring-mail{
+	text-align: center;
+	button{
+		width: 50%;
+		background-color: @grey;
+		&:first-child{
+			border-right: 1px solid #444;
+		}
+		&:nth-child(2){
+			border-left: 1px solid #444;
+		}
+	}
+}
 
 
 
@@ -810,3 +939,35 @@ header{
 
 
 
+
+
+/////////////////////// ANIMATIONS /////////////////////////////
+
+
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate3d(0px, 0px, 0px);}
+	25% { -webkit-transform: translate3d(-4px, 0px, 0px);}
+	75% { -webkit-transform: translate3d(4px, 0px, 0px);}
+	100% { -webkit-transform: translate3d(0px, 0px, 0px);}
+}
+
+@keyframes shakee {
+	0% { transform: translate3d(0px, 0px, 0px);}
+	25% { transform: translate3d(-4px, 0px, 0px);}
+	75% { transform: translate3d(4px, 0px, 0px);}
+	100% { transform: translate3d(0px, 0px, 0px);}
+}
+
+.shake{
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 0.1s;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+
+	animation-name: shakee;
+	animation-duration: 0.4s;
+	transform-origin: 50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}

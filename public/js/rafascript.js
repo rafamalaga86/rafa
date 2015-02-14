@@ -19,6 +19,32 @@ $(function() {
 });
 
 
+// Script for making the arrow shake if screen does not scroll in some seconds
+
+var moved = false;
+var arrow = document.getElementsByClassName('arrow')[0];
+
+
+
+$(window).on('scroll', function(){
+    moved = true;
+});
+
+
+
+function arrowShake(){
+    if (!moved) {
+        arrow.className = arrow.className + ' shake';
+
+        setTimeout(function(){
+            arrow.className = 'arrow';
+        }, 1000);
+    }
+}
+
+setInterval(arrowShake, 5000);
+
+
 // Preload images
 
 function preload(arrayOfImages) {

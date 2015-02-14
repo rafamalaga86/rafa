@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-jquuf0');
-	src:url('fonts/icomoon.eot?#iefix-jquuf0') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-jquuf0') format('woff'),
-		url('fonts/icomoon.ttf?-jquuf0') format('truetype'),
-		url('fonts/icomoon.svg?-jquuf0#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?vyxx87');
+	src:url('fonts/icomoon.eot?#iefixvyxx87') format('embedded-opentype'),
+		url('fonts/icomoon.woff?vyxx87') format('woff'),
+		url('fonts/icomoon.ttf?vyxx87') format('truetype'),
+		url('fonts/icomoon.svg?vyxx87#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -31,7 +31,7 @@
 	content: "\e602";
 }
 
-.icon-undo2:before {
+.icon-user:before {
 	content: "\e608";
 }
 
@@ -43,16 +43,20 @@
 	content: "\e60e";
 }
 
+.icon-phone2:before {
+	content: "\e60f";
+}
+
 .icon-paperplane:before {
 	content: "\e610";
 }
 
-.icon-airplane:before {
-	content: "\e613";
+.icon-quote:before {
+	content: "\e611";
 }
 
-.icon-arrow-left:before {
-	content: "\e617";
+.icon-airplane:before {
+	content: "\e613";
 }
 
 .icon-github:before {
