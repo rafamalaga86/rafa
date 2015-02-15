@@ -408,12 +408,24 @@ body{
 header{
 	width: 100%;
 	position: relative;
-	background: url(/public/images/first-section-bg.jpg) no-repeat;
+	background: url(/public/images/header-bg.jpg) no-repeat;
 	background-size: cover;
-	min-height: 800px;
-	@media @600{
+	min-height: 850px;
+	@media @1400{
 		background-position-x: right;
-		text-align: center;
+	}
+	@media @1200{
+		background-position-x: 90%;
+	}
+	@media @ipadlc{
+		background-image: url(/public/images/header-bg-tablet.jpg);
+		background-position: center bottom;
+	}
+	@media @ipadpt{
+		background-size: 900px auto;
+	}
+	@media @400{
+		min-height: 700px;
 	}
 	.hold{
 		h2,h3,p{
@@ -439,9 +451,15 @@ header{
 				font-size: 60px;
 			}
 		}
+		.what-i-love{
+			@media @600{
+				display: none;
+			}
+		}
 		p{
 			.curly-brackets{
 				font-size: 45px;
+				line-height: 25px;
 				color: @grey;
 				@media @700{
 					font-size: 30px;
@@ -463,6 +481,15 @@ header{
 		border-radius: 50%;
 		-webkit-transition: background-color .2s;
 		transition: background-color .2s;
+		@media @ipadlc{
+			right: 100px;
+			bottom: 250px;
+			left: auto;
+			margin-left: 0;
+			// border-radius: 0;
+			// height: 50px;
+			// margin-top: 8px;
+		}
 		@media @600{
 			display: none;
 		}
@@ -475,6 +502,10 @@ header{
 			font-size: 50px;
 			margin-top: 30px;
 			transform: rotate(270deg);
+			@media @ipadlc{
+				// margin-top: 8px;
+				// font-size: 35px;
+			}
 		}
 	}
 }
@@ -519,6 +550,14 @@ header{
 	padding: 100px 0;
 
 	@media @ipadlc{
+		padding: 75px 0;
+	}
+
+	.inline{
+		display: inline;
+	}
+
+	@media @ipadlc{
 		.column1-2-small{
 			display: none;
 		}
@@ -560,6 +599,18 @@ header{
 		font-size: 18px;
 		padding-bottom: 15px;
 	}
+
+	span.margin{
+		font-size: 18px;
+		padding-bottom: 15px;
+		display: inline-block;
+		line-height: 1.6;
+
+		@media @ipadlc{
+			display: inline;
+			padding-bottom: 0;
+		}
+	}
 }
 
 
@@ -569,7 +620,11 @@ header{
 
 .s-techs{
 	background-color: @skin;
-	padding-bottom: 150px;
+	padding-bottom: 100px;
+
+	@media @ipadlc{
+		padding-bottom: 75px;
+	}
 
 	h3{
 		letter-spacing: -2.1px;

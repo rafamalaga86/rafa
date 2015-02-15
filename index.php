@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <title>Rafael García Doblas</title>
         <meta name="description" content="Rafael García Doblas, Web Developer">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, minimal-ui">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
         <meta name="format-detection" content="telephone=no">
         <meta name="author" content="Rafael Garcia Doblas">
         <meta name="robots" content="noindex, nofollow">
@@ -39,29 +39,12 @@
                 <div class="hold">
                     <h3>Hi <span class="red">There!</span></h3>
                     <h2>I am <span class="red">Rafael García Doblas</span></h2>
-                    <p>A proud <span class="red">web developer</span>. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></p>
+                    <p>A proud <span class="red">web developer</span>.<span class="what-i-love">I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></span></p>
                 </div>
                 <a class="arrow" href="#introduction-anchor">
                     <i class="icon-arrow-left"></i>
                 </a>
             </header>
-
-            <?php /* DELETE
-            <section class="s-greetings">
-                <div class="hold">
-                    <div class="first">
-                        <h2>This is what I do</h2>
-                    </div><!--
-                i--><div class="second">
-                        
-                    </div>
-                    <a href="" class="button vertical-swap">
-                        <span class="first-content">Download my CV</span>
-                        <i class="second-content icon-signup"></i>
-                    </a>
-                </div>
-            </section>
-            */ ?>
 
 
             <section class="s-introduction">
@@ -72,10 +55,10 @@
 
                     <div class="column1-2-big d-introduction">
 
-                        <h3><strong>Back-End</strong> and <strong>Front-End</strong></h3>
-                        <p>As a Back-End I aim to write clean, efficient and elegant code. As a Fron-End my goal is to make good looking highly responsive websites.</p>
-                        <p>Love to plan websites, to study every detail, to work along my colleagues designers, to discuss about UX...</p>
-                        <br><p>I <strong>always</strong> fancy a coffee.</p>
+                        <h3><strong>Back-End</strong> <span>and</span> <strong>Front-End</strong></h3>
+                        <p><span class="margin">As a Back-End I aim to write clean, efficient and elegant code. As a Fron-End my goal is to make good looking highly responsive websites.</span>
+                        <span class="margin">Love to plan websites, to study every detail, to work along my colleagues designers, to discuss about UX...</span></p>
+                        <p>I <strong>always</strong> fancy a coffee.</p>
 
                     </div><!-- .column1-2 
 

@@ -200,13 +200,13 @@
 	border-radius: 0 0 5px 5px;
 	top: 100%;
 	width: 100%;
-	background: #ddd;
+	background: #bbb;
 	left: 50%;
 }
 
 /* md-border-element:after; -- grey inset opending macbook */
 .md-border-element:after {
-	background: #aaa;
+	background: #888;
 	width: 100px;
 	border-radius: 0 0 6px 6px;
 	height: 5px;
@@ -227,7 +227,7 @@
 	width: 80px;
 	height: 0;
 	background: transparent;
-	border-bottom: 30px solid #ddd;
+	border-bottom: 30px solid #bbb;
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
 	-webkit-transform: translateY(30px) translateX(-50%) translateY(-75%);
@@ -238,7 +238,7 @@
 
 /* md-base-element:after -- socket of base imac */
 .md-base-element:after {
-	background: #ddd;
+	background: #bbb;
 	border-radius: 30px 30px 10px 10px;
 	width: 260px;
 	height: 12px;
@@ -284,7 +284,7 @@
 	opacity: 1;
 	width: 125%;
 	height: 17px;
-	background: #ddd;
+	background: #bbb;
 	border-radius: 0 0 20px 20px;
 }
 
