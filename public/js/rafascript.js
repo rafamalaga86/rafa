@@ -72,15 +72,6 @@ preload([
 
 
 
-// Activate foundation scripts
-            
-
-$(document).foundation({
-    tooltip: {
-        hover_delay: 0
-    }
-});
-
 
 
 
@@ -90,12 +81,25 @@ $(document).foundation({
 jQuery(function($){
 
 
+
+
+// Activate foundation scripts
+            
+$(document).foundation();
+
+
+
+
+// Full screen sections
+
 function readjust(){
     winh = $(window).height();
     $('.full-screen-section').height(winh);
     $('body').css("padding-bottom", winh);
 }
 
+
+// Move sections on responsive
 function listenWidth() {
 
     if( $(window).width() <= 1040 ){

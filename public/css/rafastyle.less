@@ -409,7 +409,7 @@ body{
 
 
 
-//////////////// FIRST SECTION //////////////////////////////////
+//////////////// HEADER //////////////////////////////////
 header{
 	width: 100%;
 	position: relative;
@@ -562,14 +562,14 @@ header{
 */
 
 
-//////////////// MORPHING SECTION //////////////////////////////////
+//////////////// INTRODUCTION SECTION //////////////////////////////////
 
 .s-introduction{
 	background-color: @skin;
 	padding: 100px 0;
 
 	@media @ipadlc{
-		padding: 75px 0;
+		padding: 65px 0;
 	}
 
 	.inline{
@@ -659,13 +659,34 @@ header{
 		padding-bottom: 15px;
 	}
 
+	span.margin{
+		font-size: 18px;
+		padding-bottom: 15px;
+		display: inline-block;
+		line-height: 1.6;
+
+		@media @ipadlc{
+			display: inline;
+			padding-bottom: 0;
+		}
+	}
+
 	.d-icons{
 		text-align: left;
 		@media @ipadlc{
-			padding-top: 100px;
+			padding-top: 50px;
 			text-align: center;
 		}
 		li{
+			a{
+				display: block;
+				float: left;
+				img{
+					@media @ipadlc{
+
+					}
+				}
+			}
 			display: block;
 			float: left;
 			width: 90px;
@@ -679,11 +700,12 @@ header{
 				display: inline-block;
 				float: none;
 				vertical-align: top;
+				margin: 12px 12px;
 			}
 			&:nth-child(5n){
 				margin-right: 0;
 				@media @ipadlc{
-					margin-right: 28px;
+					margin: 12px 12px;
 				}
 			}
 			img{

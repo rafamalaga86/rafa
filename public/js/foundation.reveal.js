@@ -10,7 +10,7 @@
 
     settings : {
       animation : 'fadeAndFade',
-      animation_speed : 150,
+      animation_speed : 50,
       close_on_background_click : true,
       close_on_esc : true,
       dismiss_modal_class : 'close-reveal-modal',

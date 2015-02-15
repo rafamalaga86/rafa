@@ -93,7 +93,7 @@
 
                     <div class="column1-2-big d-icons">
                         <ul>
-                            <li><a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a>
+                            <li><a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="php-modal"><i class="icon-php-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="laravel-modal"><i class="icon-laravel-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="javascript-modal"><i class="icon-javascript-plain"></i></a></li>
@@ -122,13 +122,15 @@
 
                         <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
 
-                        <p> I use OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I always enjoy work as a part of a team. </p>
+                        <p>
+                            <span class="margin">I use OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I always enjoy work as a part of a team. </span>
 
-                        <p> I have an Engineering in Information Technology from Málaga University in Spain.</p>
+                            <span class="margin"> I have an Engineering in Information Technology from Málaga University in Spain.</span>
 
-                        <p>In total, I have four years working as a developer. I have been working in Spain, England and Czech Republic, as an employee and as a freelancer.</p>
+                            <span class="margin">In total, I have four years experience as a web developer. I have been working in Spain, England and Czech Republic, as an employee and as a freelancer.</span>
 
-                        <p>Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser.</p>
+                            <span class="margin">Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser.</span>
+                        </p>
 
                         <!-- <p>I think that taking the risk of trying a new technology is always woth it.</p><br> -->
 
@@ -321,7 +323,7 @@
         </div>
         <div id="php-modal" class="reveal-modal tiny" data-reveal>
             <h6>PHP</h6>
-            <p>I use Object Oriented PHP in a daily basis. I understand why so many developers avoid PHP. This language could be often inconsistent, full of exceptions and does not have a clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face. I also have worked with Wordpress or Codeigniter often.</p>
+            <p>I use Object Oriented PHP in a daily basis. With Laravel, Wordpress or Codeigniter. PHP could be sometimes inconsistent, full of exceptions or lack clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="laravel-modal" class="reveal-modal tiny" data-reveal>
@@ -446,5 +448,6 @@
 
         <!-- my scripts -->
         <script src="/public/js/rafascript.js"></script>
+
     </body>
 </html>
