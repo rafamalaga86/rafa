@@ -46,7 +46,6 @@
                 </a>
             </header>
 
-
             <?php /* DELETE
             <section class="s-greetings">
                 <div class="hold">
@@ -108,11 +107,25 @@
                 <div class="hold">
 
 
+
+            <div id="git-modal" class="reveal-modal tiny" data-reveal>
+                <h2>Git</h2>
+                <p>I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, I do deploy with Git as well.</p>
+                <a class="close-reveal-modal">&#215;</a>
+            </div>
+
+
+
+
                     <div class="column1-2-big d-icons">
                         <ul>
-                            <li title="I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, I do deploy with Git as well." data-tooltip data-options="hover_delay: 300;">
-                                <i class="icon-git-plain-wordmark"></i>
-                            </li>
+                            <li>
+                                <a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a>
+
+                                
+                            
+
+
                             <li title="I understand why so many developers avoid PHP. This language could be often inconsistent, full of exceptions and does not have a clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face. I also have worked with Wordpress or Codeigniter often." data-tooltip>
                                 <i class="icon-php-plain"></i>
                             </li>
@@ -402,7 +415,7 @@
         
         <!-- foundation -->
         <script src="/public/js/foundation.js"></script>
-        <script src="/public/js/foundation.tooltip.js"></script>
+        <script src="/public/js/foundation.reveal.js"></script>
 
         <script>
         </script>

@@ -32,7 +32,7 @@
 @import "../icons/style.css"; // Icons
 @import "/public/css/form-component.css"; // Form
 @import "/public/css/morphing-component.css"; // Morphing Devices
-@import "/public/css/foundation.tooltip.css"; // Morphing Devices
+@import "/public/css/foundation.reveal.css"; // Morphing Devices
 
 //---------------- FONTS ----------------//
 
@@ -409,11 +409,10 @@ header{
 	position: relative;
 	background: url(/public/images/first-section-bg.jpg) no-repeat;
 	background-size: cover;
-	@media @1000{
-		background-position-x: -400px;
-	}
-	@media @800{
-		background-position-x: -440px;
+	min-height: 800px;
+	@media @600{
+		background-position-x: right;
+		text-align: center;
 	}
 	.hold{
 		h2,h3,p{
@@ -463,6 +462,9 @@ header{
 		border-radius: 50%;
 		-webkit-transition: background-color .2s;
 		transition: background-color .2s;
+		@media @600{
+			display: none;
+		}
 		&:hover{
 			background-color: rgba(0,0,0,0.4);
 		}
