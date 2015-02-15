@@ -236,8 +236,8 @@
                 <img src="/public/images/s-cta-bg-mobile.jpg" alt="super-rafa-mobile">
 
                 <div class="d-ring-mail">
-                    <button class="button button-effect icon-phone"><span>Call Rafa</span></button><!--
-                i--><button class="button button-effect icon-paperplane"><span>Mail Rafa</span></button>
+                    <button class="button"><span>Call Rafa</span></button><!--
+                i--><button class="button"><span>Mail Rafa</span></button>
                 </div>
 
             </section>

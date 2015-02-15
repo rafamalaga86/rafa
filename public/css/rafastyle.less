@@ -953,6 +953,11 @@ header{
 	color: @grey;
 	li.column1-2{
 		text-align: center;
+		@media @600{
+			&:nth-child(2){
+				margin-top: 100px;
+			}
+		}
 		.summary{
 			font-size: 24px;
 		}
