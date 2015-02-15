@@ -65,9 +65,10 @@ body{
 	font-size: 16px;
 }
 
-a{
+a, a:hover, a:active, a:focus{
 	text-decoration: none;
-	color: @purple;
+	// color: @purple;
+	outline: 0;
 }
 
 
@@ -768,7 +769,7 @@ header{
 //////////////// FORM SECTION //////////////////////////////////
 .s-cta{
 	height: 576px;
-	background: #302e31 url(/public/images/about-section-bg.jpg) no-repeat center top;
+	background: #302e31 url(/public/images/s-cta-bg.jpg) no-repeat center top;
 	@media @900{
 		background-position: 85% top;
 	}
@@ -820,6 +821,7 @@ header{
 
 .s-cta-mobile{
 	display: none;
+	text-align: center;
 	img{
 		vertical-align: top;
 		width: 100%;
@@ -827,39 +829,33 @@ header{
 	@media @750{
 		display: block;
 	}
-}
-
-.s-ring-mail{
-	text-align: center;
-	button{
-		width: 50%;
-		background-color: @grey;
-		&:first-child{
-			border-right: 1px solid #444;
-		}
-		&:nth-child(2){
-			border-left: 1px solid #444;
+	.d-ring-mail{
+		button{
+			width: 50%;
+			background-color: @grey;
+			padding: 25px;
+			&:first-child{
+				border-right: 1px solid #444;
+			}
+			&:nth-child(2){
+				border-left: 1px solid #444;
+			}
 		}
 	}
 }
 
 
 
+
 //////////////// TESTIMONIALS SECTION //////////////////////////////////
 .s-testimonials{
 	padding: 50px 0;
-	background-color: @grey;
-	color: white;
+	background-color: @skin;
+	color: @grey;
 	li.column1-2{
 		text-align: center;
-		.i-container{
-			display: block;
-			width: 100%;
-			i{
-				display: inline-block;
-				font-size: 50px;
-				transform: rotate(180deg);
-			}
+		.summary{
+			font-size: 24px;
 		}
 		img{
 			border-radius: 50%;
@@ -872,6 +868,7 @@ header{
 		}
 		.name{
 			font-size: 30px;
+			color: @red;
 		}
 		.sub-title{
 			font-size: 13px;

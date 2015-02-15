@@ -105,9 +105,10 @@ meta.foundation-data-attribute-namespace {
   background: rgba(0, 0, 0, 0.45);
   z-index: 1004;
   display: none;
-  left: 0; }
+}
 
 .reveal-modal {
+  box-sizing: border-box;
   visibility: hidden;
   display: none;
   position: absolute;
@@ -120,7 +121,7 @@ meta.foundation-data-attribute-namespace {
   padding: 1.875rem;
   border: solid 1px #666666;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
-  @media only screen and (max-width: 40em) {
+ /* @media only screen and (max-width: 40em) {
     .reveal-modal {
       min-height: 100vh; } }
   .reveal-modal .column, .reveal-modal .columns {
@@ -128,7 +129,7 @@ meta.foundation-data-attribute-namespace {
   .reveal-modal > :first-child {
     margin-top: 0; }
   .reveal-modal > :last-child {
-    margin-bottom: 0; }
+    margin-bottom: 0; }*/
   @media only screen and (min-width: 40.063em) {
     .reveal-modal {
       width: 80%;
@@ -147,8 +148,9 @@ meta.foundation-data-attribute-namespace {
     padding: 0; }
   @media only screen and (min-width: 40.063em) {
     .reveal-modal.tiny {
-      width: 30%;
-      max-width: 62.5rem;
+      width: 600px;
+      max-width: 100%;
+      /*max-width: 62.5rem;*/
       left: 0;
       right: 0;
       margin: 0 auto; } }

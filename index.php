@@ -107,16 +107,6 @@
                 <div class="hold">
 
 
-
-            <div id="git-modal" class="reveal-modal tiny" data-reveal>
-                <h2>Git</h2>
-                <p>I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, I do deploy with Git as well.</p>
-                <a class="close-reveal-modal">&#215;</a>
-            </div>
-
-
-
-
                     <div class="column1-2-big d-icons">
                         <ul>
                             <li>
@@ -247,6 +237,15 @@
                         <a href="//wearewonderlabs.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
+                
+                <figure>
+                    <img src="/public/images/projects/ma.jpg" alt="maritalaffair">
+                    <figcaption>
+                        <h4>Biberódromo</h4>
+                        <p>Bubba likes to appear out of thin air.</p>
+                        <a href="//biberodromo.com" rel="nofollow"></a>
+                    </figcaption>           
+                </figure>
                     
                 
                 <figure>
@@ -257,16 +256,7 @@
                         <a href="//uniqueliving.com/mobile-version" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
-                    
-                
-                <figure>
-                    <img src="/public/images/projects/ma.jpg" alt="maritalaffair">
-                    <figcaption>
-                        <h4>Biberódromo</h4>
-                        <p>Bubba likes to appear out of thin air.</p>
-                        <a href="//biberodromo.com" rel="nofollow"></a>
-                    </figcaption>           
-                </figure>
+ 
                 
                 <figure> <!-- 700 * 525 -->
                     <img src="/public/images/projects/bd.jpg" alt="biberodromo">
@@ -288,15 +278,15 @@
                 <div class="hold">
                     <ul>
                         <li class="column1-2">
-                            <div class="i-container"><i class="icon-quote"></i></div>
-                            <p>Rafael is an extremely talented developer who was a true asset to our company, whereby he single-handedly added huge value to our service offerings He is totally focussed on the task at hand and has the ability to balance work at great speeds whilst still paying meticulous attention to detail. As well as this, Rafael really is great company in the workplace.</p>
+                            <h3 class="summary">"Rafael is an extremely talented developer"</h3>
+                            <p>Rafael is an extremely talented developer who was a true asset to our company, whereby he single-handedly added huge value to our service offerings He is totally focussed on the task at hand and has the ability to balance work at great speeds whilst still paying meticulous attention to detail.</p>
                             <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
                             <h5 class="name">Arni Lochner</h5>
                             <h6 class="sub-title">Creative Director at Wonderlabs</h6>
 
                         <li class="column1-2">
-                            <div class="i-container"><i class="icon-quote"></i></div>
-                            <p>Rafael is one of the most talented, dedicated and nicest people I have ever had the pleasure to work with. During his time at Wonderlabs, Rafael has managed complete projects from start to completion, with perfect time management and attention to detail. He will be greatly missed in the office and I wish him all the best for the future.</p>
+                            <h3 class="summary">"Perfect time management and attention to detail"</h3>
+                            <p>Rafael is one of the most talented, dedicated and nicest people I have ever had the pleasure to work with. During his time at Wonderlabs, Rafael has managed complete projects from start to completion, with perfect time management and attention to detail.</p>
                             <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
                             <h5 class="name">Craig Curchin</h5>
                             <h6 class="sub-title">Production Director at Wonderlabs</h6>
@@ -323,12 +313,13 @@
             </section>
 
             <section class="s-cta-mobile">
-                <img src="//placekitten.com/1500/600" alt="super-rafa-mobile">
-            </section>
+                <img src="/public/images/s-cta-bg-mobile.jpg" alt="super-rafa-mobile">
 
-            <section class="s-ring-mail">
-                <button class="button button-effect icon-phone"><span>Call Rafa</span></button><!--
-            i--><button class="button button-effect icon-paperplane"><span>Mail Rafa</span></button>
+                <div class="d-ring-mail">
+                    <button class="button button-effect icon-phone"><span>Call Rafa</span></button><!--
+                i--><button class="button button-effect icon-paperplane"><span>Mail Rafa</span></button>
+                </div>
+
             </section>
 
 
@@ -399,6 +390,22 @@
                 <span class="final-message"></span>
             </form><!-- /simform -->
         </footer>
+
+
+
+
+
+
+
+            <div id="git-modal" class="reveal-modal tiny" data-reveal>
+                <h2>Git</h2>
+                <p>I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, I do deploy with Git as well.</p>
+                <a class="close-reveal-modal">&#215;</a>
+            </div>
+
+
+
+
 
 
         <!-- TIME FOR SCRIPTS -->
