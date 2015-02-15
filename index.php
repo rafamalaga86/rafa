@@ -27,7 +27,7 @@
 
             <section class="s-navigation">
                 <nav class="hold">
-                    <a href="#" class="left"><h1>Rafael García Doblas</h1></a><!--
+                    <a href="#" class="left"><h2>Rafael García Doblas</h2></a><!--
                 i--><a href="#projects-anchor"><span>Projects</span></a><!--
                 i--><a href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx"><span>Curriculum Vitae</span></a><!--
                 i--><a class="contact" href="#contact-anchor"><span>Contact me</span></a>
@@ -38,8 +38,9 @@
             <header class="full-screen-section">
                 <div class="hold">
                     <h3>Hi <span class="red">There!</span></h3>
-                    <h2>I am <span class="red">Rafael García Doblas</span></h2>
-                    <p>A proud <span class="red">web developer</span>.<span class="what-i-love">I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></span></p>
+                    <h1>I am <strong>Rafael García Doblas</strong></h1>
+                    <p>A proud <span class="red">web developer</span><span class="what-i-love">. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></span></p>
+                    <!-- <a class="button learn-more" href="#introduction-anchor">Learn more</a> -->
                 </div>
                 <a class="arrow" href="#introduction-anchor">
                     <i class="icon-arrow-left"></i>
@@ -92,92 +93,26 @@
 
                     <div class="column1-2-big d-icons">
                         <ul>
-                            <li>
-                                <a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a>
-
-                                
-                            
-
-
-                            <li title="I understand why so many developers avoid PHP. This language could be often inconsistent, full of exceptions and does not have a clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face. I also have worked with Wordpress or Codeigniter often." data-tooltip>
-                                <i class="icon-php-plain"></i>
-                            </li>
-                            <li title="I was feeling down on the PHP language till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating..." data-tooltip>
-                                <i class="icon-laravel-plain"></i>
-                            </li>
-                            <li title="Vanilla Javascript has become really useful. In one side in the server with NodeJS. In the other side, it has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it. Always enjoy doing vanilla Javascript." data-tooltip>
-                                <i class="icon-javascript-plain"></i>
-                            </li>
-
-                            <li title="I've using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to." data-tooltip>
-                                <img src="/public/images/logos/digital-ocean.svg" alt="digital-ocean">
-                            </li>
-                            <li title="I have tried it and the experience was really good. Sadly, never had an app big enough to need such a platform." data-tooltip>
-                                <i class="icon-amazonwebservices-plain-wordmark"></i>
-                            </li>
-                            <li title="Using Javascript in both Back-End and Front-End development always sounded good for me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and have use for Ghost thought." data-tooltip>
-                                <i class="icon-nodejs-plain-wordmark"></i>
-                            </li>
-                            <li title="I used to use Apache, but I moved to Nginx due to better performance." data-tooltip>
-                                <img src="/public/images/logos/nginx.svg" alt="nginx">
-                            </li>
-                            
-                            <li title="I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many types of Linux servers." data-tooltip>
-                                <i class="icon-linux-plain"></i>
-                            </li>
-                            <li title="My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu." data-tooltip>
-                                <i class="icon-ubuntu-plain"></i>
-                            </li>
-
-                            <li title="I don't use MySQL that much anymore thanks to ORMs. But I have been doing queries since my degree." data-tooltip>
-                                <i class="icon-mysql-plain-wordmark"></i>
-                            </li>
-                            <li title="I felt in love with Ghost in the very first momment I saw the Admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress different." data-tooltip>
-                                <i class="icon-ghost-plain-wordmark ghost"></i>
-                            </li>
-                            <!-- <li><i class="icon-mongodb-plain" title="" data-tooltip></i></li> -->
-                            <li title="I could not work without NPM. It has all type of packages. In addition of Browserify, you can also use it for Front-End development." data-tooltip>
-                                <i class="icon-npm-plain-wordmark"></i>
-                            </li>
-
-                            <li title="Before diggin in AngularJS I want to master Node. But really feels like somehting I have to learn soon. I have tried Backbone but Angular is gaining more and more fans." data-tooltip>
-                                <i class="icon-angularjs-plain-wordmark"></i>
-                            </li>
-                            <li title="I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosify is being an 'skeleton' rather than a bunch of elements already made. And I like that." data-tooltip>
-                                <i class="icon-foundation-plain-wordmark"></i>
-                            </li>
-
-
-                            <li title="Just HTML5. There is no place for XHTML or HTML4 these days." data-tooltip>
-                                <i class="icon-html5-plain"></i>
-                            </li>
-                            <li title="ola k ase" data-tooltip>
-                                <i class="icon-grunt-line-wordmark"></i>
-                            </li>
-
-                            <li title="I can use Less or Sass equally, I find advantages and disadvantages in them both." data-tooltip>
-                                <i class="icon-less-plain-wordmark"></i>
-                            </li>
-                            <li title="I can use Sass or Less equally, I find advantages and disadvantages in them both." data-tooltip>
-                                <i class="icon-sass-original"></i>
-                            </li>
-                            <li title="I can use Sass or Less equally, I find advantages and disadvantages in them both." data-tooltip>
-                                <i class="icon-wordpress-plain-wordmark"></i>
-                            </li>
-
-                            <!-- 
-                            <li title="I can use Sass or Less equally, I find advantages and disadvantages in them both." data-tooltip>
-                                <i class="icon-elementary-plain"></i>
-                            </li> -->
-
-                            <!-- 
-                            <li title="I have been using Sublime Text for years. I agree that is not that powerful as some IDEs, but the flexibility and speed of Sublime is essential to me." data-tooltip>
-                                <i class="icon-sublimetext-plain"></i>
-                            </li> -->
-
-                            <!-- <li title="Just VIM." data-tooltip>
-                                <i class="icon-vim-plain"></i>
-                            </li> -->
+                            <li><a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a>
+                            <li><a href="#" data-reveal-id="php-modal"><i class="icon-php-plain"></i></a></li>
+                            <li><a href="#" data-reveal-id="laravel-modal"><i class="icon-laravel-plain"></i></a></li>
+                            <li><a href="#" data-reveal-id="javascript-modal"><i class="icon-javascript-plain"></i></a></li>
+                            <li><a href="#" data-reveal-id="digital-ocean-modal"><img src="/public/images/logos/digital-ocean.svg" alt="digital-ocean"></a></li>
+                            <li><a href="#" data-reveal-id="amazon-modal"><i class="icon-amazonwebservices-plain-wordmark"></i></a></li>
+                            <li><a href="#" data-reveal-id="nodejs-modal"><i class="icon-nodejs-plain-wordmark"></i></a></li>
+                            <li><a href="#" data-reveal-id="nginx-modal"><img src="/public/images/logos/nginx.svg" alt="nginx"></a></li>
+                            <li><a href="#" data-reveal-id="linux-modal"><i class="icon-linux-plain"></i></a></li>
+                            <li><a href="#" data-reveal-id="ubuntu-modal"><i class="icon-ubuntu-plain"></i></a></li>
+                            <li><a href="#" data-reveal-id="mysql-modal"><i class="icon-mysql-plain-wordmark"></i></a></li>
+                            <li><a href="#" data-reveal-id="ghost-modal"><i class="icon-ghost-plain-wordmark ghost"></i></a></li>
+                            <li><a href="#" data-reveal-id="npm-modal"><i class="icon-npm-plain-wordmark"></i></a></li>
+                            <li><a href="#" data-reveal-id="angularjs-modal"><i class="icon-angularjs-plain-wordmark"></i></a></li>
+                            <li><a href="#" data-reveal-id="foundation-modal"><i class="icon-foundation-plain-wordmark"></i></a></li>
+                            <li><a href="#" data-reveal-id="html5-modal"><i class="icon-html5-plain"></i></a></li>
+                            <li><a href="#" data-reveal-id="grunt-modal"><i class="icon-grunt-line-wordmark"></i></a></li>
+                            <li><a href="#" data-reveal-id="less-modal"><i class="icon-less-plain-wordmark"></i></a></li>
+                            <li><a href="#" data-reveal-id="sass-modal"><i class="icon-sass-original"></i></a></li>
+                            <li><a href="#" data-reveal-id="wordpress-modal"><i class="icon-wordpress-plain-wordmark"></i></a></li>
 
                         </ul>
                         
@@ -379,12 +314,114 @@
 
 
 
+        <div id="git-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Git</h6>
+            <p>Git is just superb, I use Git CLI with everything. Storing my projects in Bitbucket or Github, I do deploy with Git as well.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="php-modal" class="reveal-modal tiny" data-reveal>
+            <h6>PHP</h6>
+            <p>I use Object Oriented PHP in a daily basis. I understand why so many developers avoid PHP. This language could be often inconsistent, full of exceptions and does not have a clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face. I also have worked with Wordpress or Codeigniter often.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="laravel-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Laravel</h6>
+            <p>Laravel is just splendid. I use it as much as I can. I was feeling down on PHP till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating... love all the possibilities that laravel has to offer. </p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="javascript-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Javascript</h6>
+            <p>I use Javascript almost every day. Vanilla Javascript has become really useful. In one side in the server with NodeJS. In the other side, it has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="digital-ocean-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Digital Ocean</h6>
+            <p>I've using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="amazon-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Amazon Web Services</h6>
+            <p>I have tried it and the experience was really good. Sadly, never had an app big enough to need such a platform.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="nodejs-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Node JS</h6>
+            <p>Using Javascript in both Back-End and Front-End development always sounded good for me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and I have used it for Ghost thought.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="nginx-modal" class="reveal-modal tiny" data-reveal>
+            <h6>NginX</h6>
+            <p>I used to use Apache, but I moved to Nginx due to better performance.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="linux-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Linux</h6>
+            <p>I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many types of Linux servers.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="ubuntu-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Ubuntu</h6>
+            <p>My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="mysql-modal" class="reveal-modal tiny" data-reveal>
+            <h6>MySQL</h6>
+            <p>I don't use MySQL that much anymore thanks to ORMs. But I have been doing queries since my degree.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="ghost-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Ghost</h6>
+            <p>I felt in love with Ghost in the very first momment I saw the Admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress different.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="npm-modal" class="reveal-modal tiny" data-reveal>
+            <h6>NPM</h6>
+            <p>I could not work without NPM. It has all type of packages. In addition of Browserify, you can also use it for Front-End development.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="angularjs-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Angular JS</h6>
+            <p>Before diggin in AngularJS I want to master Node. But really feels like somehting I have to learn soon. I have tried Backbone but Angular is gaining more and more fans.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="foundation-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Foundation</h6>
+            <p>I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosify is being an 'skeleton' rather than a bunch of elements already made. And I like that.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="html5-modal" class="reveal-modal tiny" data-reveal>
+            <h6>HTML5</h6>
+            <p>Just HTML5. There is no room for XHTML or HTML4 these days.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="grunt-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Grunt</h6>
+            <p>I have used grunt in some projects but I don't use it always. NPM with Browserify often can do the same job.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="less-modal" class="reveal-modal tiny" data-reveal>
+            <h6>less</h6>
+            <p>I can use Less or Sass equally, I find advantages and disadvantages in them both.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="sass-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Sass</h6>
+            <p>I can use Sass or Less equally, I find advantages and disadvantages in them both.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <div id="wordpress-modal" class="reveal-modal tiny" data-reveal>
+            <h6>Wordpress</h6>
+            <p>I develop for Wordpress sometimes often due to high demand. Not a fan. Usually using Wordpress as a framework is tricky and time consuming, so I try to avoid it as much as I can.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
 
-            <div id="git-modal" class="reveal-modal tiny" data-reveal>
-                <h2>Git</h2>
-                <p>I use Git CLI for everything I work in. Storing my projects in Bitbucket or Github, I do deploy with Git as well.</p>
-                <a class="close-reveal-modal">&#215;</a>
-            </div>
+
+
+
+
+
+
+
 
 
 
@@ -407,10 +444,7 @@
         <script src="/public/js/foundation.js"></script>
         <script src="/public/js/foundation.reveal.js"></script>
 
-        <script>
-        </script>
-
-
+        <!-- my scripts -->
         <script src="/public/js/rafascript.js"></script>
     </body>
 </html>

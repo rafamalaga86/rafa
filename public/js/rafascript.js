@@ -1,7 +1,9 @@
 // Rafael García Doblas
 
 
-// Smoth Anchor
+
+//////////////////////////////////////////////////////////////////////////////////
+// Smooth Anchor
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -19,11 +21,14 @@ $(function() {
 });
 
 
+
+
+//////////////////////////////////////////////////////////////////////////////////
 // Script for making the arrow shake if screen does not scroll in some seconds
 
-var moved = false;
 var arrow = document.getElementsByClassName('arrow')[0];
 
+var moved = false;
 
 
 $(window).on('scroll', function(){
@@ -44,7 +49,7 @@ function arrowShake(){
 
 setInterval(arrowShake, 5000);
 
-
+/////////////////////////////////////////////////////////////////////////////////////
 // Preload images
 
 function preload(arrayOfImages) {
@@ -170,6 +175,46 @@ setInterval(function(){
 
 
 /* END OF CODE FOR HIDDING AND SHOW THE NAVIGATION MENU */
+
+
+
+
+
+
+
+
+/* CODE FOR CLOSE MODALS IF SCROLL EVENT*/
+
+$(document).on('open.fndtn.reveal', '[data-reveal]', function () {
+  $(this).find('.close-reveal-modal').addClass('clickable');
+});
+
+// $(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
+//   var modal = $(this);
+// });
+
+$(document).on('close.fndtn.reveal', '[data-reveal]', function () {
+  $(this).find('.close-reveal-modal.clickable').removeClass('clickable');
+});
+
+// $(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
+//   var modal = $(this);
+// });
+
+$(window).on("scroll", function(){
+
+    if ($(".close-reveal-modal.clickable").length > 0){
+        $(".close-reveal-modal.clickable").trigger('click');
+    }
+
+});
+
+/* END CODE FOR CLOSE MODALS IF SCROLL EVENT*/
+
+
+
+
+
 
 
 
