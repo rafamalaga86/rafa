@@ -150,6 +150,7 @@
 				}
 				if( self.isFilled ) {
 					self._submit();
+            		$('#loader-container').show();
 				}
 				else {
 					classie.removeClass( self.el, 'show-next' );
@@ -220,7 +221,7 @@
 				message = 'Please fill the field before continuing';
 				break;
 			case 'INVALIDEMAIL' : 
-				message = 'Please fill a valid email address';
+				message = 'Please enter a valid email address';
 				break;
 			// ...
 		};

@@ -1090,8 +1090,12 @@ header{
 	bottom: 0;
 	width: 100%;
 	display: flex;
+	text-align: center;
 	align-items: center;
 	justify-content: center;
+	#loader-container{
+		display: none;
+	}
 	form{
 		width: 1000px;
 		max-width: 100%;
@@ -1116,7 +1120,7 @@ header{
 	100% { -webkit-transform: translate3d(0px, 0px, 0px);}
 }
 
-@keyframes shakee {
+@keyframes shake {
 	0% { transform: translate3d(0px, 0px, 0px);}
 	25% { transform: translate3d(-4px, 0px, 0px);}
 	75% { transform: translate3d(4px, 0px, 0px);}
@@ -1130,7 +1134,7 @@ header{
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 
-	animation-name: shakee;
+	animation-name: shake;
 	animation-duration: 0.1s;
 	transform-origin: 50% 50%;
 	animation-iteration-count: infinite;
@@ -1139,11 +1143,37 @@ header{
 
 
 
+/*
+@-webkit-keyframes move {
+	0% { -webkit-transform: translate3d(0px, 0px, 0px);}
+	25% { -webkit-transform: translate3d(-40%, 0px, 0px);}
+	75% { -webkit-transform: translate3d(40%, 0px, 0px);}
+	100% { -webkit-transform: translate3d(0px, 0px, 0px);}
+}
+
+@keyframes move {
+	0% { transform: translate3d(0px, 0px, 0px);}
+	25% { transform: translate3d(-40%, 0px, 0px);}
+	75% { transform: translate3d(40%, 0px, 0px);}
+	100% { transform: translate3d(0px, 0px, 0px);}
+}
 
 
+.move-animation{
+	-webkit-animation-name: move;
+	-webkit-animation-duration: 0.5s;
+	// -webkit-transform-origin: 50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
 
+	animation-name: move;
+	animation-duration: 0.5s;
+	// transform-origin: 50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
 
-
+*/
 
 
 

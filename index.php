@@ -20,7 +20,7 @@
         <link rel="icon" sizes="192x192" href="/public/images/icon-192x192-skin.png">
 
         <link rel="shortcut icon" type="image/x-icon" href="/public/images/fav1.png">
-        
+
  -->
 
 
@@ -158,7 +158,7 @@
                         <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
 
                         <p>
-                            <span class="margin">I use OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I always enjoy work as a part of a team. </span>
+                            <span class="margin">I use OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I enjoy work as a part of a team. </span>
 
                             <span class="margin"> I have an Engineering in Information Technology from Málaga University in Spain.</span>
 
@@ -356,7 +356,9 @@
 
         <footer class="s-form full-screen-section">
             <div class="hold">
-            
+
+                <div id="loader-container"></div>                
+
                 <form id="theForm" class="simform" novalidate autocomplete="off">
                     <div class="simform-inner">
                         <ol class="questions">
@@ -535,6 +537,9 @@
         <!-- foundation -->
         <script src="/public/js/foundation.js"></script>
         <script src="/public/js/foundation.reveal.js"></script>
+
+        <!-- ajax loader -->
+        <script src="/public/js/spin.min.js"></script>
 
         <!-- my scripts -->
         <script src="/public/js/rafascript.js"></script>
