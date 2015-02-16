@@ -74,11 +74,11 @@
 
                 <div id="introduction-anchor"></div>
 
+
+
                 <div class="hold row-flex">
 
-
-
-                    <div class="d-introduction">
+                    <div class="d-introduction box">
                         <h3><strong>Back-End</strong> <span>and</span> <strong>Front-End</strong></h3>
                         <p><span class="margin">As a Back-End I aim to write clean, efficient and elegant code. As a Front-End my goal is to make good looking highly responsive websites.</span>
                         <span class="margin">Love to plan websites, to study every detail, to work along my colleagues designers, to discuss about UX...</span></p>
@@ -87,7 +87,7 @@
 
                         
 
-                    <div class="d-device">
+                    <div class="d-device box">
                         <div class="md-slider">
                             <div class="md-device-wrapper">
                                 <div class="md-device md-device-1">
@@ -101,16 +101,16 @@
 
 
                 
-                    <div class="d-icons">
+                    <div class="d-icons box">
                         <ul>
                             <li><a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="php-modal"><i class="icon-php-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="laravel-modal"><i class="icon-laravel-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="javascript-modal"><i class="icon-javascript-plain"></i></a></li>
-                            <li><a href="#" data-reveal-id="digital-ocean-modal"><img src="/public/images/logos/digital-ocean.svg" alt="digital-ocean"></a></li>
+                            <li><a href="#" data-reveal-id="digital-ocean-modal"><img width="100%" src="/public/images/logos/digital-ocean.svg" alt="digital-ocean"></a></li>
                             <li><a href="#" data-reveal-id="amazon-modal"><i class="icon-amazonwebservices-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="nodejs-modal"><i class="icon-nodejs-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="nginx-modal"><img src="/public/images/logos/nginx.svg" alt="nginx"></a></li>
+                            <li><a href="#" data-reveal-id="nginx-modal"><img width="100%" src="/public/images/logos/nginx.svg" alt="nginx"></a></li>
                             <li><a href="#" data-reveal-id="linux-modal"><i class="icon-linux-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="ubuntu-modal"><i class="icon-ubuntu-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="mysql-modal"><i class="icon-mysql-plain-wordmark"></i></a></li>
@@ -128,7 +128,7 @@
 
 
 
-                    <div class="d-comments">
+                    <div class="d-comments box">
                         <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
                         <p>
                             <span class="margin">I use OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I enjoy work as a part of a team. </span>
@@ -153,58 +153,11 @@
             </section>
 
 
+
+            <!-- DELETE -->
             <section class="s-show-the-text">
                 <div class="hold">
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column1-2 show-reveal"></div>
-                        <div class="column1-2 show-reveal"></div>
-                    </div>
-
+                    <div class="row-flex append-node"></div>
                 </div>
             </section>
 
@@ -259,22 +212,21 @@
 
 
             <section class="s-testimonials">
-                <div class="hold">
-                    <ul>
-                        <li class="column1-2">
+                <div class="hold row-flex">
+                        <article>
                             <h3 class="summary">"Rafael is an extremely talented developer"</h3>
                             <p>Rafael is an extremely talented developer who was a true asset to our company, whereby he single-handedly added huge value to our service offerings He is totally focussed on the task at hand and has the ability to balance work at great speeds whilst still paying meticulous attention to detail.</p>
                             <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
                             <h5 class="name">Arni Lochner</h5>
                             <h6 class="sub-title">Creative Director at Wonderlabs</h6>
-
-                        <li class="column1-2">
+                        </article>
+                        <article>
                             <h3 class="summary">"Perfect time management and attention to detail"</h3>
                             <p>Rafael is one of the most talented, dedicated and nicest people I have ever had the pleasure to work with. During his time at Wonderlabs, Rafael has managed complete projects from start to completion, with perfect time management and attention to detail.</p>
                             <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
                             <h5 class="name">Craig Curchin</h5>
                             <h6 class="sub-title">Production Director at Wonderlabs</h6>
-
+                        </article>
                     </ul>
                 </div>
             </section>
@@ -308,7 +260,7 @@
 
 
 
-            <section class="s-socia-networks">
+            <section class="s-social-networks">
                 <ul>
                     <li class="twitter">
                         <a href="//twitter.com/rafamalaga86">

@@ -425,15 +425,27 @@ header{
 
 .s-introduction{
 	background-color: @skin;
-	padding: 100px 0;
+	padding: 50px 0;
 
-	@media @ipadlc{
-		padding: 65px 0;
+	@media @ipadlc{	padding: 65px 0; }
+	@media @600{ 	padding: 15px 0; }
+
+	.box{
+		margin: 50px 0;
+		@media @ipadlc{ 
+			margin: 35px 0;
+			margin-left: 0 !important;
+			margin-right: 0 !important; 
+		}
 	}
 
 	p{
 		font-size: 18px;
 		padding-bottom: 15px;
+		@media @600{ font-size: 16px;}
+		&:last-child{
+			padding-bottom: 0;
+		}
 	}
 
 	h3{
@@ -442,13 +454,11 @@ header{
 		font-size: 45px;
 		margin-left: -3px;
 		padding-bottom: 30px;
-		@media @ipadlc{
-			text-align: center;
-		}
+		@media @ipadlc{ text-align: center; }
+		@media @600{ font-size: 25px; margin-top: 0; }
 	}
 
 	span.margin{
-		font-size: 18px;
 		padding-bottom: 15px;
 		display: inline-block;
 		line-height: 1.6;
@@ -462,12 +472,8 @@ header{
 	#introduction-anchor{
 		position: relative;
 		bottom: 145px;
-		@media @800{
-			bottom: 125px;
-		}
-		@media @600{
-			bottom: 75px;
-		}
+		@media @800{ bottom: 125px; }
+		@media @600{ bottom: 75px; }
 	}
 
 
@@ -486,9 +492,7 @@ header{
 		order: 2;
 		box-sizing: border-box;
 		overflow: hidden;
-		@media @ipadlc{
-			display: none;
-		}
+		@media @ipadlc{ display: none; }
 
 		.md-slider{
 			margin: 0;
@@ -512,7 +516,6 @@ header{
 		width: 55%;
 		margin-right: 10%;
 		@media @ipadlc{
-			padding-top: 50px;
 			text-align: center;
 			width: 100%;
 		}
@@ -526,32 +529,23 @@ header{
 			opacity: 1;
 			-webkit-transition: opacity .2s;
 			transition: opacity .2s;
-				&:hover{
-					opacity: 0.8;
-				}
-			@media @1100{
-				width: 80px;
-			}
+			@media @1100{ width: 80px; }
 			@media @ipadlc{
 				display: inline-block;
 				float: none;
 				vertical-align: top;
 				margin: 12px 12px;
 			}
+			&:hover{
+				opacity: 0.8;
+			}
 			&:nth-child(5n){
 				margin-right: 0;
-				@media @ipadlc{
-					margin: 12px;
-				}
+				@media @ipadlc{ margin: 12px; }
 			}
 			a{
 				display: block;
 				float: left;
-				img{
-					@media @ipadlc{
-
-					}
-				}
 			}
 			img{
 				max-width: 100%;
@@ -569,9 +563,7 @@ header{
 				color: @red;
 				-webkit-transition: color .2s;
 				transition: color .2s;
-				@media @1100{
-					font-size: 75px;
-				}
+				@media @1100{ font-size: 75px; }
 			}
 		}
 	}
@@ -588,34 +580,25 @@ header{
 
 
 
-/////////// TECHONOLOGIES THAT I LIKE SECTION //////////////////
-
-
-.s-techs{
-}
-
-
-////////////// DELETE SHOW THE TEXT SECTION //////////////
+////////////// DELETE SHOW THE TEXT SECTION ////////////////////////////////
 
 .s-show-the-text{
 	background-color: @grey;
 	color: white;
 	overflow: hidden;
-	.row{
+	.row-flex{
 		overflow: hidden;
 		margin: 50px 0;
-		.column1-2{
-			float: left;
-			div{
-				text-align: center;
-				i{
-					display: inline-block;
-					font-size: 70px;
-					color: @red;
-				}
-				img{
-					width: 100px;
-				}
+		div{
+			width: 45%;
+			margin: 50px 5% 0 0;
+			&:nth-child(2n){
+				margin-right: 0;
+				margin-left: 5%;
+			}
+			@media @ipadpt{
+				width: 100%;
+				margin: 50px 0 0 0 !important;
 			}
 		}	
 	}
@@ -626,8 +609,7 @@ header{
 
 
 
-
-//////////////// PORTFOLIO SECTION //////////////////////////////////
+//////////////// PORTFOLIO SECTION ////////////////////////////////////////////
 
 
 .s-portfolio{
@@ -754,7 +736,7 @@ header{
 
 
 
-//////////////// FORM SECTION //////////////////////////////////
+//////////////// CTA SECTION //////////////////////////////////////////////////
 .s-cta{
 	height: 576px;
 	background: #302e31 url(/public/images/s-cta-bg.jpg) no-repeat center top;
@@ -835,17 +817,23 @@ header{
 
 
 
-//////////////// TESTIMONIALS SECTION //////////////////////////////////
+//////////////// TESTIMONIALS SECTION /////////////////////////////////////////////
 .s-testimonials{
 	padding: 50px 0;
 	background-color: @skin;
 	color: @grey;
-	li.column1-2{
+	padding: 75px 0;
+	article{
+		width: 45%;
 		text-align: center;
-		@media @600{
-			&:nth-child(2){
-				margin-top: 100px;
-			}
+		margin: 0 5% 0 0;
+		@media @600{ 
+			width: 100%; 
+			margin: 0;
+		}
+		&:nth-child(2){
+			margin: 0 0 0 5%;
+			@media @600{ margin: 75px 0 0 0; }			
 		}
 		.summary{
 			font-size: 24px;
@@ -870,8 +858,10 @@ header{
 }
 
 
+
+
 //////////////// SOCIAL NETWORKS SECTION //////////////////////////////////
-.s-socia-networks{
+.s-social-networks{
 	a{
 		display: block;
 	}
@@ -926,60 +916,44 @@ header{
 
 
 
-//////////////// FORM SECTION //////////////////////////////////
-.s-form{
+//////////////// FORM SECTION //////////////////////////////////////////////////
+
+footer.s-form{
 	background-color: @red;
 	position: fixed;
 	z-index: 0;
 	overflow: hidden;
 	bottom: 0;
 	width: 100%;
-	display: flex;
 	text-align: center;
+	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	#loader-container{
 		display: none;
 	}
 	form{
 		width: 1024px;
 		max-width: 100%;
-
 		label{
 			span{
 				display: inline;
 			}
 			.show-on-tiny{
 				display: none;
-				@media @400{
-					display: block;
-				}
+				@media @400{ display: block; }
 			}
 			.hide-on-tiny{
-				@media @400{
-					display: none;
-				}
+				@media @400{ display: none; }
 			}
 		}
-
-		@media @ipadlc{
-			font-size: 2em;
-		}
-		@media @900{
-			font-size: 1.85em;
-		}
-		@media @800{
-			font-size: 1.7em;
-		}
-		@media @700{
-			font-size: 1.55em;
-		}
-		@media @600{
-			font-size: 1.32em;
-		}
-		@media @500{
-			font-size: 1em;
-		}
+		@media @ipadlc{ font-size: 2em; }
+		@media @900{ font-size: 1.85em; }
+		@media @800{ font-size: 1.7em; }
+		@media @700{ font-size: 1.55em; }
+		@media @600{ font-size: 1.32em; }
+		@media @500{ font-size: 1em; }
 
 		span{
 			text-align: center;
@@ -1021,43 +995,6 @@ header{
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
-
-
-
-/*
-@-webkit-keyframes move {
-	0% { -webkit-transform: translate3d(0px, 0px, 0px);}
-	25% { -webkit-transform: translate3d(-40%, 0px, 0px);}
-	75% { -webkit-transform: translate3d(40%, 0px, 0px);}
-	100% { -webkit-transform: translate3d(0px, 0px, 0px);}
-}
-
-@keyframes move {
-	0% { transform: translate3d(0px, 0px, 0px);}
-	25% { transform: translate3d(-40%, 0px, 0px);}
-	75% { transform: translate3d(40%, 0px, 0px);}
-	100% { transform: translate3d(0px, 0px, 0px);}
-}
-
-
-.move-animation{
-	-webkit-animation-name: move;
-	-webkit-animation-duration: 0.5s;
-	// -webkit-transform-origin: 50% 50%;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: ease-in-out;
-
-	animation-name: move;
-	animation-duration: 0.5s;
-	// transform-origin: 50% 50%;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-}
-
-*/
-
-
-
 
 
 
