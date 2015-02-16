@@ -363,7 +363,7 @@
         </div>
         <div id="digital-ocean-modal" class="reveal-modal tiny" data-reveal>
             <h6>Digital Ocean</h6>
-            <p>I've using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to.</p>
+            <p>I've been using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="amazon-modal" class="reveal-modal tiny" data-reveal>
@@ -373,7 +373,7 @@
         </div>
         <div id="nodejs-modal" class="reveal-modal tiny" data-reveal>
             <h6>Node JS</h6>
-            <p>Using Javascript in both Back-End and Front-End development always sounded good for me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and I have used it for Ghost thought.</p>
+            <p>Using Javascript in both Back-End and Front-End development always have sounded good to me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and I have used it for Ghost though.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="nginx-modal" class="reveal-modal tiny" data-reveal>
@@ -383,12 +383,12 @@
         </div>
         <div id="linux-modal" class="reveal-modal tiny" data-reveal>
             <h6>Linux</h6>
-            <p>I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also work with many types of Linux servers.</p>
+            <p>I've always used a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also worked with many types of Linux servers.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="ubuntu-modal" class="reveal-modal tiny" data-reveal>
             <h6>Ubuntu</h6>
-            <p>My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu.</p>
+            <p>My favourite desktop distro. I am really looking forward to see what ElementaryOS has to bring us in the future, but for now, I use Ubuntu.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="mysql-modal" class="reveal-modal tiny" data-reveal>
@@ -398,7 +398,7 @@
         </div>
         <div id="ghost-modal" class="reveal-modal tiny" data-reveal>
             <h6>Ghost</h6>
-            <p>I felt in love with Ghost in the very first moment I saw the admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress in a new light.</p>
+            <p>I fell in love with Ghost the very first moment I saw the admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress in a new light.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="npm-modal" class="reveal-modal tiny" data-reveal>
@@ -408,12 +408,12 @@
         </div>
         <div id="angularjs-modal" class="reveal-modal tiny" data-reveal>
             <h6>Angular JS</h6>
-            <p>Before diggin in AngularJS I want to master Node. But really feels like something I have to learn soon. I have tried Backbone but Angular is gaining more and more fans.</p>
+            <p>Before digging in AngularJS I want to master Node. But really feels like something I have to learn soon. I have tried Backbone but Angular is gaining more and more fans.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="foundation-modal" class="reveal-modal tiny" data-reveal>
             <h6>Foundation</h6>
-            <p>I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosophy is being an 'skeleton' rather than a bunch of elements already made. And I like that.</p>
+            <p>I started to use Foundation because it was the first Front-End framework using the "mobile first" paradigm . But even Bootstrap doing mobile first now, Foundation's philosophy is being an 'skeleton' rather than a bunch of elements already made. And I like that.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="html5-modal" class="reveal-modal tiny" data-reveal>
@@ -423,7 +423,7 @@
         </div>
         <div id="grunt-modal" class="reveal-modal tiny" data-reveal>
             <h6>Grunt</h6>
-            <p>I use Grunt often. It's really useful for minimize javascript, or process less or sass.</p>
+            <p>I use Grunt often. It's really useful for minimizing javascript, or process less or sass.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="less-modal" class="reveal-modal tiny" data-reveal>

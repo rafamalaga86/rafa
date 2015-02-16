@@ -26,10 +26,22 @@ module.exports = function(grunt) {
                     compress: false
                 },
                 files: {
-                    "public/css/production/style.css": "public/css/rafastyle.less"
+                    "public/css/rafastyle.css": "public/css/rafastyle.less"
                 }
             }
         },
+
+        cssmin: {
+            default: {
+                files: [{
+                    expand: true,
+                    cwd: 'public/css',
+                    src: ['*.css', '!*.min.css'],
+                    dest: 'public/css/production/',
+                    ext: '.min.css'
+                }]
+            }
+        }
     });
 
     // Load the plugin that provides the "uglify" task.
