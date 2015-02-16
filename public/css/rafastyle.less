@@ -1097,8 +1097,44 @@ header{
 		display: none;
 	}
 	form{
-		width: 1000px;
+		width: 1024px;
 		max-width: 100%;
+
+		label{
+			span{
+				display: inline;
+			}
+			.show-on-tiny{
+				display: none;
+				@media @400{
+					display: block;
+				}
+			}
+			.hide-on-tiny{
+				@media @400{
+					display: none;
+				}
+			}
+		}
+
+		@media @ipadlc{
+			font-size: 2em;
+		}
+		@media @900{
+			font-size: 1.85em;
+		}
+		@media @800{
+			font-size: 1.7em;
+		}
+		@media @700{
+			font-size: 1.55em;
+		}
+		@media @600{
+			font-size: 1.32em;
+		}
+		@media @500{
+			font-size: 1em;
+		}
 
 		span{
 			text-align: center;

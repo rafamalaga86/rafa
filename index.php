@@ -365,7 +365,7 @@
 
                             <li>
                                 <span>
-                                    <label for="q1">Send me an email. Write it in here.</label>
+                                    <label for="q1">Send me an email. Write the message in here.</label>
                                 </span>
 
                                 <input id="mess" name="mess" type="text">
@@ -500,12 +500,12 @@
         </div>
         <div id="sass-modal" class="reveal-modal tiny" data-reveal>
             <h6>Sass</h6>
-            <p>I can use Sass or Less equally, I find advantages and disadvantages in them both.</p>
+            <p>I can use Sass or Less equally, I find disadvantages and advantages in both of them .</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="wordpress-modal" class="reveal-modal tiny" data-reveal>
             <h6>Wordpress</h6>
-            <p>I develop for Wordpress sometimes often due to high demand. Not a fan. Usually using Wordpress as a framework is tricky and time consuming, so I try to avoid it as much as I can.</p>
+            <p>Sometimes I develop for Wordpress due to high demand. Not a fan. Usually using Wordpress as a framework is tricky and time consuming, so I try to avoid it as much as I can.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
 
