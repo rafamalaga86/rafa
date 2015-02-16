@@ -12,6 +12,9 @@
         <meta name="author" content="Rafael Garcia Doblas">
         <meta name="robots" content="noindex, nofollow">
 
+        <meta name="theme-color" content="#DA635D">
+        <link rel="icon" sizes="192x192" href="/public/images/icon-192x192.png">
+
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
         <!-- <link rel="stylesheet" href="/public/css/rafastyle.css"> -->
         <link rel="stylesheet/less" href="/public/css/rafastyle.less" >
@@ -19,6 +22,8 @@
         <!-- LESS JS -->
         <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
         <script src="/public/js/less-1.7.4.min.js"></script>
+
+        <link rel="shortcut icon" type="image/x-icon" href="/public/images/fav1.png">
     </head>
 
     <body>
@@ -140,11 +145,62 @@
             </section>
 
 
-<!-- 
-            <section class="s-see-some-projects"> DELETE
-                Take a glance on some of my project
+            <section class="s-show-the-text">
+                <div class="hold">
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-git-plain-wordmark"></i></div>Git is just superb, I use Git CLI with everything. Storing my projects in Bitbucket or Github, I do deploy with Git as well.</div>
+                        <div class="column1-2"><div><i class="icon-php-plain"></i></div>I use Object Oriented PHP in a daily basis. With Laravel, Wordpress or Codeigniter. PHP could be sometimes inconsistent, full of exceptions or lack clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-laravel-plain"></i></div>Laravel is just splendid. I use it as much as I can. I was feeling down on PHP till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating... love all the possibilities that laravel has to offer. </div>
+                        <div class="column1-2"><div><i class="icon-javascript-plain"></i></div>I use Javascript almost every day. Vanilla Javascript has become really useful. In one side in the server with NodeJS. In the other side, it has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><img src="/public/images/logos/digital-ocean.svg" alt="digital-ocean"></div>I've using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to.</div>
+                        <div class="column1-2"><div><i class="icon-amazonwebservices-plain-wordmark"></i></div>I have tried it and the experience was really good. Sadly, never had an app big enough to need such a platform.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-nodejs-plain-wordmark"></i></div>Using Javascript in both Back-End and Front-End development always sounded good for me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and I have used it for Ghost thought.</div>
+                        <div class="column1-2"><div><img src="/public/images/logos/nginx.svg" alt="nginx"></div>I used to use Apache, but I moved to Nginx due to better performance.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-linux-plain"></i></div>I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many types of Linux servers.</div>
+                        <div class="column1-2"><div><i class="icon-ubuntu-plain"></i></div>My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-mysql-plain-wordmark"></i></div>I don't use MySQL that much anymore thanks to ORMs. But I have been doing queries since my degree.</div>
+                        <div class="column1-2"><div><i class="icon-ghost-plain-wordmark ghost"></i></div>I felt in love with Ghost in the very first momment I saw the Admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress different.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-npm-plain-wordmark"></i></div>I could not work without NPM. It has all type of packages. In addition of Browserify, you can also use it for Front-End development.</div>
+                        <div class="column1-2"><div><i class="icon-angularjs-plain-wordmark"></i></div>Before diggin in AngularJS I want to master Node. But really feels like somehting I have to learn soon. I have tried Backbone but Angular is gaining more and more fans.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-foundation-plain-wordmark"></i></div>I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosify is being an 'skeleton' rather than a bunch of elements already made. And I like that.</div>
+                        <div class="column1-2"><div><i class="icon-html5-plain"></i></div>Just HTML5. There is no room for XHTML or HTML4 these days.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-grunt-line-wordmark"></i></div>I have used grunt in some projects but I don't use it always. NPM with Browserify often can do the same job.</div>
+                        <div class="column1-2"><div><i class="icon-less-plain-wordmark"></i></div>I can use Less or Sass equally, I find advantages and disadvantages in them both.</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column1-2"><div><i class="icon-sass-original"></i></div>I can use Sass or Less equally, I find advantages and disadvantages in them both.</div>
+                        <div class="column1-2"><div><i class="icon-wordpress-plain-wordmark"></i></div>I develop for Wordpress sometimes often due to high demand. Not a fan. Usually using Wordpress as a framework is tricky and time consuming, so I try to avoid it as much as I can.</div>
+                    </div>
+
+                </div>
             </section>
- -->
+
+
 
             <section class="s-portfolio">
                 <div id="projects-anchor"></div>
@@ -269,46 +325,50 @@
         </div>
 
         <footer class="s-form full-screen-section">
-            <form id="theForm" class="simform" novalidate autocomplete="off">
-                <div class="simform-inner">
-                    <ol class="questions">
+            <div class="hold">
+            
+                <form id="theForm" class="simform" novalidate autocomplete="off">
+                    <div class="simform-inner">
+                        <ol class="questions">
 
-                        <li>
-                            <span>
-                                <label for="q1">Send me an email. Write it in here.</label>
+                            <li>
+                                <span>
+                                    <label for="q1">Send me an email. Write it in here.</label>
+                                </span>
+
+                                <input id="mess" name="mess" type="text">
+                            </li>
+
+                            <li>
+                                <span>
+                                    <label for="q5">What is your name?</label>
+                                </span>
+                                <input id="name" name="name" type="text">
+                            </li>
+
+                            <li>
+                                <span>
+                                    <label for="q6">Which is your email?</label>
+                                </span>
+                                <input id="email" name="email" type="email">
+                            </li>
+
+                        </ol><!-- /questions -->
+                        <button class="submit" type="submit">Send answers</button>
+                        <div class="controls">
+                            <button class="next"></button>
+                            <div class="progress"></div>
+                            <span class="number">
+                                <span class="number-current"></span>
+                                <span class="number-total"></span>
                             </span>
+                            <span class="error-message"></span>
+                        </div><!-- / controls -->
+                    </div><!-- /simform-inner -->
+                    <span class="final-message"></span>
+                </form><!-- /simform -->
 
-                            <input id="mess" name="mess" type="text">
-                        </li>
-
-                        <li>
-                            <span>
-                                <label for="q5">What is your name?</label>
-                            </span>
-                            <input id="name" name="name" type="text">
-                        </li>
-
-                        <li>
-                            <span>
-                                <label for="q6">Which is your email?</label>
-                            </span>
-                            <input id="email" name="email" type="email">
-                        </li>
-
-                    </ol><!-- /questions -->
-                    <button class="submit" type="submit">Send answers</button>
-                    <div class="controls">
-                        <button class="next"></button>
-                        <div class="progress"></div>
-                        <span class="number">
-                            <span class="number-current"></span>
-                            <span class="number-total"></span>
-                        </span>
-                        <span class="error-message"></span>
-                    </div><!-- / controls -->
-                </div><!-- /simform-inner -->
-                <span class="final-message"></span>
-            </form><!-- /simform -->
+            </div>
         </footer>
 
 

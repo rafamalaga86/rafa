@@ -187,12 +187,14 @@
 /* Number indicator */
 .simform .number {
 	position: absolute;
-	right: 0;
+	/*right: 0;*/
+	right: calc(50% - 36px);
 	overflow: hidden;
 	margin: 0.4em 0;
 	width: 3em;
 	font-weight: 700;
-	font-size: 0.4em;
+	/*font-size: 0.4em;*/
+	font-size: 24px;
 }
 
 .simform .number:after {
