@@ -534,14 +534,22 @@ header{
 				display: inline-block;
 				float: none;
 				vertical-align: top;
-				margin: 12px 12px;
+				margin: 12px;
+			}
+			@media @400{
+				margin: 8px;
 			}
 			&:hover{
 				opacity: 0.8;
 			}
 			&:nth-child(5n){
 				margin-right: 0;
-				@media @ipadlc{ margin: 12px; }
+				@media @ipadlc{ 
+					margin: 12px; 
+				}
+				@media @400{
+					margin: 8px;
+				}
 			}
 			a{
 				display: block;
