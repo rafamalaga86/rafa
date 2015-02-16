@@ -33,6 +33,9 @@
         <meta name="msapplication-config" content="/public/images/favicons/browserconfig.xml">
         <meta name="theme-color" content="#4E4E56">
 
+        <!-- Google Web Font -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
+
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
         <!-- <link rel="stylesheet" href="/public/css/rafastyle.css"> -->
         <link rel="stylesheet/less" href="/public/css/rafastyle.less" >
@@ -178,9 +181,9 @@
                 <figure>
                     <img src="/public/images/projects/ma.jpg" alt="maritalaffair">
                     <figcaption>
-                        <h4>Biberódromo</h4>
-                        <p>Bubba likes to appear out of thin air.</p>
-                        <a href="//biberodromo.com" rel="nofollow"></a>
+                        <h4>Marital Affair</h4>
+                        <p>As a part of digital agency team, Wonderlabs</p>
+                        <a href="//maritalaffair.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
                     
@@ -195,12 +198,12 @@
                 </figure>
  
                 
-                <figure> <!-- 700 * 525 -->
+                <figure>
                     <img src="/public/images/projects/bd.jpg" alt="biberodromo">
                     <figcaption>
-                        <h4>Marital Affair</h4>
-                        <p>As a part of digital agency team, Wonderlabs</p>
-                        <a href="//maritalaffair.com" rel="nofollow"></a>
+                        <h4>Biberódromo</h4>
+                        <p>NGO Biberódromo</p>
+                        <a href="//biberodromo.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
 
@@ -242,7 +245,7 @@
                         <div class="container">
 
                             <button class="button button-effect icon-phone"><span>Call Rafa</span></button><!--
-                        i--><button class="button button-effect icon-paperplane"><span>Mail Rafa</span></button>
+                        i--><a href="#contact-anchor" class="button button-effect icon-paperplane"><span>Mail Rafa</span></a>
                         </div>
                     </div>
                 </div>
@@ -420,7 +423,7 @@
         </div>
         <div id="grunt-modal" class="reveal-modal tiny" data-reveal>
             <h6>Grunt</h6>
-            <p>I have used grunt in some projects but I don't use it always. NPM with Browserify often can do the same job.</p>
+            <p>I have used grunt in some projects but I don't use it always.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="less-modal" class="reveal-modal tiny" data-reveal>
@@ -454,25 +457,27 @@
 
         <!-- TIME FOR SCRIPTS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="/public/js/production/scripts.min.js"></script>
+
+
+        <?php /*
+
         <script src="/public/js/fastclick.js"></script>
 
-        <!-- form -->
         <script src="/public/js/classie.js"></script>
         <script src="/public/js/modernizr.custom.js"></script>
         <script src="/public/js/stepsForm.js"></script>
 
-        <!-- morphing device -->
         <script src="/public/js/morphingdevice.js"></script>
         
-        <!-- foundation -->
         <script src="/public/js/foundation.js"></script>
         <script src="/public/js/foundation.reveal.js"></script>
 
-        <!-- ajax loader -->
         <script src="/public/js/spin.min.js"></script>
 
-        <!-- my scripts -->
         <script src="/public/js/rafascript.js"></script>
+
+        */ ?>
 
     </body>
 </html>
