@@ -12,8 +12,39 @@
         <meta name="author" content="Rafael Garcia Doblas">
         <meta name="robots" content="noindex, nofollow">
 
+
+
+<!--    DELETE
+
         <meta name="theme-color" content="#DA635D">
         <link rel="icon" sizes="192x192" href="/public/images/icon-192x192-skin.png">
+
+        <link rel="shortcut icon" type="image/x-icon" href="/public/images/fav1.png">
+        
+ -->
+
+
+        <!-- FAVICONS AND ICONS -->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/public/images/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/public/images/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/public/images/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/public/images/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/public/images/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/public/images/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/public/images/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/public/images/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/public/images/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/public/images/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/public/images/favicons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/public/images/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/public/images/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/public/images/favicons/manifest.json">
+        <link rel="shortcut icon" href="/public/images/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#4e4e56">
+        <meta name="msapplication-TileImage" content="/public/images/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="/public/images/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#4E4E56">
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
         <!-- <link rel="stylesheet" href="/public/css/rafastyle.css"> -->
@@ -23,7 +54,6 @@
         <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
         <script src="/public/js/less-1.7.4.min.js"></script>
 
-        <link rel="shortcut icon" type="image/x-icon" href="/public/images/fav1.png">
     </head>
 
     <body>
