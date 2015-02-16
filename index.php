@@ -13,7 +13,7 @@
         <meta name="robots" content="noindex, nofollow">
 
         <meta name="theme-color" content="#DA635D">
-        <link rel="icon" sizes="192x192" href="/public/images/icon-192x192.png">
+        <link rel="icon" sizes="192x192" href="/public/images/icon-192x192-skin.png">
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
         <!-- <link rel="stylesheet" href="/public/css/rafastyle.css"> -->
