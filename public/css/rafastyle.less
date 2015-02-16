@@ -286,6 +286,9 @@ body{
 	transition: opacity 0.2s;
 	@media @1000{ text-align: right; }
 	@media @600{ display: none; }
+	@media (max-height: 600px){
+		display: none;
+	}
 
 	&.opaque{
 		opacity: 1;
@@ -930,6 +933,7 @@ footer.s-form{
 	background-color: @red;
 	position: fixed;
 	z-index: 0;
+	height: 500px;
 	overflow: hidden;
 	bottom: 0;
 	width: 100%;
