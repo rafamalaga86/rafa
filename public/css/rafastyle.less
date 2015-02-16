@@ -311,6 +311,16 @@ h5, h6{
 }
 
 
+.row-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+
 
 
 ////////////////////////////////////////////////////////////////
@@ -538,6 +548,7 @@ header{
 
 
 //////////////// GREETINGS SECTION //////////////////////////////////
+// DELETE
 
 /*
 .s-greetings{
@@ -577,13 +588,35 @@ header{
 		padding: 65px 0;
 	}
 
-	.inline{
+	/*.inline{ DELETE
 		display: inline;
+	}*/
+
+	p{
+		font-size: 18px;
+		padding-bottom: 15px;
 	}
 
-	@media @ipadlc{
-		.column1-2-small{
-			display: none;
+	h3{
+		letter-spacing: -2.1px;
+		margin-top: -20px;
+		font-size: 45px;
+		margin-left: -3px;
+		padding-bottom: 30px;
+		@media @ipadlc{
+			text-align: center;
+		}
+	}
+
+	span.margin{
+		font-size: 18px;
+		padding-bottom: 15px;
+		display: inline-block;
+		line-height: 1.6;
+
+		@media @ipadlc{
+			display: inline;
+			padding-bottom: 0;
 		}
 	}
 
@@ -598,89 +631,51 @@ header{
 		}
 	}
 
-	h3{
-		letter-spacing: -2.1px;
-		margin-top: -20px;
-		font-size: 45px;
-		margin-left: -3px;
-		padding-bottom: 30px;
+
+
+
+	.d-introduction{ // FIRST FLEX BOX
+		width: 50%;
+		margin-right: 10%;
+		order: 1;
+		overflow: hidden;
+		@media @ipadlc{ width: 100%;}
 	}
 
-
-	.md-slider{
-		margin: 0;
-	}
-	.md-device{
-		 button::before{
-			font-family: 'icomoon';
-			content: "\e608";
-			-webkit-transform: scaleX(-1);
-			transform: scaleX(-1);
-			display: block;
-		 }
-	}
-
-	p{
-		font-size: 18px;
-		padding-bottom: 15px;
-	}
-
-	span.margin{
-		font-size: 18px;
-		padding-bottom: 15px;
-		display: inline-block;
-		line-height: 1.6;
-
+	.d-device{ // SECOND FLEX BOX
+		width: 40%;
+		order: 2;
+		box-sizing: border-box;
+		overflow: hidden;
 		@media @ipadlc{
-			display: inline;
-			padding-bottom: 0;
+			display: none;
 		}
-	}
-}
 
-
-
-/////////// TECHONOLOGIES THAT I LIKE SECTION //////////////////
-
-
-.s-techs{
-	background-color: @skin;
-	padding-bottom: 100px;
-
-	@media @ipadlc{
-		padding-bottom: 75px;
-	}
-
-	h3{
-		letter-spacing: -2.1px;
-		margin-top: -20px;
-		font-size: 45px;
-		margin-left: -3px;
-		padding-bottom: 30px;
-	}
-
-	p{
-		font-size: 18px;
-		padding-bottom: 15px;
-	}
-
-	span.margin{
-		font-size: 18px;
-		padding-bottom: 15px;
-		display: inline-block;
-		line-height: 1.6;
-
-		@media @ipadlc{
-			display: inline;
-			padding-bottom: 0;
+		.md-slider{
+			margin: 0;
+		}
+		.md-device{
+			 button::before{
+				font-family: 'icomoon';
+				content: "\e608";
+				-webkit-transform: scaleX(-1);
+				transform: scaleX(-1);
+				display: block;
+			 }
 		}
 	}
 
-	.d-icons{
+
+
+	.d-icons{  // THIRD FLEX BOX
 		text-align: left;
+		order: 3;
+		width: 55%;
+		margin-right: 10%;
 		@media @ipadlc{
 			padding-top: 50px;
 			text-align: center;
+			width: 100%;
 		}
 		li{
 			display: block;
@@ -707,7 +702,7 @@ header{
 			&:nth-child(5n){
 				margin-right: 0;
 				@media @ipadlc{
-					margin: 12px 12px;
+					margin: 12px;
 				}
 			}
 			a{
@@ -726,12 +721,6 @@ header{
 				top: 0;
 				margin: auto;
 			}
-			// &:hover{
-			// 	i:before{
-			// 		color: @red_lighter;
-			// 		display: inline-block;
-			// 	}
-			// }
 			i.ghost:before{
 				font-size: 75px;
 			}
@@ -747,6 +736,23 @@ header{
 			}
 		}
 	}
+
+	.d-comments{ // FOURTH FLEX BOX
+		order: 4;
+		width: 35%;
+		@media @ipadlc{
+			order: 2;
+			width: 100%;
+		}
+	}
+}
+
+
+
+/////////// TECHONOLOGIES THAT I LIKE SECTION //////////////////
+
+
+.s-techs{
 }
 
 

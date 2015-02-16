@@ -44,7 +44,7 @@ if($_POST) {
         $output = json_encode(array('type'=>'error', 'text' => 'Sorry the email was not sent'));
         die($output);
     } else {
-        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$_POST["userName"] .' Thank you for your email'));
+        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$_POST["userName"] .'. Thank you for your email'));
         die($output);
     }
 }

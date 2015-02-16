@@ -104,12 +104,12 @@ function listenWidth() {
 
     if( $(window).width() <= 1040 ){
 
-        $(".d-comments").remove().insertBefore($(".d-icons"));
+        // $(".d-comments").remove().insertBefore($(".d-icons"));
         $("header").removeClass('full-screen-section');
 
     } else {
 
-        $(".d-comments").remove().insertAfter($(".d-icons"));
+        // $(".d-comments").remove().insertAfter($(".d-icons"));
         $("header").addClass('full-screen-section');
     }
 }

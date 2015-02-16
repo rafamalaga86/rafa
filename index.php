@@ -12,20 +12,7 @@
         <meta name="author" content="Rafael Garcia Doblas">
         <meta name="robots" content="noindex, nofollow">
 
-
-
-<!--    DELETE
-
-        <meta name="theme-color" content="#DA635D">
-        <link rel="icon" sizes="192x192" href="/public/images/icon-192x192-skin.png">
-
-        <link rel="shortcut icon" type="image/x-icon" href="/public/images/fav1.png">
-
- -->
-
-
         <!-- FAVICONS AND ICONS -->
-
         <link rel="apple-touch-icon" sizes="57x57" href="/public/images/favicons/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/public/images/favicons/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/public/images/favicons/apple-touch-icon-72x72.png">
@@ -87,21 +74,20 @@
 
                 <div id="introduction-anchor"></div>
 
-                <div class="hold">
+                <div class="hold row-flex">
 
-                    <div class="column1-2-big d-introduction">
 
+
+                    <div class="d-introduction">
                         <h3><strong>Back-End</strong> <span>and</span> <strong>Front-End</strong></h3>
                         <p><span class="margin">As a Back-End I aim to write clean, efficient and elegant code. As a Front-End my goal is to make good looking highly responsive websites.</span>
                         <span class="margin">Love to plan websites, to study every detail, to work along my colleagues designers, to discuss about UX...</span></p>
                         <p>I <strong>always</strong> fancy a coffee.</p>
+                    </div>
 
-                    </div><!-- .column1-2 
-
-
-
-                i--><div class="column1-2-small">
                         
+
+                    <div class="d-device">
                         <div class="md-slider">
                             <div class="md-device-wrapper">
                                 <div class="md-device md-device-1">
@@ -111,22 +97,11 @@
                                 </div>
                             </div>
                         </div>
-
-                    </div><!-- .column1-2 -->
-
+                    </div>
 
 
-
-                </div>
-            </section>
-
-
-
-            <section class="s-techs">
-                <div class="hold">
-
-
-                    <div class="column1-2-big d-icons">
+                
+                    <div class="d-icons">
                         <ul>
                             <li><a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="php-modal"><i class="icon-php-plain"></i></a></li>
@@ -148,28 +123,31 @@
                             <li><a href="#" data-reveal-id="less-modal"><i class="icon-less-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="sass-modal"><i class="icon-sass-original"></i></a></li>
                             <li><a href="#" data-reveal-id="wordpress-modal"><i class="icon-wordpress-plain-wordmark"></i></a></li>
-
                         </ul>
-                        
-                    </div><!-- end .column1-2
+                    </div>
 
-                i--><div class="column1-2-small d-comments">
 
+
+                    <div class="d-comments">
                         <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
-
                         <p>
                             <span class="margin">I use OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I enjoy work as a part of a team. </span>
-
                             <span class="margin"> I have an Engineering in Information Technology from Málaga University in Spain.</span>
-
                             <span class="margin">In total, I have four years experience as a web developer. I have been working in Spain, England and Czech Republic, as an employee and as a freelancer.</span>
-
                             <span class="margin">Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser.</span>
                         </p>
-
                         <!-- <p>I think that taking the risk of trying a new technology is always woth it.</p><br> -->
-
                     </div>
+
+
+                </div>
+            </section>
+
+
+
+            <section class="s-techs">
+                <div class="hold">
+
 
                 </div>
             </section>
