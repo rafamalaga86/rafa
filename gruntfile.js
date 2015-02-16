@@ -22,6 +22,9 @@ module.exports = function(grunt) {
 
         less: {
             default: {
+                options: {
+                    compress: false
+                },
                 files: {
                     "public/css/production/style.css": "public/css/rafastyle.less"
                 }

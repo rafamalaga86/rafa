@@ -37,7 +37,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
-        <!-- <link rel="stylesheet" href="/public/css/rafastyle.css"> -->
+        <!-- <link rel="stylesheet" href="/public/css/production/style.css"> -->
         <link rel="stylesheet/less" href="/public/css/rafastyle.less" >
 
         <!-- LESS JS -->
@@ -84,7 +84,7 @@
                     <div class="d-introduction box">
                         <h3><strong>Back-End</strong> <span>and</span> <strong>Front-End</strong></h3>
                         <p><span class="margin">As a Back-End I aim to write clean, efficient and elegant code. As a Front-End my goal is to make good looking highly responsive websites.</span>
-                        <span class="margin">Love to plan websites, to study every detail, to work along my colleagues designers, to discuss about UX...</span></p>
+                        <span class="margin">Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...</span></p>
                         <p>I <strong>always</strong> fancy a coffee.</p>
                     </div>
 
@@ -348,7 +348,7 @@
         </div>
         <div id="php-modal" class="reveal-modal tiny" data-reveal>
             <h6>PHP</h6>
-            <p>I use Object Oriented PHP in a daily basis, with Laravel, Wordpress or Codeigniter. PHP could sometimes be inconsistent, full of exceptions or lack clear philosophy. However, there is big community of Object Oriented PHP and great frameworks like Laravel that really stand out and make PHP compete with Python or Ruby face to face.</p>
+            <p>I use Object Oriented PHP on a daily basis, with Laravel, Wordpress or Codeigniter. PHP could sometimes be inconsistent, full of exceptions and it lacks a clear philosophy. However, there is big a community of Object Oriented PHP and great frameworks like Laravel that really stand out and make PHP compete with Python or Ruby face to face.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="laravel-modal" class="reveal-modal tiny" data-reveal>
@@ -358,7 +358,7 @@
         </div>
         <div id="javascript-modal" class="reveal-modal tiny" data-reveal>
             <h6>Javascript</h6>
-            <p>I use Javascript almost every day. Vanilla Javascript has become really useful. In one side in the server with NodeJS. In the other side, it has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it.</p>
+            <p>I use Javascript almost every day. Vanilla Javascript has become really useful. In one side, we can use it in the server with NodeJS. In the other side, Javascript has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="digital-ocean-modal" class="reveal-modal tiny" data-reveal>
@@ -423,7 +423,7 @@
         </div>
         <div id="grunt-modal" class="reveal-modal tiny" data-reveal>
             <h6>Grunt</h6>
-            <p>I have used grunt in some projects but I don't use it always.</p>
+            <p>I use Grunt often. It's really useful for minimize javascript, or process less or sass.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="less-modal" class="reveal-modal tiny" data-reveal>
