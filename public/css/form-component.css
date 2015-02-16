@@ -154,6 +154,7 @@
 	font-family: 'icomoon';
 	line-height: 2;
 	speak: none;
+	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

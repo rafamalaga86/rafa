@@ -42,24 +42,15 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 
 //---------------- COLOURS ---------------//
-// @purple: #9e0fe0;
-
-@purple: #5E598D;
 
 @grey: #4E4E56;
-// @grey: #000;
 @red: #DA635D;
-// @red: #BA2228;
 @skin: #DCD0C0;
-// @skin: #E2CECF;
 @brown: #B1938B;
 
-@red_lighter: #e9756f;
 @red_icon: #ff6666;
 @red_darker: #f14b42;
 @black: #232323;
-@transparent-grey: rgba(0,0,0, 0.2);
-@transparent-grey2: rgba(0,0,0, 0.4);
 
 @facebook: #3b5998;
 @github: #8c429c;
@@ -111,17 +102,6 @@ h5, h6{
 	}
 }
 
-.long-hold{
-	width: 97.5%;
-	max-width: 1600px;
-	display: inline-block;
-	@media @1700{
-		width: 95%;
-	}
-	@media @500{
-		display: none;
-	}
-}
 
 .red{
 	color: @red;
@@ -161,20 +141,19 @@ h5, h6{
 	transition: all 0.3s;
 }
 
-/* Pseudo elements for icons */
 
+/* Button Effect */
 
-/* Button 5 */
 .button-effect {
 	color: white;
-	// height: 70px;
-	// min-width: 260px;
-	// line-height: 24px;
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
+
+
+/* Pseudo elements for icons */
 
 .button-effect span {
 	display: inline-block;
@@ -201,7 +180,6 @@ h5, h6{
 	transition: all 0.3s;
 }
 
-/* Button 5a */
 .button-effect:hover span {
 	-webkit-transform: translateY(300%);
 	-ms-transform: translateY(300%);
@@ -219,36 +197,22 @@ h5, h6{
 	box-sizing: border-box;
 	vertical-align: top;
 	text-align: center;
-	@media @1000{
-		width: 50%;
-	}
-	@media @500{
-		width: 100%;
-	}
+	@media @1000{ width: 50%; }
+	@media @500{ width: 100%; }
 	&:nth-child(1){
 		padding-right: 3%;
-		@media @500{
-			padding: 0;
-		}
+		@media @500{ padding: 0; }
 	}
 	&:nth-child(2){
 		padding: 0 1.66%;
-		@media @1000{
-			padding-left: 3%;
-		}
-		@media @500{
-			padding: 0;
-		}
+		@media @1000{ padding-left: 3%; }
+		@media @500{ padding: 0; }
 	}
 	&:nth-child(3){
 		padding-left: 3%;
-		@media @1000{
-			display: none;
-		}
+		@media @1000{ display: none; }
 	}
 }
-
-
 
 
 .column1-2{
@@ -271,42 +235,6 @@ h5, h6{
 		&:nth-child(2){
 			padding-left: 0;
 		}
-	}
-}
-
-
-
-.column1-2-small, .column1-2-big{
-	display: inline-block;
-	width: 40%;
-	box-sizing: border-box;
-	vertical-align: top;
-	overflow: hidden;
-	&:nth-child(1){
-		padding-right: 4%;
-	}
-	&:nth-child(2){
-		padding-left: 4%;
-	}
-	@media @ipadlc{
-		width: 100%;
-		h3{
-			text-align: center;
-		}
-		&:nth-child(1){
-			padding-right: 0;
-		}
-		&:nth-child(2){
-			padding-left: 0;
-		}
-	}
-}
-
-
-.column1-2-big{
-	width: 60%;
-	@media @ipadlc{
-		width: 100%;
 	}
 }
 
@@ -356,12 +284,8 @@ body{
 	background-color: @grey;
 	opacity: 0;
 	transition: opacity 0.2s;
-	@media @1000{
-		text-align: right;
-	}
-	@media @600{
-		display: none;
-	}
+	@media @1000{ text-align: right; }
+	@media @600{ display: none; }
 
 	&.opaque{
 		opacity: 1;
@@ -370,9 +294,7 @@ body{
 	.hold{
 		display: inline-block;
 		text-align: right;
-		@media @1100{
-			width: 97.5%;
-		}
+		@media @1100{ width: 97.5%; }
 	}
 
 	nav{
@@ -431,50 +353,32 @@ header{
 	background: url(/public/images/header-bg.jpg) no-repeat;
 	background-size: cover;
 	min-height: 850px;
-	@media @1400{
-		background-position-x: right;
-	}
-	@media @1200{
-		background-position-x: 90%;
-	}
+	@media @1400{ background-position-x: right; }
+	@media @1200{ background-position-x: 90%; }
 	@media @ipadlc{
 		background-image: url(/public/images/header-bg-tablet.jpg);
 		background-position: center bottom;
 	}
-	@media @ipadpt{
-		background-size: 900px auto;
-	}
-	@media @400{
-		min-height: 700px;
-	}
+	@media @ipadpt{ background-size: 900px auto; }
+	@media @400{ min-height: 700px; }
 	.hold{
 		h1,h2,h3,p{
 			margin: 0;
 			color: @black;
 			font-weight: bold;
 			font-size: 30px;
-			@media @1400{
-				font-size: 25px;
-			}
-			@media @700{
-				font-size: 20px;
-			}
+			@media @1400{ font-size: 25px; }
+			@media @700{ font-size: 20px; }
 		}
 		h3{
 			font-size: 110px;
 			margin-bottom: 30px;
 			margin-left: -8px;
-			@media @1400{
-				font-size: 80px;
-			}
-			@media @700{
-				font-size: 60px;
-			}
+			@media @1400{ font-size: 80px; }
+			@media @700{ font-size: 60px; }
 		}
 		.what-i-love{
-			@media @600{
-				display: none;
-			}
+			@media @600{ display: none; }
 		}
 		h1{
 			margin-bottom: 12px;
@@ -484,18 +388,9 @@ header{
 				font-size: 45px;
 				line-height: 25px;
 				color: @grey;
-				@media @700{
-					font-size: 30px;
-				}
+				@media @700{ font-size: 30px; }
 			}
 		}
-		// .learn-more{
-			// 	display: none;
-			// 	margin-top: 50px;
-			// 	@media @ipadlc{
-			// 		display: inline-block;
-			// 	}
-		// }
 	}
 	.arrow{
 		display: block;
@@ -511,24 +406,8 @@ header{
 		border-radius: 50%;
 		-webkit-transition: background-color .2s;
 		transition: background-color .2s;
-		@media @ipadlc{
-			display: none;
-
-			// right: 100px;
-			// bottom: 250px;
-			// left: auto;
-			// margin-left: 0;
-
-			// border-radius: 0;
-			// height: 50px;
-			// margin-top: 8px;
-		}
-		@media @600{
-			display: none;
-		}
-		&:hover{
-			background-color: rgba(0,0,0,0.4);
-		}
+		@media @ipadlc{ display: none; }
+		&:hover{ background-color: rgba(0,0,0,0.4); }
 		i::before{
 			display: inline-block;
 			color: white;
@@ -536,46 +415,10 @@ header{
 			margin-top: 30px;
 			-webkit-transform: rotate(270deg);
 			transform: rotate(270deg);
-			@media @ipadlc{
-				// margin-top: 8px;
-				// font-size: 35px;
-			}
 		}
 	}
 }
 
-
-
-
-//////////////// GREETINGS SECTION //////////////////////////////////
-// DELETE
-
-/*
-.s-greetings{
-	background-color: @grey;
-	text-align: center;
-	padding: 60px 0;
-	.first{
-		width: 100%;
-		display: inline-block;
-		h2{
-			color: white;
-			font-size: 40px;
-		}
-	}
-	.second{
-		width: 100%;
-		display: inline-block;
-		p{
-			color: white;
-			font-size: 24px;
-		}
-	}
-	.button{
-		margin-top: 40px;
-	}
-}
-*/
 
 
 //////////////// INTRODUCTION SECTION //////////////////////////////////
@@ -587,10 +430,6 @@ header{
 	@media @ipadlc{
 		padding: 65px 0;
 	}
-
-	/*.inline{ DELETE
-		display: inline;
-	}*/
 
 	p{
 		font-size: 18px;
