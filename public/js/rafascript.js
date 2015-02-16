@@ -333,6 +333,21 @@ var spinner = new Spinner(opts).spin(target);
 
 
 
+// DELETE - SHOW THE CONTENT
+/////////////////////////////////////////////////////////////////
+
+var targets = document.getElementsByClassName("show-reveal");
+
+var sources = document.getElementsByClassName("reveal-modal tiny");
+
+for ( var i = 0; i < sources.length ; ++i){
+
+    targets[i].innerHTML = sources[i].innerHTML;
+
+}
+
+
+
 
 
 

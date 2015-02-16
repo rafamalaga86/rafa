@@ -92,7 +92,7 @@
                     <div class="column1-2-big d-introduction">
 
                         <h3><strong>Back-End</strong> <span>and</span> <strong>Front-End</strong></h3>
-                        <p><span class="margin">As a Back-End I aim to write clean, efficient and elegant code. As a Fron-End my goal is to make good looking highly responsive websites.</span>
+                        <p><span class="margin">As a Back-End I aim to write clean, efficient and elegant code. As a Front-End my goal is to make good looking highly responsive websites.</span>
                         <span class="margin">Love to plan websites, to study every detail, to work along my colleagues designers, to discuss about UX...</span></p>
                         <p>I <strong>always</strong> fancy a coffee.</p>
 
@@ -178,53 +178,53 @@
             <section class="s-show-the-text">
                 <div class="hold">
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-git-plain-wordmark"></i></div>Git is just superb, I use Git CLI with everything. Storing my projects in Bitbucket or Github, I do deploy with Git as well.</div>
-                        <div class="column1-2"><div><i class="icon-php-plain"></i></div>I use Object Oriented PHP in a daily basis. With Laravel, Wordpress or Codeigniter. PHP could be sometimes inconsistent, full of exceptions or lack clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-laravel-plain"></i></div>Laravel is just splendid. I use it as much as I can. I was feeling down on PHP till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating... love all the possibilities that laravel has to offer. </div>
-                        <div class="column1-2"><div><i class="icon-javascript-plain"></i></div>I use Javascript almost every day. Vanilla Javascript has become really useful. In one side in the server with NodeJS. In the other side, it has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><img src="/public/images/logos/digital-ocean.svg" alt="digital-ocean"></div>I've using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to.</div>
-                        <div class="column1-2"><div><i class="icon-amazonwebservices-plain-wordmark"></i></div>I have tried it and the experience was really good. Sadly, never had an app big enough to need such a platform.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-nodejs-plain-wordmark"></i></div>Using Javascript in both Back-End and Front-End development always sounded good for me. Want to learn it as soon as I have some spare time. I have been trying it for small things, and I have used it for Ghost thought.</div>
-                        <div class="column1-2"><div><img src="/public/images/logos/nginx.svg" alt="nginx"></div>I used to use Apache, but I moved to Nginx due to better performance.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-linux-plain"></i></div>I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many types of Linux servers.</div>
-                        <div class="column1-2"><div><i class="icon-ubuntu-plain"></i></div>My favourite desktop distro. I am really looking forward to see what ElementaryOS have to bring us in the future, but for now, I use Ubuntu.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-mysql-plain-wordmark"></i></div>I don't use MySQL that much anymore thanks to ORMs. But I have been doing queries since my degree.</div>
-                        <div class="column1-2"><div><i class="icon-ghost-plain-wordmark ghost"></i></div>I felt in love with Ghost in the very first momment I saw the Admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress different.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-npm-plain-wordmark"></i></div>I could not work without NPM. It has all type of packages. In addition of Browserify, you can also use it for Front-End development.</div>
-                        <div class="column1-2"><div><i class="icon-angularjs-plain-wordmark"></i></div>Before diggin in AngularJS I want to master Node. But really feels like somehting I have to learn soon. I have tried Backbone but Angular is gaining more and more fans.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-foundation-plain-wordmark"></i></div>I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosify is being an 'skeleton' rather than a bunch of elements already made. And I like that.</div>
-                        <div class="column1-2"><div><i class="icon-html5-plain"></i></div>Just HTML5. There is no room for XHTML or HTML4 these days.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-grunt-line-wordmark"></i></div>I have used grunt in some projects but I don't use it always. NPM with Browserify often can do the same job.</div>
-                        <div class="column1-2"><div><i class="icon-less-plain-wordmark"></i></div>I can use Less or Sass equally, I find advantages and disadvantages in them both.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                     <div class="row">
-                        <div class="column1-2"><div><i class="icon-sass-original"></i></div>I can use Sass or Less equally, I find advantages and disadvantages in them both.</div>
-                        <div class="column1-2"><div><i class="icon-wordpress-plain-wordmark"></i></div>I develop for Wordpress sometimes often due to high demand. Not a fan. Usually using Wordpress as a framework is tricky and time consuming, so I try to avoid it as much as I can.</div>
+                        <div class="column1-2 show-reveal"></div>
+                        <div class="column1-2 show-reveal"></div>
                     </div>
 
                 </div>
@@ -415,12 +415,12 @@
         </div>
         <div id="php-modal" class="reveal-modal tiny" data-reveal>
             <h6>PHP</h6>
-            <p>I use Object Oriented PHP in a daily basis. With Laravel, Wordpress or Codeigniter. PHP could be sometimes inconsistent, full of exceptions or lack clear philosofy. However, there is big community of Object Oriented PHP and great frameworks as Laravel that really stands out and make PHP compite with Python or Ruby face to face.</p>
+            <p>I use Object Oriented PHP in a daily basis, with Laravel, Wordpress or Codeigniter. PHP could sometimes be inconsistent, full of exceptions or lack clear philosophy. However, there is big community of Object Oriented PHP and great frameworks like Laravel that really stand out and make PHP compete with Python or Ruby face to face.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="laravel-modal" class="reveal-modal tiny" data-reveal>
             <h6>Laravel</h6>
-            <p>Laravel is just splendid. I use it as much as I can. I was feeling down on PHP till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating... love all the possibilities that laravel has to offer. </p>
+            <p>Laravel is just splendid. I use it as much as I can. I was feeling down on PHP till I found Laravel. Database Migrations, RESTful Routing, Database Seeding, Eloquent ORM, Composer packages, Blade templating... I love all the possibilities that Laravel has to offer. </p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="javascript-modal" class="reveal-modal tiny" data-reveal>
@@ -450,7 +450,7 @@
         </div>
         <div id="linux-modal" class="reveal-modal tiny" data-reveal>
             <h6>Linux</h6>
-            <p>I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also dealed with many types of Linux servers.</p>
+            <p>I have always a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also work with many types of Linux servers.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="ubuntu-modal" class="reveal-modal tiny" data-reveal>
@@ -465,7 +465,7 @@
         </div>
         <div id="ghost-modal" class="reveal-modal tiny" data-reveal>
             <h6>Ghost</h6>
-            <p>I felt in love with Ghost in the very first momment I saw the Admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress different.</p>
+            <p>I felt in love with Ghost in the very first moment I saw the admin panel and the speed of the platform. I would encourage anyone to give it a try, afterwards you will see Wordpress in a new light.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="npm-modal" class="reveal-modal tiny" data-reveal>
@@ -475,12 +475,12 @@
         </div>
         <div id="angularjs-modal" class="reveal-modal tiny" data-reveal>
             <h6>Angular JS</h6>
-            <p>Before diggin in AngularJS I want to master Node. But really feels like somehting I have to learn soon. I have tried Backbone but Angular is gaining more and more fans.</p>
+            <p>Before diggin in AngularJS I want to master Node. But really feels like something I have to learn soon. I have tried Backbone but Angular is gaining more and more fans.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="foundation-modal" class="reveal-modal tiny" data-reveal>
             <h6>Foundation</h6>
-            <p>I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosify is being an 'skeleton' rather than a bunch of elements already made. And I like that.</p>
+            <p>I started to use Foundation because was the first Front-End framework using the paradigm mobile first. But even bootstrap doing mobile first now, Foundation's philosophy is being an 'skeleton' rather than a bunch of elements already made. And I like that.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="html5-modal" class="reveal-modal tiny" data-reveal>
@@ -494,7 +494,7 @@
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="less-modal" class="reveal-modal tiny" data-reveal>
-            <h6>less</h6>
+            <h6>Less</h6>
             <p>I can use Less or Sass equally, I find advantages and disadvantages in them both.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
