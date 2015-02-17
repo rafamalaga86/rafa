@@ -37,20 +37,20 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 
         <!-- Style Sheet -->
-        <!-- <link rel="stylesheet" href="/public/css/production/style.min.css"> -->
+        <link rel="stylesheet" href="/public/css/production/style.min.css">
         
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
-        <link rel="stylesheet" href="/public/css/normalize.css">
-        <link rel="stylesheet" href="/public/icons/style.css">
-        <link rel="stylesheet" href="/public/css/form-component.css">
-        <link rel="stylesheet" href="/public/css/morphing-component.css">
-        <link rel="stylesheet/less" href="/public/css/rafastyle.less">
+        <!-- <link rel="stylesheet" href="/public/css/normalize.css"> -->
+        <!-- <link rel="stylesheet" href="/public/icons/style.css"> -->
+        <!-- <link rel="stylesheet" href="/public/css/form-component.css"> -->
+        <!-- <link rel="stylesheet" href="/public/css/morphing-component.css"> -->
+        <!-- <link rel="stylesheet/less" href="/public/css/rafastyle.less"> -->
 
 
         <!-- LESS JS -->
-        <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
-        <script src="/public/js/less-1.7.4.min.js"></script>
+        <!-- <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script> -->
+        <!-- <script src="/public/js/less-1.7.4.min.js"></script> -->
 
     </head>
 

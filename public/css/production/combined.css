@@ -1877,6 +1877,32 @@ a.button {
   align-items: flex-start;
   align-content: flex-start;
 }
+.screen-no-flexbox {
+  display: none;
+}
+html.no-flexbox body {
+  padding-bottom: 0 !important;
+}
+html.no-flexbox body .wrapper,
+html.no-flexbox body footer {
+  display: none !important;
+}
+html.no-flexbox body .screen-no-flexbox {
+  display: block;
+  background-color: #4e4e56;
+  color: white;
+  font-size: 16px;
+}
+html.no-flexbox body .screen-no-flexbox .d-text {
+  display: block;
+  width: 500px;
+  padding-top: 5%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+html.no-flexbox body .screen-no-flexbox .d-text p:first-child {
+  margin-bottom: 30px;
+}
 body {
   font: 16px "Open Sans", Arial;
   color: #4e4e56;
@@ -2501,6 +2527,24 @@ header .arrow i::before {
 .s-cta-mobile {
   display: none;
   text-align: center;
+  /*
+	.d-ring-mail{
+		text-align-last: auto;
+		.button{
+			width: 50%;
+			display: inline-block;
+			background-color: @grey;
+			padding: 25px;
+			margin: 0;
+			box-sizing: border-box;
+			&:first-child{
+				border-right: 1px solid #444;
+			}
+			&:nth-child(2){
+				border-left: 1px solid #444;
+			}
+		}
+	}*/
 }
 .s-cta-mobile img {
   vertical-align: top;
@@ -2510,17 +2554,6 @@ header .arrow i::before {
   .s-cta-mobile {
     display: block;
   }
-}
-.s-cta-mobile .d-ring-mail button {
-  width: 50%;
-  background-color: #4e4e56;
-  padding: 25px;
-}
-.s-cta-mobile .d-ring-mail button:first-child {
-  border-right: 1px solid #444;
-}
-.s-cta-mobile .d-ring-mail button:nth-child(2) {
-  border-left: 1px solid #444;
 }
 .s-testimonials {
   padding: 50px 0;
