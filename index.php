@@ -37,20 +37,20 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 
         <!-- Style Sheet -->
-        <link rel="stylesheet" href="/public/css/production/style.min.css">
+        <!-- <link rel="stylesheet" href="/public/css/production/style.min.css"> -->
         
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
-        <!-- <link rel="stylesheet" href="/public/css/normalize.css"> -->
-        <!-- <link rel="stylesheet" href="/public/icons/style.css"> -->
-        <!-- <link rel="stylesheet" href="/public/css/form-component.css"> -->
-        <!-- <link rel="stylesheet" href="/public/css/morphing-component.css"> -->
-        <!-- <link rel="stylesheet/less" href="/public/css/rafastyle.less"> -->
+        <link rel="stylesheet" href="/public/css/normalize.css">
+        <link rel="stylesheet" href="/public/icons/style.css">
+        <link rel="stylesheet" href="/public/css/form-component.css">
+        <link rel="stylesheet" href="/public/css/morphing-component.css">
+        <link rel="stylesheet/less" href="/public/css/rafastyle.less">
 
 
         <!-- LESS JS -->
-        <!-- <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script> -->
-        <!-- <script src="/public/js/less-1.7.4.min.js"></script> -->
+        <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
+        <script src="/public/js/less-1.7.4.min.js"></script>
 
     </head>
 
@@ -459,6 +459,15 @@
 
 
 
+        <div class="screen-no-flexbox full-screen-section">
+            <div class="hold">
+                <div class="d-text">
+                    <p>I am really sorry but your browser does not support flexbox or other cool properties. Please use Chrome, Firefox, Safari or Internet Explorer 10+. </p>
+                    <p>Thansks, Rafael.</p>
+                </div>
+            </div>
+        </div>
+
 
 
 
@@ -471,10 +480,10 @@
 
         <!-- TIME FOR SCRIPTS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="/public/js/production/scripts.min.js"></script>
+        <!-- <script src="/public/js/production/scripts.min.js"></script> -->
 
 
-        <?php /*
+      
 
         <script src="/public/js/fastclick.js"></script>
 
@@ -491,7 +500,7 @@
 
         <script src="/public/js/rafascript.js"></script>
 
-        */ ?>
+       
 
     </body>
 </html>

@@ -240,6 +240,46 @@ h5, h6{
 
 
 
+/////////////////////// NO FLEX BOX SCREEN /////////////////////////////
+
+
+.screen-no-flexbox{
+	display: none;
+}
+
+
+html.no-flexbox{
+
+	body{
+		padding-bottom: 0 !important;
+
+		.wrapper, footer{
+			display: none !important;
+		}
+
+		.screen-no-flexbox{
+			display: block;
+			background-color: @grey;
+			color: white;
+			font-size: 16px;
+
+			.d-text{
+				display: block;
+				width: 500px;
+				padding-top: 5%;
+				max-width: 100%;
+				margin: 0 auto;
+
+				p:first-child{
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+}
+
+
+
 
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
@@ -985,8 +1025,6 @@ footer.s-form{
 		}
 	}
 }
-
-
 
 
 
