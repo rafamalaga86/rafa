@@ -314,10 +314,22 @@ input[type=text]::-ms-clear {
 	.simform {
 		font-size: 1.8em;
 	}
+
+
+	.simform .error-message {
+		padding: 6em 3.5em 0 0;
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 33.5625em) {
 	.simform {
 		font-size: 1.2em;
+	}
+
+
+	.simform .error-message {
+		padding: 8em 3.5em 0 0;
+		font-size: 12px;
 	}
 }
