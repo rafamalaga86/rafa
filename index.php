@@ -5,8 +5,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Rafael García Doblas</title>
-        <meta name="description" content="Rafael García Doblas, Web Developer">
+        <title>Rafael García Doblas, proud Web Developer</title>
+        <meta name="description" content="Rafael García Doblas, Proud Web Developer">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
         <meta name="format-detection" content="telephone=no">
         <meta name="author" content="Rafael Garcia Doblas">
@@ -142,7 +142,7 @@
                     <div class="d-comments box">
                         <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
                         <p>
-                            <span class="margin">I use OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I enjoy work as a part of a team. </span>
+                            <span class="margin">I do OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I enjoy work as a part of a team. </span>
                             <span class="margin"> I have an Engineering in Information Technology from Málaga University in Spain.</span>
                             <span class="margin">In total, I have four years experience as a web developer. I have been working in Spain, England and Czech Republic, as an employee and as a freelancer.</span>
                             <span class="margin">Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser.</span>
@@ -362,7 +362,7 @@
         </div>
         <div id="php-modal" class="reveal-modal tiny" data-reveal>
             <h6>PHP</h6>
-            <p>I use Object Oriented PHP on a daily basis, with Laravel, Wordpress or Codeigniter. PHP could sometimes be inconsistent, full of exceptions and it lacks a clear philosophy. However, there is big a community of Object Oriented PHP and great frameworks like Laravel that really stand out and make PHP compete with Python or Ruby face to face.</p>
+            <p>I do Object Oriented PHP on a daily basis, with Laravel, Wordpress or Codeigniter. PHP could sometimes be inconsistent, full of exceptions and it lacks a clear philosophy. However, there is big a community of Object Oriented PHP and great frameworks like Laravel that really stand out and make PHP compete with Python or Ruby face to face.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="laravel-modal" class="reveal-modal tiny" data-reveal>
@@ -372,7 +372,7 @@
         </div>
         <div id="javascript-modal" class="reveal-modal tiny" data-reveal>
             <h6>Javascript</h6>
-            <p>I use Javascript almost every day. Vanilla Javascript has become really useful. In one side, we can use it in the server with NodeJS. In the other side, Javascript has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other JS plugins use it.</p>
+            <p>I do Javascript almost every day. Vanilla Javascript has become really useful. In one side, we can use it in the server with NodeJS. In the other side, Javascript has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other JS plugins need it.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="digital-ocean-modal" class="reveal-modal tiny" data-reveal>
