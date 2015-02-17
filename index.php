@@ -268,11 +268,12 @@
             <section class="s-cta-mobile">
                 <img src="/public/images/s-cta-bg-mobile.jpg" alt="rafael garcia doblas">
 
+<?php /*
                 <div class="d-ring-mail">
                     <a href="skype:rafamalaga86?call" class="button"><span>Call Rafa</span></a><!--
                 i--><a href="#contact-anchor" class="button"><span>Mail Rafa</span></a>
                 </div>
-
+*/ ?>
             </section>
 
 
