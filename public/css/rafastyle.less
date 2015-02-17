@@ -254,6 +254,10 @@ h5, h6{
 body{
 	font: 16px "Open Sans", Arial;
 	color: @grey;
+
+	@media @ipadpt{
+		padding-bottom: 0 !important;
+	}
 }
 
 .wrapper{
@@ -609,6 +613,19 @@ header{
 
 
 
+//////////////// DOWNLOAD MY CV SECTION ////////////////////////////////////////////
+
+
+.s-download{
+	background-color: @grey;
+
+	.row-flex{
+		height: 100px;
+		justify-content: center;
+  		align-items: center;
+	}
+}
+
 
 //////////////// PORTFOLIO SECTION ////////////////////////////////////////////
 
@@ -934,6 +951,9 @@ footer.s-form{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	@media @ipadpt{
+		position: relative;
+	}
 	#loader-container{
 		display: none;
 	}

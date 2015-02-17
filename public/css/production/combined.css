@@ -2301,6 +2301,10 @@ header .arrow i::before {
     margin: 50px 0 0 0 !important;
   }
 }
+.s-download {
+  height: 300px;
+  background-color: #4e4e56;
+}
 .s-portfolio {
   position: relative;
   overflow: hidden;

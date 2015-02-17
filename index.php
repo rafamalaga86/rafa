@@ -37,20 +37,20 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 
         <!-- Style Sheet -->
-        <link rel="stylesheet" href="/public/css/production/style.min.css">
+        <!-- <link rel="stylesheet" href="/public/css/production/style.min.css"> -->
         
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
-        <!-- <link rel="stylesheet/less" href="/public/css/normalize.css"> -->
-        <!-- <link rel="stylesheet/less" href="/public/icons/style.css"> -->
-        <!-- <link rel="stylesheet/less" href="/public/css/form-component.css"> -->
-        <!-- <link rel="stylesheet/less" href="/public/css/morphing-component.css"> -->
-        <!-- <link rel="stylesheet/less" href="/public/css/rafastyle.less"> -->
+        <link rel="stylesheet" href="/public/css/normalize.css">
+        <link rel="stylesheet" href="/public/icons/style.css">
+        <link rel="stylesheet" href="/public/css/form-component.css">
+        <link rel="stylesheet" href="/public/css/morphing-component.css">
+        <link rel="stylesheet/less" href="/public/css/rafastyle.less">
 
 
         <!-- LESS JS -->
-        <!-- <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script> -->
-        <!-- <script src="/public/js/less-1.7.4.min.js"></script> -->
+        <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
+        <script src="/public/js/less-1.7.4.min.js"></script>
 
     </head>
 
@@ -61,7 +61,7 @@
             <section class="s-navigation">
                 <nav class="hold">
                     <a href="#" class="left"><h2>Rafael García Doblas</h2></a><!--
-                i--><a href="#projects-anchor"><span>Projects</span></a><!--
+                <a href="#projects-anchor"><span>Projects</span></a>
                 i--><a href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx"><span>Curriculum Vitae</span></a><!--
                 i--><a class="contact" href="#contact-anchor"><span>Contact me</span></a>
                 </nav>
@@ -155,25 +155,18 @@
             </section>
 
 
+            <?php /*
 
-            <section class="s-techs">
-                <div class="hold">
-
-
-                </div>
-            </section>
-
-
-
-            <!-- DELETE -->
             <section class="s-show-the-text">
                 <div class="hold">
                     <div class="row-flex append-node"></div>
                 </div>
             </section>
 
+            */ ?>
 
 
+            <?php /*
             <section class="s-portfolio">
                 <div id="projects-anchor"></div>
                 
@@ -218,6 +211,19 @@
                     
             </section>
 
+            */ ?>
+
+
+
+            <section class="s-download">
+                <div class="hold row-flex">
+
+                    <a class="button button-effect icon-signup" href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx">
+                        <span>Download my CV</span>
+                    </a>
+
+                </div>
+            </section>
 
 
 
@@ -252,7 +258,7 @@
                         <p class="red mt"><strong>I'd love to hear from you.</strong></p>
                         <div class="container">
 
-                            <button class="button button-effect icon-phone"><span>Call Rafa</span></button><!--
+                            <a href="skype:rafamalaga86" class="button button-effect icon-phone"><span>Call Rafa</span></a><!--
                         i--><a href="#contact-anchor" class="button button-effect icon-paperplane"><span>Mail Rafa</span></a>
                         </div>
                     </div>
@@ -287,7 +293,7 @@
                         </a>
 
                     <li class="skype">
-                        <a href="//www.facebook.com/rafamalaga86">
+                        <a href="skype:rafamalaga86?chat">
                             <i class="icon-skype"></i>
                         </a>
                 </ul>
