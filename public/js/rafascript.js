@@ -344,7 +344,10 @@ for ( var i = 0; i < sources.length ; ++i){
 
     div.innerHTML = sources[i].innerHTML;
 
-    parent.appendChild(div);
+    if (parent !== null){
+        parent.appendChild(div);
+    }
+
 
 
 }
