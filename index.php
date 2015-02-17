@@ -366,7 +366,7 @@
         </div>
         <div id="javascript-modal" class="reveal-modal tiny" data-reveal>
             <h6>Javascript</h6>
-            <p>I use Javascript almost every day. Vanilla Javascript has become really useful. In one side, we can use it in the server with NodeJS. In the other side, Javascript has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other js plugins use it.</p>
+            <p>I use Javascript almost every day. Vanilla Javascript has become really useful. In one side, we can use it in the server with NodeJS. In the other side, Javascript has become standard enough these days to stop using jQuery in the Front-End. But the library still makes our work easier, and many other JS plugins use it.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="digital-ocean-modal" class="reveal-modal tiny" data-reveal>

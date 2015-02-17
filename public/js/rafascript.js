@@ -64,9 +64,7 @@ preload([
     '/public/images/morphing/site1.jpg',
     '/public/images/morphing/site2.jpg',
     '/public/images/morphing/site3.jpg',
-    '/public/images/morphing/site4.jpg',
-    '/public/images/morphing/site3r.jpg',
-    '/public/images/morphing/site4r.jpg'
+    '/public/images/morphing/site4.jpg'
     ]);
 
 
