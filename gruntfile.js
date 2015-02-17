@@ -31,24 +31,42 @@ module.exports = function(grunt) {
             }
         },
 
-        cssmin: {
+        concat: {
             default: {
-                files: [{
-                    expand: true,
-                    cwd: 'public/css',
-                    src: ['*.css', '!*.min.css'],
-                    dest: 'public/css/production/',
-                    ext: '.min.css'
-                }]
+               src: [
+                     'public/css/normalize.css',
+                     'public/icons/style.css',
+                     'public/css/form-component.css',
+                     'public/css/morphing-component.css',
+                     'public/css/rafastyle.css'
+                    ],
+                dest: 'public/css/production/combined.css'
             }
-        }
+        },
+
+
+        cssmin : {
+            default:{
+                src: 'public/css/production/combined.css',
+                dest: 'public/css/production/style.min.css'
+            }
+        },
+
+
+
+
+
+
     });
 
     // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less']);
+    grunt.registerTask('default', ['uglify', 'less', 'concat', 'cssmin']);
 
 };
