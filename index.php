@@ -102,7 +102,7 @@
                         <div class="md-slider">
                             <div class="md-device-wrapper">
                                 <div class="md-device md-device-1">
-                                    <div class="md-inner"><img src="public/images/morphing/site1.jpg" /></div>
+                                    <div class="md-inner"><img src="public/images/morphing/site1.jpg" alt="rafael garcia doblas dektop"></div>
                                     <div class="md-border-element"></div>
                                     <div class="md-base-element"></div>
                                 </div>
@@ -260,7 +260,7 @@
             </section>
 
             <section class="s-cta-mobile">
-                <img src="/public/images/s-cta-bg-mobile.jpg" alt="super-rafa-mobile">
+                <img src="/public/images/s-cta-bg-mobile.jpg" alt="rafael garcia doblas">
 
                 <div class="d-ring-mail">
                     <button class="button"><span>Call Rafa</span></button><!--
