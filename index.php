@@ -258,7 +258,7 @@
                         <p class="red mt"><strong>I'd love to hear from you.</strong></p>
                         <div class="container">
 
-                            <a href="skype:rafamalaga86" class="button button-effect icon-phone"><span>Call Rafa</span></a><!--
+                            <a href="skype:rafamalaga86?call" class="button button-effect icon-phone"><span>Call Rafa</span></a><!--
                         i--><a href="#contact-anchor" class="button button-effect icon-paperplane"><span>Mail Rafa</span></a>
                         </div>
                     </div>
@@ -269,8 +269,8 @@
                 <img src="/public/images/s-cta-bg-mobile.jpg" alt="rafael garcia doblas">
 
                 <div class="d-ring-mail">
-                    <button class="button"><span>Call Rafa</span></button><!--
-                i--><button class="button"><span>Mail Rafa</span></button>
+                    <a href="skype:rafamalaga86?call" class="button"><span>Call Rafa</span></a><!--
+                i--><a href="#contact-anchor" class="button"><span>Mail Rafa</span></a>
                 </div>
 
             </section>
