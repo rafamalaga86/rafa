@@ -471,10 +471,10 @@
 
         <!-- TIME FOR SCRIPTS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="/public/js/production/scripts.min.js"></script>
+        <!-- <script src="/public/js/production/scripts.min.js"></script> -->
 
 
-        <?php /*
+      
 
         <script src="/public/js/fastclick.js"></script>
 
@@ -491,7 +491,7 @@
 
         <script src="/public/js/rafascript.js"></script>
 
-        */ ?>
+       
 
     </body>
 </html>
