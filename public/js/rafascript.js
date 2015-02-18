@@ -100,7 +100,7 @@ function readjust(){
 // Move sections on responsive
 function listenWidth() {
 
-    if( $(window).width() <= 1040 ){
+    if( $(window).width() <= 1024 ){
 
         // $(".d-comments").remove().insertBefore($(".d-icons"));
         $("header").removeClass('full-screen-section');

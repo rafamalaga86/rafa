@@ -2006,7 +2006,7 @@ header {
   position: relative;
   background: url(/public/images/header-bg.jpg) no-repeat;
   background-size: cover;
-  min-height: 850px;
+  min-height: 670px;
 }
 @media screen and (max-width: 1400px) {
   header {
@@ -2021,6 +2021,7 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     background-image: url(/public/images/header-bg-tablet.jpg);
+    min-height: 768px;
     background-position: center bottom;
   }
 }
