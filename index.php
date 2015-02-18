@@ -348,6 +348,8 @@
                     <span class="final-message"></span>
                 </form><!-- /simform -->
 
+                <small><p>Email: <span class="mym">Activate Javascript to see</span> | © Copyright 2014 All Rights Reserved</p></small>
+
             </div>
         </footer>
 

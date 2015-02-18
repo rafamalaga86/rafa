@@ -2757,6 +2757,29 @@ footer.s-form form label .show-on-tiny {
 footer.s-form form span {
   text-align: center;
 }
+footer.s-form small {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+footer.s-form small p {
+  font-size: 16px;
+}
+@media screen and (max-width: 1024px) {
+  footer.s-form small p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer.s-form small p {
+    font-size: 8px;
+  }
+}
+footer.s-form small p a {
+  color: inherit;
+}
 @-webkit-keyframes shake {
   0% {
     -webkit-transform: translate3d(0px, 0px, 0px);

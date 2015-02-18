@@ -358,8 +358,13 @@ for ( var i = 0; i < sources.length ; ++i){
 
 
 
+// PUT MY EMAIL
 
+var mym = document.querySelector(".mym"),
+    lhs = "rafamalaga86";
+    rhs = "gmail.com";
 
+mym.innerHTML = "<A HREF=\"mailto" + ":" + lhs + "@" + rhs + "\">" + lhs + "@" + rhs + "<\/A>";
 
 
 
