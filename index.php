@@ -378,7 +378,7 @@
         </div>
         <div id="digital-ocean-modal" class="reveal-modal tiny" data-reveal>
             <h6>Digital Ocean</h6>
-            <p>I've been using Digital Ocean for some months and I really love it. Is reliable, cheap and let me configure the server just how I need to.</p>
+            <p>I've been using Digital Ocean for some months and I really love it. Is reliable, cheap and lets me configure the server just how I need to.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="amazon-modal" class="reveal-modal tiny" data-reveal>
@@ -481,25 +481,25 @@
 
         <!-- TIME FOR SCRIPTS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <!-- <script src="/public/js/production/scripts.min.js"></script> -->
+        <script src="/public/js/production/scripts.min.js"></script>
 
 
       
 
-        <script src="/public/js/fastclick.js"></script>
+        <!-- <script src="/public/js/fastclick.js"></script> -->
 
-        <script src="/public/js/classie.js"></script>
-        <script src="/public/js/modernizr.custom.js"></script>
-        <script src="/public/js/stepsForm.js"></script>
+        <!-- <script src="/public/js/classie.js"></script> -->
+        <!-- <script src="/public/js/modernizr.custom.js"></script> -->
+        <!-- <script src="/public/js/stepsForm.js"></script> -->
 
-        <script src="/public/js/morphingdevice.js"></script>
+        <!-- <script src="/public/js/morphingdevice.js"></script> -->
         
-        <script src="/public/js/foundation.js"></script>
-        <script src="/public/js/foundation.reveal.js"></script>
+        <!-- <script src="/public/js/foundation.js"></script> -->
+        <!-- <script src="/public/js/foundation.reveal.js"></script> -->
 
-        <script src="/public/js/spin.min.js"></script>
+        <!-- <script src="/public/js/spin.min.js"></script> -->
 
-        <script src="/public/js/rafascript.js"></script>
+        <!-- <script src="/public/js/rafascript.js"></script> -->
 
        
 

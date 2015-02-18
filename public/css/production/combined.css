@@ -1876,6 +1876,12 @@ a.button {
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-align-content: flex-start;
 }
 .screen-no-flexbox {
   display: none;
@@ -2683,6 +2689,10 @@ footer.s-form {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column;
 }
 @media screen and (max-width: 768px) {
   footer.s-form {
