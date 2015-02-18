@@ -1870,18 +1870,18 @@ a.button {
   }
 }
 .row-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
   display: -webkit-flex;
   -webkit-flex-direction: row;
   -webkit-flex-wrap: wrap;
   -webkit-justify-content: flex-start;
   -webkit-align-items: flex-start;
   -webkit-align-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 .screen-no-flexbox {
   display: none;
@@ -2122,6 +2122,7 @@ header .arrow i::before {
   font-size: 50px;
   margin-top: 30px;
   -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 .s-introduction {
@@ -2428,12 +2429,14 @@ header .arrow i::before {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
   transform: scale(0, 1);
 }
 .s-portfolio figure figcaption::after {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
   -webkit-transform: scale(1, 0);
+  -ms-transform: scale(1, 0);
   transform: scale(1, 0);
 }
 .s-portfolio figure h4 {
@@ -2443,6 +2446,7 @@ header .arrow i::before {
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, -20px, 0);
+  -ms-transform: translate3d(0, -20px, 0);
   transform: translate3d(0, -20px, 0);
 }
 .s-portfolio figure p {
@@ -2451,6 +2455,7 @@ header .arrow i::before {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0, 20px, 0);
+  -ms-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);
 }
 .s-portfolio figure a {
@@ -2466,12 +2471,14 @@ header .arrow i::before {
 .s-portfolio figure:hover figcaption::after {
   opacity: 1;
   -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
 }
 .s-portfolio figure:hover h4,
 .s-portfolio figure:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 .s-cta {
@@ -2686,14 +2693,14 @@ footer.s-form {
   bottom: 0;
   width: 100%;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   display: -webkit-flex;
   -webkit-align-items: center;
   -webkit-justify-content: center;
   -webkit-flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 @media screen and (max-width: 768px) {
   footer.s-form {
