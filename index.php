@@ -463,8 +463,8 @@
         <div class="screen-no-flexbox full-screen-section">
             <div class="hold">
                 <div class="d-text">
-                    <p>I am really sorry but your browser does not support flexbox or other cool properties. Please use Chrome, Firefox, Safari or Internet Explorer 10+. </p>
-                    <p>Thansks, Rafael.</p>
+                    <p>I am really sorry but your browser does not support "flexbox" or other cool  CSS properties. Please use Chrome, Firefox, Safari or Internet Explorer 10+. </p>
+                    <p>Thanks, Rafael.</p>
                 </div>
             </div>
         </div>
