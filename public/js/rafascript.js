@@ -329,35 +329,6 @@ var spinner = new Spinner(opts).spin(target);
 
 
 
-
-
-// DELETE - SHOW THE CONTENT
-/////////////////////////////////////////////////////////////////
-
-var sources = document.getElementsByClassName("reveal-modal tiny");
-
-for ( var i = 0; i < sources.length ; ++i){
-
-    var div = document.createElement("div");
-
-    var parent = document.querySelector(".append-node");
-
-    div.innerHTML = sources[i].innerHTML;
-
-    if (parent !== null){
-        parent.appendChild(div);
-    }
-
-
-
-}
-
-
-
-
-
-
-
 // PUT MY EMAIL
 
 var mym = document.querySelector(".mym"),
