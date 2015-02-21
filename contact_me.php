@@ -38,7 +38,7 @@ if($_POST) {
     'X-Mailer: PHP/' . phpversion();
    
         // send mail
-    $sentMail = @mail($to_Email, $_POST["userSubject"], $_POST["userMessage"] .'  -'.$_POST["userName"], $headers);
+    $sentMail = mail($to_Email, $_POST["userSubject"], $_POST["userMessage"] .'  -'.$_POST["userName"], $headers);
    
     if(!$sentMail) {
         $output = json_encode(array('type'=>'error', 'text' => 'Sorry the email was not sent'));
