@@ -26,7 +26,7 @@ $(function() {
 //////////////////////////////////////////////////////////////////////////////////
 // Script for making the arrow shake if screen does not scroll in some seconds
 
-var arrow = document.getElementsByClassName('arrow')[0];
+var arrow = document.querySelector('arrow');
 
 var moved = false;
 

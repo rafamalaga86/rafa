@@ -400,7 +400,7 @@
         </div>
         <div id="linux-modal" class="reveal-modal tiny" data-reveal>
             <h6>Linux</h6>
-            <p>I've always used a Unix console, even working in Windows environment (cyg-win). Really useful for Git, NPM, Grunt, Composer, Laravel... I've also worked with many types of Linux servers.</p>
+            <p>I've always used a Unix console, even working in Windows environment (cyg-win). Really useful for SSH, Git, NPM, Grunt, Composer, Laravel... </p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
         <div id="ubuntu-modal" class="reveal-modal tiny" data-reveal>
