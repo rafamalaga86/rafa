@@ -1869,49 +1869,6 @@ a.button {
     padding-left: 0;
   }
 }
-.row-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -webkit-justify-content: flex-start;
-  -webkit-align-items: flex-start;
-  -webkit-align-content: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
-}
-.screen-no-flexbox {
-  display: none;
-}
-html.no-flexbox body {
-  padding-bottom: 0 !important;
-}
-html.no-flexbox body .wrapper,
-html.no-flexbox body footer {
-  display: none !important;
-}
-html.no-flexbox body .screen-no-flexbox {
-  display: block;
-  background-color: #4e4e56;
-  color: white;
-  font-size: 16px;
-}
-html.no-flexbox body .screen-no-flexbox .d-text {
-  display: block;
-  width: 500px;
-  padding-top: 5%;
-  max-width: 100%;
-  margin: 0 auto;
-}
-html.no-flexbox body .screen-no-flexbox .d-text p:first-child {
-  margin-bottom: 30px;
-}
 body {
   font: 16px "Open Sans", Arial;
   color: #4e4e56;
@@ -2139,7 +2096,7 @@ header .arrow i::before {
 }
 @media screen and (max-width: 600px) {
   .s-introduction {
-    padding: 15px 0;
+    padding: 45px 0;
   }
 }
 .s-introduction .box {
@@ -2150,6 +2107,11 @@ header .arrow i::before {
     margin: 35px 0;
     margin-left: 0 !important;
     margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .s-introduction .box {
+    margin: 25px 0;
   }
 }
 .s-introduction p {
@@ -2207,10 +2169,13 @@ header .arrow i::before {
     bottom: 75px;
   }
 }
+.s-introduction .container {
+  overflow: hidden;
+}
 .s-introduction .d-introduction {
   width: 50%;
+  float: left;
   margin-right: 10%;
-  order: 1;
   overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
@@ -2220,8 +2185,8 @@ header .arrow i::before {
 }
 .s-introduction .d-device {
   width: 40%;
-  order: 2;
   box-sizing: border-box;
+  float: left;
   overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
@@ -2241,7 +2206,7 @@ header .arrow i::before {
 }
 .s-introduction .d-icons {
   text-align: left;
-  order: 3;
+  float: left;
   width: 55%;
   margin-right: 10%;
 }
@@ -2323,45 +2288,21 @@ header .arrow i::before {
   }
 }
 .s-introduction .d-comments {
-  order: 4;
   width: 35%;
+  float: left;
 }
 @media screen and (max-width: 1024px) {
   .s-introduction .d-comments {
-    order: 2;
     width: 100%;
-  }
-}
-.s-show-the-text {
-  background-color: #4e4e56;
-  color: white;
-  overflow: hidden;
-}
-.s-show-the-text .row-flex {
-  overflow: hidden;
-  margin: 50px 0;
-}
-.s-show-the-text .row-flex div {
-  width: 45%;
-  margin: 50px 5% 0 0;
-}
-.s-show-the-text .row-flex div:nth-child(2n) {
-  margin-right: 0;
-  margin-left: 5%;
-}
-@media screen and (max-width: 768px) {
-  .s-show-the-text .row-flex div {
-    width: 100%;
-    margin: 50px 0 0 0 !important;
   }
 }
 .s-download {
   background-color: #4e4e56;
+  text-align: center;
 }
-.s-download .row-flex {
-  height: 100px;
-  justify-content: center;
-  align-items: center;
+.s-download a {
+  display: inline-block;
+  margin: 20px 0;
 }
 .s-portfolio {
   position: relative;
@@ -2577,9 +2518,11 @@ header .arrow i::before {
   background-color: #dcd0c0;
   color: #4e4e56;
   padding: 75px 0;
+  overflow: hidden;
 }
 .s-testimonials article {
   width: 45%;
+  float: left;
   text-align: center;
   margin: 0 5% 0 0;
 }
@@ -2696,20 +2639,6 @@ footer.s-form {
   bottom: 0;
   width: 100%;
   text-align: center;
-  /* Ye Olde Flexbox for Webkit */
-  display: -webkit-box;
-  /* Tweener flexbox for IE10 */
-  display: -ms-flexbox;
-  /* Prefixed "new flexbox" */
-  display: -webkit-flex;
-  /* unprefixed standard "new flexbox" version for the rest */
-  -webkit-align-items: center;
-  -webkit-justify-content: center;
-  -webkit-flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 @media screen and (max-width: 768px) {
   footer.s-form {
@@ -2722,7 +2651,15 @@ footer.s-form #loader-container {
 }
 footer.s-form form {
   width: 1024px;
-  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 95%;
+}
+@media screen and (max-width: 500px) {
+  footer.s-form form {
+    max-width: 90%;
+  }
 }
 footer.s-form form label span {
   display: inline;

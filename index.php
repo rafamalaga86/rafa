@@ -37,20 +37,20 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 
         <!-- Style Sheet -->
-        <!-- <link rel="stylesheet" href="/public/css/production/style.min.css"> -->
+        <link rel="stylesheet" href="/public/css/production/style.min.css">
         
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
-        <link rel="stylesheet" href="/public/css/normalize.css">
-        <link rel="stylesheet" href="/public/icons/style.css">
-        <link rel="stylesheet" href="/public/css/form-component.css">
-        <link rel="stylesheet" href="/public/css/morphing-component.css">
-        <link rel="stylesheet/less" href="/public/css/rafastyle.less">
+        <!-- <link rel="stylesheet" href="/public/css/normalize.css"> -->
+        <!-- <link rel="stylesheet" href="/public/icons/style.css"> -->
+        <!-- <link rel="stylesheet" href="/public/css/form-component.css"> -->
+        <!-- <link rel="stylesheet" href="/public/css/morphing-component.css"> -->
+        <!-- <link rel="stylesheet/less" href="/public/css/rafastyle.less"> -->
 
 
         <!-- LESS JS -->
-        <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
-        <script src="/public/js/less-1.7.4.min.js"></script>
+        <!-- <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script> -->
+        <!-- <script src="/public/js/less-1.7.4.min.js"></script> -->
 
     </head>
 
@@ -467,25 +467,25 @@
 
 
         <!-- Production Scripting -->
-        <!-- <script src="/public/js/production/scripts.min.js"></script> -->
+        <script src="/public/js/production/scripts.min.js"></script>
 
 
       
         <!-- Development scrpting -->
-        <script src="/public/js/fastclick.js"></script>
+        <!-- <script src="/public/js/fastclick.js"></script> -->
 
-        <script src="/public/js/classie.js"></script>
-        <script src="/public/js/modernizr.custom.js"></script>
-        <script src="/public/js/stepsForm.js"></script>
+        <!-- <script src="/public/js/classie.js"></script> -->
+        <!-- <script src="/public/js/modernizr.custom.js"></script> -->
+        <!-- <script src="/public/js/stepsForm.js"></script> -->
 
-        <script src="/public/js/morphingdevice.js"></script>
+        <!-- <script src="/public/js/morphingdevice.js"></script> -->
         
-        <script src="/public/js/foundation.js"></script>
-        <script src="/public/js/foundation.reveal.js"></script>
+        <!-- <script src="/public/js/foundation.js"></script> -->
+        <!-- <script src="/public/js/foundation.reveal.js"></script> -->
 
-        <script src="/public/js/spin.min.js"></script>
+        <!-- <script src="/public/js/spin.min.js"></script> -->
 
-        <script src="/public/js/rafascript.js"></script>
+        <!-- <script src="/public/js/rafascript.js"></script> -->
 
        
 

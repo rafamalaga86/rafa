@@ -148,6 +148,10 @@ function rounded_array_count(){
 var random = Math.random() * array_likes.length;
 array_likes_count = Math.round(random);
 
+if (array_likes_count >= array_likes.length || array_likes_count < 0){
+    array_likes_count = array_likes.length -1;
+} 
+
 var like = document.getElementsByClassName('like');
 like[0].innerHTML = array_likes[array_likes_count];
 
