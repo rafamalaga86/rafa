@@ -34,6 +34,14 @@
         <meta name="theme-color" content="#4E4E56">
 
 
+        <!-- Facebook Open Graph -->
+        <meta property="og:title" content="Is having development skills like having superpowers?">
+        <meta property="og:site_name" content="Rafael García Doblas, Proud Web Developer">
+        <meta property="og:url" content="http://rafaelgarciadoblas.com">
+        <meta property="og:description" content="Coffee, beer, motorbikes and development is my passion. Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...">
+        <meta property="fb:app_id" content="">
+        <meta property="og:type" content="website">
+
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary">
