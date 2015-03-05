@@ -40,7 +40,7 @@
         <meta name="twitter:site" content="@rafamalaga86">
         <meta name="twitter:title" content="Rafael García Doblas, Proud Web Developer">
         <meta name="twitter:description" content="Is having development skills like having superpowers?">
-        <meta name="twitter:image:src" content="rafaelgarciadoblas.com/public/images/s-cta-bg-mobile.jpg">
+        <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/s-cta-bg-mobile.jpg">
 
         <!-- Google Web Font -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
