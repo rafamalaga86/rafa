@@ -42,7 +42,7 @@
 
 
         <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary">
+        <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@rafamalaga86">
         <meta name="twitter:title" content="Rafael García Doblas, Proud Web Developer">
         <meta name="twitter:description" content="Is having development skills like having superpowers?">
