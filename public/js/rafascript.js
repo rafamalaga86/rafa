@@ -91,7 +91,7 @@ $(document).foundation();
 // Full screen sections
 
 function readjust(){
-    winh = $(window).height();
+    var winh = $(window).height();
     $('.full-screen-section').height(winh);
     $('body').css("padding-bottom", winh);
 }

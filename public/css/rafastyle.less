@@ -229,67 +229,6 @@ h5, h6{
 }
 
 
-.row-flex{
-    display: -webkit-box;
-    display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-    -webkit-box-orient: horizontal;
-	-webkit-flex-direction: row;
-	-webkit-flex-wrap: wrap;
-	-webkit-justify-content: flex-start;
-	-webkit-align-items: flex-start;
-	-webkit-align-content: flex-start;
-
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: flex-start;
-}
-
-
-
-/////////////////////// NO FLEX BOX SCREEN /////////////////////////////
-
-
-.screen-no-flexbox{
-	display: none;
-}
-
-
-html.no-flexbox{
-
-	body{
-		padding-bottom: 0 !important;
-
-		.wrapper, footer{
-			display: none !important;
-		}
-
-		.screen-no-flexbox{
-			display: block;
-			background-color: @grey;
-			color: white;
-			font-size: 16px;
-
-			.d-text{
-				display: block;
-				width: 500px;
-				padding-top: 5%;
-				max-width: 100%;
-				margin: 0 auto;
-
-				p:first-child{
-					margin-bottom: 30px;
-				}
-			}
-		}
-	}
-}
-
-
 
 
 ////////////////////////////////////////////////////////////////
@@ -526,21 +465,25 @@ header{
 		@media @600{ bottom: 75px; }
 	}
 
+	.container{
+		overflow: hidden;
+	}
 
 
 
-	.d-introduction{ // FIRST FLEX BOX
+
+	.d-introduction{ // FIRST BOX
 		width: 50%;
+		float: left;
 		margin-right: 10%;
-		order: 1;
 		overflow: hidden;
 		@media @ipadlc{ width: 100%;}
 	}
 
-	.d-device{ // SECOND FLEX BOX
+	.d-device{ // SECOND BOX
 		width: 40%;
-		order: 2;
 		box-sizing: border-box;
+		float: left;
 		overflow: hidden;
 		@media @ipadlc{ display: none; }
 
@@ -560,9 +503,9 @@ header{
 
 
 
-	.d-icons{  // THIRD FLEX BOX
+	.d-icons{  // THIRD BOX
 		text-align: left;
-		order: 3;
+		float: left;
 		width: 55%;
 		margin-right: 10%;
 		@media @ipadlc{
@@ -626,9 +569,9 @@ header{
 		}
 	}
 
-	.d-comments{ // FOURTH FLEX BOX
-		order: 4;
+	.d-comments{ // FOURTH BOX
 		width: 35%;
+		float: left;
 		@media @ipadlc{
 			order: 2;
 			width: 100%;
@@ -638,31 +581,6 @@ header{
 
 
 
-////////////// DELETE SHOW THE TEXT SECTION ////////////////////////////////
-
-.s-show-the-text{
-	background-color: @grey;
-	color: white;
-	overflow: hidden;
-	.row-flex{
-		overflow: hidden;
-		margin: 50px 0;
-		div{
-			width: 45%;
-			margin: 50px 5% 0 0;
-			&:nth-child(2n){
-				margin-right: 0;
-				margin-left: 5%;
-			}
-			@media @ipadpt{
-				width: 100%;
-				margin: 50px 0 0 0 !important;
-			}
-		}	
-	}
-
-}
-
 
 
 
@@ -671,12 +589,13 @@ header{
 
 .s-download{
 	background-color: @grey;
+	text-align: center;
 
-	.row-flex{
-		height: 100px;
-		justify-content: center;
-  		align-items: center;
+	a{
+		display: inline-block;
+		margin: 20px 0;
 	}
+
 }
 
 
@@ -906,8 +825,10 @@ header{
 	background-color: @skin;
 	color: @grey;
 	padding: 75px 0;
+	overflow: hidden;
 	article{
 		width: 45%;
+		float: left;
 		text-align: center;
 		margin: 0 5% 0 0;
 		@media @600{ 
@@ -1010,23 +931,6 @@ footer.s-form{
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-
-    /* Ye Olde Flexbox for Webkit */
-    display: -webkit-box;
-    /* Tweener flexbox for IE10 */
-    display: -ms-flexbox;
-    /* Prefixed "new flexbox" */
-    display: -webkit-flex;
-    /* unprefixed standard "new flexbox" version for the rest */
-	-webkit-align-items: center;
-	-webkit-justify-content: center;
-	-webkit-flex-direction: column;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-
 	@media @ipadpt{
 		position: relative;
 		height: 600px !important;
@@ -1036,7 +940,10 @@ footer.s-form{
 	}
 	form{
 		width: 1024px;
-		max-width: 100%;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		max-width: 95%;
 		label{
 			span{
 				display: inline;
