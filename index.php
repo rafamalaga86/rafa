@@ -10,7 +10,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
         <meta name="format-detection" content="telephone=no">
         <meta name="author" content="Rafael Garcia Doblas">
-        <meta name="robots" content="noindex, nofollow">
 
         <!-- FAVICONS AND ICONS -->
         <link rel="apple-touch-icon" sizes="57x57" href="/public/images/favicons/apple-touch-icon-57x57.png">
@@ -35,12 +34,11 @@
 
 
         <!-- Facebook Open Graph -->
-        <meta property="og:title" content="Is having development skills like having superpowers?">
-        <meta property="og:site_name" content="Rafael García Doblas, Proud Web Developer">
+        <meta property="og:title" content="Rafael García Doblas, Proud Web Developer">
         <meta property="og:url" content="http://rafaelgarciadoblas.com">
-        <meta property="og:description" content="Coffee, beer, motorbikes and development is my passion. Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...">
-        <meta property="fb:app_id" content="">
+        <meta property="og:description" content="Is having development skills like having superpowers? Coffee, beer, motorbikes and development is my passion. Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...">
         <meta property="og:type" content="website">
+        <meta property="og:image" content="http://rafaelgarciadoblas.com/public/images/card.jpg">
 
 
         <!-- Twitter Card -->
@@ -48,7 +46,7 @@
         <meta name="twitter:site" content="@rafamalaga86">
         <meta name="twitter:title" content="Rafael García Doblas, Proud Web Developer">
         <meta name="twitter:description" content="Is having development skills like having superpowers?">
-        <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/s-cta-bg-mobile.jpg">
+        <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/card.jpg">
 
         <!-- Google Web Font -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
