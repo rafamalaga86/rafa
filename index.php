@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
         <meta name="format-detection" content="telephone=no">
         <meta name="author" content="Rafael Garcia Doblas">
+        <meta name="robots" content="index, follow">
 
         <!-- FAVICONS AND ICONS -->
         <link rel="apple-touch-icon" sizes="57x57" href="/public/images/favicons/apple-touch-icon-57x57.png">
@@ -34,6 +35,7 @@
 
 
         <!-- Facebook Open Graph -->
+        <link rel="canonical" href="http://rafaelgarciadoblas.com/" />
         <meta property="og:title" content="Proud Web Developer">
         <meta property="og:site_name" content="Rafael Garcia Doblas">
         <meta property="og:url" content="http://rafaelgarciadoblas.com">
