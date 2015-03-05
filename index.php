@@ -60,7 +60,7 @@
 
             <section class="s-navigation">
                 <nav class="hold">
-                    <a href="#" class="left"><h2>Rafael García Doblas</h2></a><!--
+                    <a href="/" class="left"><h2>Rafael García Doblas</h2></a><!--
                 <a href="#projects-anchor"><span>Projects</span></a>
                 i--><a href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx"><span>Curriculum Vitae</span></a><!--
                 i--><a class="contact" href="#contact-anchor"><span>Contact me</span></a>
