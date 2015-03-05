@@ -18,7 +18,6 @@
         <meta property="og:site_name" content="Rafael Garcia Doblas">
         <meta property="og:url" content="http://rafaelgarciadoblas.com">
         <meta property="og:description" content="Is having development skills like having superpowers? Coffee, beer, motorbikes and development is my passion. Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...">
-        <meta property="fb:app_id" content="">
         <meta property="og:type" content="website"> 
 
 
