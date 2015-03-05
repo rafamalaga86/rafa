@@ -12,7 +12,24 @@
         <meta name="author" content="Rafael Garcia Doblas">
         <meta name="robots" content="index, follow">
 
-        <!-- FAVICONS AND ICONS -->
+        <!-- Facebook Open Graph -->
+        <link rel="canonical" href="http://rafaelgarciadoblas.com/" />
+        <meta property="og:title" content="Proud Web Developer">
+        <meta property="og:site_name" content="Rafael Garcia Doblas">
+        <meta property="og:url" content="http://rafaelgarciadoblas.com">
+        <meta property="og:description" content="Is having development skills like having superpowers? Coffee, beer, motorbikes and development is my passion. Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...">
+        <meta property="fb:app_id" content="">
+        <meta property="og:type" content="website"> 
+
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@rafamalaga86">
+        <meta name="twitter:title" content="Rafael García Doblas, Proud Web Developer">
+        <meta name="twitter:description" content="Is having development skills like having superpowers?">
+        <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/card.jpg">
+
+        <!-- Favicons and icons -->
         <link rel="apple-touch-icon" sizes="57x57" href="/public/images/favicons/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/public/images/favicons/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/public/images/favicons/apple-touch-icon-72x72.png">
@@ -32,24 +49,6 @@
         <meta name="msapplication-TileImage" content="/public/images/favicons/mstile-144x144.png">
         <meta name="msapplication-config" content="/public/images/favicons/browserconfig.xml">
         <meta name="theme-color" content="#4E4E56">
-
-
-        <!-- Facebook Open Graph -->
-        <link rel="canonical" href="http://rafaelgarciadoblas.com/" />
-        <meta property="og:title" content="Proud Web Developer">
-        <meta property="og:site_name" content="Rafael Garcia Doblas">
-        <meta property="og:url" content="http://rafaelgarciadoblas.com">
-        <meta property="og:description" content="Is having development skills like having superpowers? Coffee, beer, motorbikes and development is my passion. Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...">
-        <meta property="fb:app_id" content="">
-        <meta property="og:type" content="website"> 
-
-
-        <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@rafamalaga86">
-        <meta name="twitter:title" content="Rafael García Doblas, Proud Web Developer">
-        <meta name="twitter:description" content="Is having development skills like having superpowers?">
-        <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/card.jpg">
 
         <!-- Google Web Font -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
