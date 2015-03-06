@@ -505,8 +505,19 @@
         <!-- <script src="/public/js/rafascript.js"></script> -->
 
 
+        <!-- MF -->
+        <script type="text/javascript">
+            var _mfq = _mfq || [];
+            (function () {
+            var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+            mf.src = "//cdn.mouseflow.com/projects/a83cbccb-7aaf-46b9-845d-345af1b8b5bf.js";
+            document.getElementsByTagName("head")[0].appendChild(mf);
+          })();
+        </script>
 
-        <!-- KISS tracking snippet -->
+
+
+        <!-- KM -->
         <script type="text/javascript">var _kmq = _kmq || [];
             var _kmk = _kmk || '1a4b6393e13fbdfce0bdd4f2ac228748436cf895';
             function _kms(u){
@@ -521,8 +532,8 @@
             _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
         </script>
 
-        <!-- Analytics -->
 
+        <!-- Analytics -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
