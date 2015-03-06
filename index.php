@@ -50,6 +50,21 @@
         <meta name="msapplication-config" content="/public/images/favicons/browserconfig.xml">
         <meta name="theme-color" content="#4E4E56">
 
+        <!-- KM -->
+        <script type="text/javascript">var _kmq = _kmq || [];
+            var _kmk = _kmk || '1a4b6393e13fbdfce0bdd4f2ac228748436cf895';
+            function _kms(u){
+              setTimeout(function(){
+                var d = document, f = d.getElementsByTagName('script')[0],
+                s = d.createElement('script');
+                s.type = 'text/javascript'; s.async = true; s.src = u;
+                f.parentNode.insertBefore(s, f);
+              }, 1);
+            }
+            _kms('//i.kissmetrics.com/i.js');
+            _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+        </script>
+
         <script>
             (function(){
                     var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
@@ -527,21 +542,6 @@
         </script>
 
 
-
-        <!-- KM -->
-        <script type="text/javascript">var _kmq = _kmq || [];
-            var _kmk = _kmk || '1a4b6393e13fbdfce0bdd4f2ac228748436cf895';
-            function _kms(u){
-              setTimeout(function(){
-                var d = document, f = d.getElementsByTagName('script')[0],
-                s = d.createElement('script');
-                s.type = 'text/javascript'; s.async = true; s.src = u;
-                f.parentNode.insertBefore(s, f);
-              }, 1);
-            }
-            _kms('//i.kissmetrics.com/i.js');
-            _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
-        </script>
 
 
         <!-- Analytics -->
