@@ -27,7 +27,7 @@
         <meta name="twitter:site" content="@rafamalaga86">
         <meta name="twitter:title" content="Rafael García Doblas, Proud Web Developer">
         <meta name="twitter:description" content="Is having development skills like having superpowers?">
-        <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/card.jpg">
+        <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/card2.jpg">
 
         <!-- Favicons and icons -->
         <link rel="apple-touch-icon" sizes="57x57" href="/public/images/favicons/apple-touch-icon-57x57.png">
