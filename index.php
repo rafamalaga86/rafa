@@ -65,35 +65,25 @@
             _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
         </script>
 
-        <script>
-            (function(){
-                    var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
-            })("woopra");
-
-            woopra.config({
-                domain: 'rafaelgarciadoblas.com'
-            });
-            woopra.track();
-        </script>
 
         <!-- Google Web Font -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 
         <!-- Style Sheet -->
-        <link rel="stylesheet" href="/public/css/production/style.min.css">
+        <!-- <link rel="stylesheet" href="/public/css/production/style.min.css"> -->
         
 
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
-        <!-- <link rel="stylesheet" href="/public/css/normalize.css"> -->
-        <!-- <link rel="stylesheet" href="/public/icons/style.css"> -->
-        <!-- <link rel="stylesheet" href="/public/css/form-component.css"> -->
-        <!-- <link rel="stylesheet" href="/public/css/morphing-component.css"> -->
-        <!-- <link rel="stylesheet/less" href="/public/css/rafastyle.less"> -->
+        <link rel="stylesheet" href="/public/css/normalize.css">
+        <link rel="stylesheet" href="/public/icons/style.css">
+        <link rel="stylesheet" href="/public/css/form-component.css">
+        <link rel="stylesheet" href="/public/css/morphing-component.css">
+        <link rel="stylesheet/less" href="/public/css/rafastyle.less">
 
 
         <!-- LESS JS -->
-        <!-- <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script> -->
-        <!-- <script src="/public/js/less-1.7.4.min.js"></script> -->
+        <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
+        <script src="/public/js/less-1.7.4.min.js"></script>
 
     </head>
 
@@ -199,7 +189,6 @@
 
 
 
-            <?php /*
             <section class="s-portfolio">
                 <div id="projects-anchor"></div>
                 
@@ -244,14 +233,13 @@
                     
             </section>
 
-            */ ?>
 
 
 
             <section class="s-download">
                 <div class="hold">
 
-                    <a class="button button-effect icon-signup" href="/public/others/Rafael%20Garcia%20Doblas%20CV.docx">
+                    <a class="button button-effect icon-signup" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf">
                         <span>Download my CV</span>
                     </a>
 
@@ -510,25 +498,25 @@
 
 
         <!-- Production Scripting -->
-        <script src="/public/js/production/scripts.min.js"></script>
+        <!-- <script src="/public/js/production/scripts.min.js"></script> -->
 
 
       
         <!-- Development scrpting -->
-        <!-- <script src="/public/js/fastclick.js"></script> -->
+        <script src="/public/js/fastclick.js"></script>
 
-        <!-- <script src="/public/js/classie.js"></script> -->
-        <!-- <script src="/public/js/modernizr.custom.js"></script> -->
-        <!-- <script src="/public/js/stepsForm.js"></script> -->
+        <script src="/public/js/classie.js"></script>
+        <script src="/public/js/modernizr.custom.js"></script>
+        <script src="/public/js/stepsForm.js"></script>
 
-        <!-- <script src="/public/js/morphingdevice.js"></script> -->
+        <script src="/public/js/morphingdevice.js"></script>
         
-        <!-- <script src="/public/js/foundation.js"></script> -->
-        <!-- <script src="/public/js/foundation.reveal.js"></script> -->
+        <script src="/public/js/foundation.js"></script>
+        <script src="/public/js/foundation.reveal.js"></script>
 
-        <!-- <script src="/public/js/spin.min.js"></script> -->
+        <script src="/public/js/spin.min.js"></script>
 
-        <!-- <script src="/public/js/rafascript.js"></script> -->
+        <script src="/public/js/rafascript.js"></script>
 
 
         <!-- MF --> 
