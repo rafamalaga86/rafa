@@ -222,11 +222,11 @@
  
                 
                 <figure>
-                    <img src="/public/images/projects/bd.jpg" alt="biberodromo">
+                    <img src="/public/images/projects/cc.jpg" alt="clickcreacion">
                     <figcaption>
-                        <h4>Biberódromo</h4>
-                        <p>NGO Biberódromo</p>
-                        <a href="//biberodromo.com" rel="nofollow"></a>
+                        <h4>ClickCreación</h4>
+                        <p>Our digital web agency</p>
+                        <a href="//clickcreacion.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
 
