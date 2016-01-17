@@ -125,7 +125,7 @@
                     <div class="d-introduction box">
                         <h3><strong>Back-End</strong> <span>and</span> <strong>Front-End</strong></h3>
                         <p><span class="margin">As a Back-End I aim to write clean, efficient and elegant code. As a Front-End my goal is to make good looking highly responsive websites.</span>
-                        <span class="margin">Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...</span></p>
+                        <span class="margin">Love to plan websites, to write tests, to follow best practises, to learn every single day, to follow Object Oriented Deisgn Patters... </span></p>
                         <p>I <strong>always</strong> fancy a coffee.</p>
                     </div>
 
@@ -189,6 +189,17 @@
 
 
 
+            <section class="s-intermediate">
+                <div class="hold">
+                    <a class="button button-effect icon-signup" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf">
+                        <span>Download my CV</span>
+                    </a>
+
+                </div>
+            </section>
+
+
+
             <section class="s-portfolio">
                 <div id="projects-anchor"></div>
                 
@@ -236,16 +247,20 @@
 
 
 
-            <section class="s-download">
+            <section class="s-intermediate">
                 <div class="hold">
 
-                    <a class="button button-effect icon-signup" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf">
-                        <span>Download my CV</span>
+                    <p>¿ Looking for 100% Back-end projects examples ? I don't own most of my code. But you can find a little in my GitHub account.</p>
+                    
+                    <a class="button button-effect icon-github" href="https://github.com/rafamalaga86/gamerest">
+                        <span>REST API</span>
+                    </a>
+                    <a class="button button-effect icon-github ml" href="https://github.com/rafamalaga86/phpframework">
+                        <span>PHP Framework</span>
                     </a>
 
                 </div>
             </section>
-
 
 
 
