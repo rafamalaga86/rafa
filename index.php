@@ -70,9 +70,10 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 
         <!-- Style Sheet -->
-        <!-- <link rel="stylesheet" href="/public/css/production/style.min.css"> -->
+        <link rel="stylesheet" href="/public/css/production/style.min.css">
         
 
+        <?php /*
         <!-- STYLESHEETS IN BOTH LESS AND CSS -->
         <link rel="stylesheet" href="/public/css/normalize.css">
         <link rel="stylesheet" href="/public/icons/style.css">
@@ -84,6 +85,8 @@
         <!-- LESS JS -->
         <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
         <script src="/public/js/less-1.7.4.min.js"></script>
+
+        */ ?>
 
     </head>
 
@@ -220,8 +223,7 @@
                         <a href="//maritalaffair.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
-                    
-                
+
                 <figure>
                     <img src="/public/images/projects/ul.jpg" alt="uniqueliving">
                     <figcaption>
@@ -231,7 +233,16 @@
                     </figcaption>           
                 </figure>
  
-                
+                <figure>
+                    <img src="/public/images/projects/soridian.jpg" alt="soridian">
+                    <figcaption>
+                        <h4>Soridian</h4>
+                        <p>Diet Digital Magazine</p>
+                        <a href="//soridian.com"></a>
+                    </figcaption>           
+                </figure>
+
+                <?php /*
                 <figure>
                     <img src="/public/images/projects/cc.jpg" alt="clickcreacion">
                     <figcaption>
@@ -240,6 +251,7 @@
                         <a href="//clickcreacion.com" rel="nofollow"></a>
                     </figcaption>           
                 </figure>
+                */ ?>
 
                     
             </section>
@@ -250,7 +262,7 @@
             <section class="s-intermediate">
                 <div class="hold">
 
-                    <p>¿ Looking for 100% Back-end projects examples ? I don't own most of my code. But you can find a little in my GitHub account.</p>
+                    <p>¿ Looking for 100% Back-end projects examples ? Most of my code is private, sorry. But you can find a little in my GitHub account.</p>
                     
                     <a class="button button-effect icon-github" href="https://github.com/rafamalaga86/gamerest">
                         <span>REST API</span>

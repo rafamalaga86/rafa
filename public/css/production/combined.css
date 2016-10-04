@@ -2296,13 +2296,21 @@ header .arrow i::before {
     width: 100%;
   }
 }
-.s-download {
+.s-intermediate {
+  color: white;
   background-color: #4e4e56;
   text-align: center;
 }
-.s-download a {
+.s-intermediate p {
+  font-size: 18px;
+  padding: 20px 0;
+}
+.s-intermediate a {
   display: inline-block;
   margin: 20px 0;
+}
+.s-intermediate .ml {
+  margin-left: 30px;
 }
 .s-portfolio {
   position: relative;
@@ -2344,7 +2352,6 @@ header .arrow i::before {
   transition: opacity 0.35s;
   position: relative;
   display: block;
-  min-height: 100%;
   width: 100%;
 }
 .s-portfolio figure:hover img {
