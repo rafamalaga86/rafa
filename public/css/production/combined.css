@@ -2547,23 +2547,29 @@ header .arrow i::before {
     margin: 75px 0 0 0;
   }
 }
-.s-testimonials article .summary {
+.s-testimonials article blockquote {
+  margin: 0 !important;
+}
+.s-testimonials article blockquote .summary {
   font-size: 24px;
 }
-.s-testimonials article img {
+.s-testimonials article blockquote img {
   border-radius: 50%;
   width: 50px;
   display: inline-block;
 }
-.s-testimonials article p {
+.s-testimonials article blockquote q {
+  display: block;
+  margin: 0;
   padding: 20px 0;
   text-align: center;
+  line-height: 1.6em;
 }
-.s-testimonials article .name {
+.s-testimonials article blockquote .name {
   font-size: 30px;
   color: #da635d;
 }
-.s-testimonials article .sub-title {
+.s-testimonials article blockquote .sub-title {
   font-size: 13px;
 }
 .s-social-networks a {

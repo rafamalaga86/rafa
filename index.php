@@ -202,7 +202,7 @@
             </section>
 
 
-
+            <?php  /*
             <section class="s-portfolio">
                 <div id="projects-anchor"></div>
                 
@@ -241,21 +241,8 @@
                         <a href="//soridian.com"></a>
                     </figcaption>           
                 </figure>
-
-                <?php /*
-                <figure>
-                    <img src="/public/images/projects/cc.jpg" alt="clickcreacion">
-                    <figcaption>
-                        <h4>ClickCreación</h4>
-                        <p>Our digital web agency</p>
-                        <a href="//clickcreacion.com" rel="nofollow"></a>
-                    </figcaption>           
-                </figure>
-                */ ?>
-
-                    
             </section>
-
+            */ ?>  
 
 
 
@@ -279,18 +266,22 @@
             <section class="s-testimonials">
                 <div class="hold">
                         <article>
-                            <h3 class="summary">"Rafael is an extremely talented developer"</h3>
-                            <p>Rafael is an extremely talented developer who was a true asset to our company, whereby he single-handedly added huge value to our service offerings He is totally focussed on the task at hand and has the ability to balance work at great speeds whilst still paying meticulous attention to detail.</p>
-                            <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
-                            <h5 class="name">Arni Lochner</h5>
-                            <h6 class="sub-title">Creative Director at Wonderlabs</h6>
+                            <blockquote>
+                                <h3 class="summary">"Rafael is an extremely talented developer"</h3>
+                                <q>Rafael is an extremely talented developer who was a true asset to our company, whereby he single-handedly added huge value to our service offerings He is totally focussed on the task at hand and has the ability to balance work at great speeds whilst still paying meticulous attention to detail.</q>
+                                <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
+                                <h5 class="name">Arni Lochner</h5>
+                                <h6 class="sub-title">Director at Wonderlabs</h6>
+                            </blockquote>
                         </article>
                         <article>
-                            <h3 class="summary">"Perfect time management and attention to detail"</h3>
-                            <p>Rafael is one of the most talented, dedicated and nicest people I have ever had the pleasure to work with. During his time at Wonderlabs, Rafael has managed complete projects from start to completion, with perfect time management and attention to detail.</p>
-                            <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
-                            <h5 class="name">Craig Curchin</h5>
-                            <h6 class="sub-title">Production Director at Wonderlabs</h6>
+                            <blockquote>
+                                <h3 class="summary">"Perfect time management and attention to detail"</h3>
+                                <q>Rafael is one of the most talented, dedicated and nicest people I have ever had the pleasure to work with. During his time at Wonderlabs, Rafael has managed complete projects from start to completion, with perfect time management and attention to detail.</q>
+                                <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
+                                <h5 class="name">Craig Curchin</h5>
+                                <h6 class="sub-title">Production Director at Wonderlabs</h6>
+                            </blockquote>
                         </article>
                     </ul>
                 </div>

@@ -849,24 +849,32 @@ header{
 			margin: 0 0 0 5%;
 			@media @600{ margin: 75px 0 0 0; }			
 		}
-		.summary{
-			font-size: 24px;
-		}
-		img{
-			border-radius: 50%;
-			width: 50px;
-			display: inline-block;
-		}
-		p{
-			padding: 20px 0;
-			text-align: center;
-		}
-		.name{
-			font-size: 30px;
-			color: @red;
-		}
-		.sub-title{
-			font-size: 13px;
+
+		blockquote{
+			margin: 0 !important;
+
+			.summary{
+				font-size: 24px;
+			}
+			img{
+				border-radius: 50%;
+				width: 50px;
+				display: inline-block;
+			}
+			q{
+				display: block;
+				margin: 0;
+				padding: 20px 0;
+				text-align: center;
+				line-height: 1.6em;
+			}
+			.name{
+				font-size: 30px;
+				color: @red;
+			}
+			.sub-title{
+				font-size: 13px;
+			}
 		}
 	}
 }
