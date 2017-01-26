@@ -387,7 +387,7 @@
                     <span class="final-message"></span>
                 </form><!-- /simform -->
 
-                <small><p>Email: <span class="mym">Activate Javascript to see</span> | © Copyright 2015 All Rights Reserved</p></small>
+                <small><p>Email: <span class="mym">Activate Javascript to see</span> | © Copyright <?php echo date("Y"); ?> All Rights Reserved</p></small>
 
             </div>
         </footer>
@@ -499,42 +499,30 @@
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
         <!-- TIME FOR SCRIPTS -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
         <!-- Production Scripting -->
-        <!-- <script src="/public/js/production/scripts.min.js"></script> -->
+        <script src="/public/js/production/scripts.min.js"></script>
 
+        <?php /*
+                <script src="/public/js/fastclick.js"></script>
 
-      
-        <!-- Development scrpting -->
-        <script src="/public/js/fastclick.js"></script>
+                <script src="/public/js/classie.js"></script>
+                <script src="/public/js/modernizr.custom.js"></script>
+                <script src="/public/js/stepsForm.js"></script>
 
-        <script src="/public/js/classie.js"></script>
-        <script src="/public/js/modernizr.custom.js"></script>
-        <script src="/public/js/stepsForm.js"></script>
+                <script src="/public/js/morphingdevice.js"></script>
+                
+                <script src="/public/js/foundation.js"></script>
+                <script src="/public/js/foundation.reveal.js"></script>
 
-        <script src="/public/js/morphingdevice.js"></script>
-        
-        <script src="/public/js/foundation.js"></script>
-        <script src="/public/js/foundation.reveal.js"></script>
+                <script src="/public/js/spin.min.js"></script>
 
-        <script src="/public/js/spin.min.js"></script>
-
-        <script src="/public/js/rafascript.js"></script>
+                <script src="/public/js/rafascript.js"></script>
+        */ ?>
 
 
         <!-- MF --> 
