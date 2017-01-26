@@ -524,20 +524,6 @@
                 <script src="/public/js/rafascript.js"></script>
         */ ?>
 
-
-        <!-- MF --> 
-        <script type="text/javascript">
-            var _mfq = _mfq || [];
-            (function () {
-            var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
-            mf.src = "//cdn.mouseflow.com/projects/a83cbccb-7aaf-46b9-845d-345af1b8b5bf.js";
-            document.getElementsByTagName("head")[0].appendChild(mf);
-          })();
-        </script>
-
-
-
-
         <!-- Analytics -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
