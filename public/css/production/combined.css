@@ -2261,7 +2261,8 @@ header .arrow i::before {
     margin: 8px;
   }
 }
-.s-introduction .d-icons li a {
+.s-introduction .d-icons li > a,
+.s-introduction .d-icons li > div {
   display: block;
   float: left;
 }

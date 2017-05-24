@@ -152,26 +152,169 @@
                 
                     <div class="d-icons box">
                         <ul>
-                            <li><a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="php-modal"><i class="icon-php-plain"></i></a></li>
-                            <li><a href="#" data-reveal-id="mysql-modal"><i class="icon-mysql-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="laravel-modal"><i class="icon-laravel-plain"></i></a></li>
-                            <li><a href="#" data-reveal-id="javascript-modal"><i class="icon-javascript-plain"></i></a></li>
-                            <li><a href="#" data-reveal-id="digital-ocean-modal"><img width="100%" src="/public/images/logos/digital-ocean.svg" alt="digital-ocean"></a></li>
-                            <li><a href="#" data-reveal-id="amazon-modal"><i class="icon-amazonwebservices-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="nodejs-modal"><i class="icon-nodejs-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="nginx-modal"><img width="100%" src="/public/images/logos/nginx.svg" alt="nginx"></a></li>
-                            <li><a href="#" data-reveal-id="linux-modal"><i class="icon-linux-plain"></i></a></li>
-                            <li><a href="#" data-reveal-id="ubuntu-modal"><i class="icon-ubuntu-plain"></i></a></li>
-                            <li><a href="#" data-reveal-id="ghost-modal"><i class="icon-ghost-plain-wordmark ghost"></i></a></li>
-                            <li><a href="#" data-reveal-id="npm-modal"><i class="icon-npm-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="angularjs-modal"><i class="icon-angularjs-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="foundation-modal"><i class="icon-foundation-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="html5-modal"><i class="icon-html5-plain"></i></a></li>
-                            <li><a href="#" data-reveal-id="grunt-modal"><i class="icon-grunt-line-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="less-modal"><i class="icon-less-plain-wordmark"></i></a></li>
-                            <li><a href="#" data-reveal-id="sass-modal"><i class="icon-sass-original"></i></a></li>
-                            <li><a href="#" data-reveal-id="wordpress-modal"><i class="icon-wordpress-plain-wordmark"></i></a></li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="php-modal"> -->
+                                <div>
+                                    <i class="icon-php-plain"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="mysql-modal"> -->
+                                <div>
+                                    <i class="icon-mysql-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="laravel-modal"> -->
+                                <div>
+                                    <i class="icon-laravel-plain"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="nginx-modal"> -->
+                                <div>
+                                    <img width="100%" src="/public/images/logos/zend.svg" alt="zend">
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="git-modal"> -->
+                                <div>
+                                    <i class="icon-git-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="nginx-modal"> -->
+                                <div>
+                                    <img width="100%" src="/public/images/logos/nginx.svg" alt="nginx">
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="nginx-modal"> -->
+                                <div>
+                                    <img width="100%" src="/public/images/logos/apache.svg" alt="apache">
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="linux-modal"> -->
+                                <div>
+                                    <i class="icon-linux-plain"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="digital-ocean-modal"> -->
+                                <div>
+                                    <img width="100%" src="/public/images/logos/digital-ocean.svg" alt="digital-ocean">
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="amazon-modal"> -->
+                                <div>
+                                    <i class="icon-amazonwebservices-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="javascript-modal"> -->
+                                <div>
+                                    <i class="icon-javascript-plain"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="nginx-modal"> -->
+                                <div>
+                                    <img width="100%" src="/public/images/logos/react.svg" alt="react">
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="angularjs-modal"> -->
+                                <div>
+                                    <i class="icon-angularjs-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="npm-modal"> -->
+                                <div>
+                                    <i class="icon-npm-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="grunt-modal"> -->
+                                <div>
+                                    <i class="icon-grunt-line-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="ubuntu-modal"> -->
+                                <div>
+                                    <i class="icon-ubuntu-plain"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="wordpress-modal"> -->
+                                <div>
+                                    <i class="icon-wordpress-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="html5-modal"> -->
+                                <div>
+                                    <i class="icon-html5-plain"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="less-modal"> -->
+                                <div>
+                                    <i class="icon-less-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="sass-modal"> -->
+                                <div>
+                                    <i class="icon-sass-original"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <?php /*
+                            <li>
+                                <!-- <a href="#" data-reveal-id="ghost-modal"> -->
+                                <div>
+                                    <i class="icon-ghost-plain-wordmark ghost"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="foundation-modal"> -->
+                                <div>
+                                    <i class="icon-foundation-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            <li>
+                                <!-- <a href="#" data-reveal-id="nodejs-modal"> -->
+                                <div>
+                                    <i class="icon-nodejs-plain-wordmark"></i>
+                                </div>
+                                <!-- </a> -->
+                            </li>
+                            */ ?>
                         </ul>
                     </div>
 
@@ -394,11 +537,7 @@
             </div>
         </footer>
 
-
-
-
-
-
+        <?php /*
         <div id="git-modal" class="reveal-modal tiny" data-reveal>
             <h6>Git</h6>
             <p>Git is just superb, I use Git CLI with everything. Storing my projects in Bitbucket or Github, I do deploy with Git as well.</p>
@@ -499,7 +638,7 @@
             <p>Sometimes I develop for Wordpress due to high demand. Not a fan. Usually using Wordpress as a framework is tricky and time consuming, so I try to avoid it as much as I can.</p>
             <a class="close-reveal-modal">&#215;</a>
         </div>
-
+        */ ?>
 
         <!-- TIME FOR SCRIPTS -->
 
