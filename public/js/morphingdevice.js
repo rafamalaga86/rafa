@@ -162,49 +162,49 @@ function isHidden() {
 ///////////////////////////////////////////////////////////////
 
 // Instance in the document of MorphingDevice
-    var el = document.querySelector( '.md-slider' ),
-        settings = {
-            autoplay : true,
-            interval : 3000,
-            devices : [ 
-                { cName : 'md-device-1', canRotate : false, imgsrc : 'public/images/morphing/site1.jpg' },
-                { cName : 'md-device-2', canRotate : false, imgsrc : 'public/images/morphing/site2.jpg' },
-                { cName : 'md-device-3', canRotate : false, imgsrc : 'public/images/morphing/site3.jpg', rotatedsrc : 'public/images/morphing/site3.jpg' },
-                { cName : 'md-device-4', canRotate : false, imgsrc : 'public/images/morphing/site4.jpg', rotatedsrc : 'public/images/morphing/site4.jpg' }
-            ]
-        },
-        devicesTotal = settings.devices.length,
-        ds = MorphingDevice( el, settings );
+    // var el = document.querySelector( '.md-slider' ),
+    //     settings = {
+    //         autoplay : true,
+    //         interval : 3000,
+    //         devices : [ 
+    //             { cName : 'md-device-1', canRotate : false, imgsrc : 'public/images/morphing/site1.jpg' },
+    //             { cName : 'md-device-2', canRotate : false, imgsrc : 'public/images/morphing/site2.jpg' },
+    //             { cName : 'md-device-3', canRotate : false, imgsrc : 'public/images/morphing/site3.jpg', rotatedsrc : 'public/images/morphing/site3.jpg' },
+    //             { cName : 'md-device-4', canRotate : false, imgsrc : 'public/images/morphing/site4.jpg', rotatedsrc : 'public/images/morphing/site4.jpg' }
+    //         ]
+    //     },
+    //     devicesTotal = settings.devices.length,
+    //     ds = MorphingDevice( el, settings );
 
-    // create navigation triggers
-    var nav = document.createElement( 'div' );
-    nav.className = 'slider-nav';
+    // // create navigation triggers
+    // var nav = document.createElement( 'div' );
+    // nav.className = 'slider-nav';
 
 
-    for( var i = 0; i < devicesTotal; ++i ) {
+    // for( var i = 0; i < devicesTotal; ++i ) {
 
-        var trigger = document.createElement( 'a' );
-        trigger.className = i === 0 ? 'md-current' : '';
-        trigger.setAttribute( 'href', '#' );
-        trigger.setAttribute( 'pos', i );
-        trigger.onclick = function( event ) {
+    //     var trigger = document.createElement( 'a' );
+    //     trigger.className = i === 0 ? 'md-current' : '';
+    //     trigger.setAttribute( 'href', '#' );
+    //     trigger.setAttribute( 'pos', i );
+    //     trigger.onclick = function( event ) {
 
-            ds.stopSlideshow();
-            var pos = Number( event.target.getAttribute( 'pos' ) );
-            if( pos === ds.getCurrent() ) {
-                return false;
-            }
-            ds.updateCurrentTrigger( event.target );
-            ds.setCurrent( pos );
-            ds.changeDevice();
-            return false;
+    //         ds.stopSlideshow();
+    //         var pos = Number( event.target.getAttribute( 'pos' ) );
+    //         if( pos === ds.getCurrent() ) {
+    //             return false;
+    //         }
+    //         ds.updateCurrentTrigger( event.target );
+    //         ds.setCurrent( pos );
+    //         ds.changeDevice();
+    //         return false;
 
-        };
-        nav.appendChild( trigger );
+    //     };
+    //     nav.appendChild( trigger );
 
-    }
-    el.appendChild( nav );
+    // }
+    // el.appendChild( nav );
 
-    if( settings.autoplay ) {
-        ds.startSlideshow();
-    }
+    // if( settings.autoplay ) {
+    //     ds.startSlideshow();
+    // }

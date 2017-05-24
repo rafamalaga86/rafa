@@ -5,8 +5,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Rafael García Doblas, proud Web Developer</title>
-        <meta name="description" content="Rafael García Doblas, Proud Web Developer">
+        <title>Rafael García Doblas, proud Software Developer</title>
+        <meta name="description" content="Rafael García Doblas, Proud Software Developer">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
         <meta name="format-detection" content="telephone=no">
         <meta name="author" content="Rafael Garcia Doblas">
@@ -14,10 +14,10 @@
 
         <!-- Facebook Open Graph -->
         <link rel="canonical" href="http://rafaelgarciadoblas.com/" />
-        <meta property="og:title" content="Proud Web Developer">
+        <meta property="og:title" content="Proud Software Developer">
         <meta property="og:site_name" content="Rafael Garcia Doblas">
         <meta property="og:url" content="http://rafaelgarciadoblas.com">
-        <meta property="og:description" content="Is having development skills like having superpowers? Coffee, beer, motorbikes and web development are my passions. Love to plan websites, to study every detail, to work along my fellow designers, to discuss about UX...">
+        <meta property="og:description" content="Is having development skills like having superpowers? Coffee, beer, motorbikes and software development are my passions.">
         <meta property="og:type" content="website"> 
         <meta property="og:image" content="http://rafaelgarciadoblas.com/public/images/card.jpg">
 
@@ -25,7 +25,7 @@
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@rafamalaga86">
-        <meta name="twitter:title" content="Rafael García Doblas, Proud Web Developer">
+        <meta name="twitter:title" content="Rafael García Doblas, Proud Software Developer">
         <meta name="twitter:description" content="Is having development skills like having superpowers?">
         <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/card2.jpg">
 
@@ -108,7 +108,7 @@
                 <div class="hold">
                     <h3>Hi <span class="red">There!</span></h3>
                     <h1>I am <strong>Rafael García Doblas</strong></h1>
-                    <p>A proud <span class="red">web developer</span><span class="what-i-love">. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></span></p>
+                    <p>A proud <span class="red">software developer</span><span class="what-i-love">. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></span></p>
                     <!-- <a class="button learn-more" href="#introduction-anchor">Learn more</a> -->
                 </div>
                 <a class="arrow" href="#introduction-anchor">
@@ -125,10 +125,11 @@
 
                 <div class="hold container">
 
+                    <?php /*
                     <div class="d-introduction box">
                         <h3><strong>Back-End</strong> <span>and</span> <strong>Front-End</strong></h3>
                         <p><span class="margin">As a Back-End I aim to write clean, efficient and elegant code. As a Front-End my goal is to make good looking highly responsive websites.</span>
-                        <span class="margin">Love to plan websites, to write tests, to follow best practises, to learn every single day, to follow Object Oriented Deisgn Patters... </span></p>
+                        <span class="margin">Love to plan websites, to write tests, to follow best practises, to learn every single day, to follow Object Oriented Deisgn Patterns... </span></p>
                         <p>I <strong>always</strong> fancy a coffee.</p>
                     </div>
 
@@ -145,6 +146,7 @@
                             </div>
                         </div>
                     </div>
+                    */ ?>
 
 
                 
@@ -152,6 +154,7 @@
                         <ul>
                             <li><a href="#" data-reveal-id="git-modal"><i class="icon-git-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="php-modal"><i class="icon-php-plain"></i></a></li>
+                            <li><a href="#" data-reveal-id="mysql-modal"><i class="icon-mysql-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="laravel-modal"><i class="icon-laravel-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="javascript-modal"><i class="icon-javascript-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="digital-ocean-modal"><img width="100%" src="/public/images/logos/digital-ocean.svg" alt="digital-ocean"></a></li>
@@ -160,7 +163,6 @@
                             <li><a href="#" data-reveal-id="nginx-modal"><img width="100%" src="/public/images/logos/nginx.svg" alt="nginx"></a></li>
                             <li><a href="#" data-reveal-id="linux-modal"><i class="icon-linux-plain"></i></a></li>
                             <li><a href="#" data-reveal-id="ubuntu-modal"><i class="icon-ubuntu-plain"></i></a></li>
-                            <li><a href="#" data-reveal-id="mysql-modal"><i class="icon-mysql-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="ghost-modal"><i class="icon-ghost-plain-wordmark ghost"></i></a></li>
                             <li><a href="#" data-reveal-id="npm-modal"><i class="icon-npm-plain-wordmark"></i></a></li>
                             <li><a href="#" data-reveal-id="angularjs-modal"><i class="icon-angularjs-plain-wordmark"></i></a></li>
@@ -178,10 +180,10 @@
                     <div class="d-comments box">
                         <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
                         <p>
-                            <span class="margin">I do OO <strong>PHP</strong> (with <strong>Laravel</strong> Framework) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I enjoy work as a part of a team. </span>
-                            <span class="margin"> I have an Engineering in Information Technology from Málaga University in Spain.</span>
-                            <span class="margin">In total, I have four years experience as a web developer. I have been working in Spain, England and Czech Republic, as an employee and as a freelancer.</span>
-                            <span class="margin">Using Sublime Text, I have developed in Windows Linux and Mac, being Chromium my default browser.</span>
+                            <span class="margin">I do OO <strong>PHP</strong> (<strong>Zend</strong>,<strong>Laravel</strong>) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I enjoy work as a part of a team. </span>
+                            <span class="margin">I follow best practises, TDD, Unit and Integration testing, Design Patterns...</span>
+                            <span class="margin">I have an Engineering in Information Technology from Málaga University in Spain.</span>
+                            <span class="margin">In total, I have four years experience as a software developer. I have been working in Spain, England and Germany, as an employee and as a freelancer.</span>
                         </p>
                         <!-- <p>I think that taking the risk of trying a new technology is always woth it.</p><br> -->
                     </div>
@@ -249,7 +251,7 @@
             <section class="s-intermediate">
                 <div class="hold">
 
-                    <p>¿ Looking for 100% Back-end projects examples ? Most of my code is private, sorry. But you can find a little in my GitHub account.</p>
+                    <p>Most of my code is private, sorry. But you can find a little in my GitHub account (is kind of old now, sorry!).</p>
                     
                     <a class="button button-effect icon-github" href="https://github.com/rafamalaga86/gamerest">
                         <span>REST API</span>
