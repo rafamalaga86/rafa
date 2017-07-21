@@ -1897,11 +1897,6 @@ body {
     text-align: right;
   }
 }
-@media screen and (max-width: 600px) {
-  .s-navigation {
-    display: none;
-  }
-}
 @media (max-height: 600px) {
   .s-navigation {
     display: none;
@@ -1917,6 +1912,11 @@ body {
 @media screen and (max-width: 1100px) {
   .s-navigation .hold {
     width: 97.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .s-navigation nav .dis-mobile {
+    display: none;
   }
 }
 .s-navigation nav a {
@@ -1941,6 +1941,11 @@ body {
 }
 .s-navigation nav a:hover {
   background-color: black;
+}
+@media screen and (max-width: 600px) {
+  .s-navigation nav a.languages {
+    float: left;
+  }
 }
 .s-navigation nav a.left {
   float: left;
@@ -2308,10 +2313,7 @@ header .arrow i::before {
 }
 .s-intermediate a {
   display: inline-block;
-  margin: 20px 0;
-}
-.s-intermediate .ml {
-  margin-left: 30px;
+  margin: 20px 15px;
 }
 .s-portfolio {
   position: relative;

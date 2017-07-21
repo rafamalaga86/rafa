@@ -78,9 +78,15 @@
 
             <section class="s-navigation">
                 <nav class="hold">
-                    <a href="/" class="left"><h2>Rafael García Doblas</h2></a><!--
-                <a href="#projects-anchor"><span>Projects</span></a>
-                i--><a href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf"><span>Curriculum Vitae</span></a><!--
+                    <a href="/" class="left dis-mobile"><h2>Rafael García Doblas</h2></a>
+                    <?php
+                    /* <a href="#projects-anchor"><span>Projects</span></a> */
+
+                    foreach ($otherLanguages as $languageCode => $language) { ?>
+                        <a class="languages" href="/<?= $languageCode === 'en' ? '' : $languageCode . '/' ?>"><span><?= $language ?></span></a><!--
+                    <?php
+                    } ?>
+                i--><a class="dis-mobile" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf"><span>Curriculum Vitae</span></a><!--
                 i--><a class="contact" href="#contact-anchor"><span>Contact me</span></a>
                 </nav>
             </section>

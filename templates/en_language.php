@@ -7,6 +7,10 @@ if (basename(__FILE__) == basename(get_included_files()[0])) {
     die();
 }
 
+$otherLanguages       = [
+    'es' => 'Español'
+];
+
 $titleTag             = 'Rafael García Doblas, proud Software Developer';
 $metaDescription      = 'I do OO PHP (Zend, Laravel) and Javascript on a daily basis, always with Git. Follow best practises, TDD, Unit and Integration testing, Design Patterns... Engineer in Information Technology from Málaga University in Spain.';
 $ogDescription        = 'Is having development skills like having superpowers? Coffee, beer, motorbikes and software development are my passions.';

@@ -269,7 +269,6 @@ body{
 	opacity: 0;
 	transition: opacity 0.2s;
 	@media @1000{ text-align: right; }
-	@media @600{ display: none; }
 	@media (max-height: 600px){
 		display: none;
 	}
@@ -285,6 +284,9 @@ body{
 	}
 
 	nav{
+		.dis-mobile{
+			@media @600{ display: none; }
+		}
 		a{
 			display: inline-block;
 			vertical-align: top;
@@ -304,6 +306,9 @@ body{
 			}
 			&:hover{
 				background-color: black;
+			}
+			&.languages{
+				@media @600{ float: left; }
 			}
 			&.left{
 				float: left;
@@ -326,10 +331,6 @@ body{
 		}
 	}
 }
-
-
-
-
 
 
 
@@ -599,13 +600,8 @@ header{
 
 	a{
 		display: inline-block;
-		margin: 20px 0;
+		margin: 20px 15px;
 	}
-
-	.ml{
-		margin-left: 30px;
-	}
-
 }
 
 
