@@ -60,12 +60,12 @@ function preload(arrayOfImages) {
     });
 }
 
-preload([
-    '/public/images/morphing/site1.jpg',
-    '/public/images/morphing/site2.jpg',
-    '/public/images/morphing/site3.jpg',
-    '/public/images/morphing/site4.jpg'
-    ]);
+// preload([
+//     '/public/images/morphing/site1.jpg',
+//     '/public/images/morphing/site2.jpg',
+//     '/public/images/morphing/site3.jpg',
+//     '/public/images/morphing/site4.jpg'
+//     ]);
 
 
 
@@ -129,12 +129,8 @@ $(window).on('resize', function(){ // ON WINDOWS RESIZE
 
 
 /* CODE FOR CHANGIN THE WORD OF THINGS THAT I LIKE */
-var array_likes = [
-    "travelling",
-    "sublime text",
-    "noodle soup",
-    "motorbikes"
-];
+var array_likes = $(".what-i-love").data("what").split(",");
+
 var array_likes_count;
 
 function rounded_array_count(){
@@ -252,18 +248,18 @@ new stepsForm( theForm, {
 
         } ,'json');
 */
-
-
-        var user_name       = $('input[name=name]').val();
-        var user_email      = $('input[name=email]').val();
-        var user_subject    = "Email from rafaelgarciadoblas.com page:";
-        var user_message    = $('input[name=mess]').val();
        
         //data to be sent to server
-        post_data = {'userName':user_name, 'userEmail':user_email, 'userSubject':user_subject, 'userMessage':user_message};
+        post_data = {
+            'userName'     : $('input[name=name]').val(),
+            'userEmail'    : $('input[name=email]').val(),
+            'userSubject'  : "Email from rafaelgarciadoblas.com page:",
+            'userMessage'  : $('input[name=mess]').val(),
+            'userLanguage' : $('input[name=language]').val()
+        };
        
         //Ajax post data to server
-        $.post('contact_me.php', post_data, function(response){ 
+        $.post('/contact_me.php', post_data, function(response){ 
 
              var messageEl = theForm.querySelector( '.final-message' );
            

@@ -218,10 +218,10 @@
 		var message = '';
 		switch( err ) {
 			case 'EMPTYSTR' : 
-				message = 'Please fill the field before continuing';
+				message = $("form").data("empty");
 				break;
 			case 'INVALIDEMAIL' : 
-				message = 'Please enter a valid email address';
+				message = $("form").data("invalidemail");
 				break;
 			// ...
 		};
