@@ -137,7 +137,18 @@
                     */ ?>
 
 
-                
+                    <div class="d-comments box">
+                        <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
+                        <p>
+                            <span class="margin"><?= $section1P1 ?></span>
+                            <span class="margin"><?= $section1P2 ?></span>
+                            <span class="margin"><?= $section1P3 ?></span>
+                            <span class="margin"><?= $section1P4 ?></span>
+                        </p>
+                        <!-- <p>I think that taking the risk of trying a new technology is always woth it.</p><br> -->
+                    </div>
+
+
                     <div class="d-icons box">
                         <ul>
                             <li>
@@ -304,19 +315,6 @@
                             </li>
                             */ ?>
                         </ul>
-                    </div>
-
-
-
-                    <div class="d-comments box">
-                        <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
-                        <p>
-                            <span class="margin"><?= $section1P1 ?></span>
-                            <span class="margin"><?= $section1P2 ?></span>
-                            <span class="margin"><?= $section1P3 ?></span>
-                            <span class="margin"><?= $section1P4 ?></span>
-                        </p>
-                        <!-- <p>I think that taking the risk of trying a new technology is always woth it.</p><br> -->
                     </div>
 
 

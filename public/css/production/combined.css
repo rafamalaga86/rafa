@@ -2177,43 +2177,20 @@ header .arrow i::before {
 .s-introduction .container {
   overflow: hidden;
 }
-.s-introduction .d-introduction {
-  width: 50%;
+.s-introduction .d-comments {
+  width: 39%;
   float: left;
-  margin-right: 10%;
-  overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
-  .s-introduction .d-introduction {
+  .s-introduction .d-comments {
     width: 100%;
   }
-}
-.s-introduction .d-device {
-  width: 40%;
-  box-sizing: border-box;
-  float: left;
-  overflow: hidden;
-}
-@media screen and (max-width: 1024px) {
-  .s-introduction .d-device {
-    display: none;
-  }
-}
-.s-introduction .d-device .md-slider {
-  margin: 0;
-}
-.s-introduction .d-device .md-device button::before {
-  font-family: 'icomoon';
-  content: "\e608";
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  display: block;
 }
 .s-introduction .d-icons {
   text-align: left;
   float: left;
   width: 55%;
-  margin-right: 10%;
+  margin-left: 6%;
 }
 @media screen and (max-width: 1024px) {
   .s-introduction .d-icons {
@@ -2291,15 +2268,6 @@ header .arrow i::before {
 @media screen and (max-width: 1100px) {
   .s-introduction .d-icons li i:before {
     font-size: 75px;
-  }
-}
-.s-introduction .d-comments {
-  width: 35%;
-  float: left;
-}
-@media screen and (max-width: 1024px) {
-  .s-introduction .d-comments {
-    width: 100%;
   }
 }
 .s-intermediate {

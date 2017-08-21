@@ -8,4 +8,8 @@
 # Log
 log/
 
+# The blog part
+es/blog/
+
+# This should be generated from less with $ grunt
 rafastyle.css

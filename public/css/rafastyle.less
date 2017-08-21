@@ -471,45 +471,48 @@ header{
 		overflow: hidden;
 	}
 
+	// .d-introduction{ 
+	// 	width: 50%;
+	// 	float: left;
+	// 	margin-right: 10%;
+	// 	overflow: hidden;
+	// 	@media @ipadlc{ width: 100%;}
+	// }
 
+	// .d-device{
+	// 	width: 40%;
+	// 	box-sizing: border-box;
+	// 	float: left;
+	// 	overflow: hidden;
+	// 	@media @ipadlc{ display: none; }
 
+	// 	.md-slider{
+	// 		margin: 0;
+	// 	}
+	// 	.md-device{
+	// 		 button::before{
+	// 			font-family: 'icomoon';
+	// 			content: "\e608";
+	// 			-webkit-transform: scaleX(-1);
+	// 			transform: scaleX(-1);
+	// 			display: block;
+	// 		 }
+	// 	}
+	// }
 
-	.d-introduction{ // FIRST BOX
-		width: 50%;
+	.d-comments{ // FOURTH BOX
+		width: 39%;
 		float: left;
-		margin-right: 10%;
-		overflow: hidden;
-		@media @ipadlc{ width: 100%;}
-	}
-
-	.d-device{ // SECOND BOX
-		width: 40%;
-		box-sizing: border-box;
-		float: left;
-		overflow: hidden;
-		@media @ipadlc{ display: none; }
-
-		.md-slider{
-			margin: 0;
-		}
-		.md-device{
-			 button::before{
-				font-family: 'icomoon';
-				content: "\e608";
-				-webkit-transform: scaleX(-1);
-				transform: scaleX(-1);
-				display: block;
-			 }
+		@media @ipadlc{
+			width: 100%;
 		}
 	}
-
-
 
 	.d-icons{  // THIRD BOX
 		text-align: left;
 		float: left;
 		width: 55%;
-		margin-right: 10%;
+		margin-left: 6%;
 		@media @ipadlc{
 			text-align: center;
 			width: 100%;
@@ -568,14 +571,6 @@ header{
 				transition: color .2s;
 				@media @1100{ font-size: 75px; }
 			}
-		}
-	}
-
-	.d-comments{ // FOURTH BOX
-		width: 35%;
-		float: left;
-		@media @ipadlc{
-			width: 100%;
 		}
 	}
 }

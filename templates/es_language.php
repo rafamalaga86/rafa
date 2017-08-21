@@ -12,7 +12,7 @@ $otherLanguages       = [
 ];
 
 $titleTag             = 'Rafael García Doblas, orgulloso Software Developer';
-$metaDescription      = 'Hago OO PHP (Zend, Laravel) y Javascript en el día a día, siempre con Git. Sigo las mejores prácticas al programar, como TDD, Unit testing, Integration Testing, Patrones de diseño... Soy Ingeniero de Informática por la Universidad de Málaga, España';
+$metaDescription      = 'Hago OO PHP (Zend, Laravel), Javascript y Python en el día a día, siempre con Git. Sigo las mejores prácticas al programar, como TDD, Unit testing, Integration Testing, Patrones de diseño... Soy Ingeniero de Informática por la Universidad de Málaga, España';
 $ogDescription        = '¿Ser programador es como tener superpoderes? El café, la cerveza, las motos y el desarrollo de software son mis pasiones';
 $twitterTitle         = $titleTag;
 $twitterDescription   = '¿Ser programador es como tener superpoderes?';
