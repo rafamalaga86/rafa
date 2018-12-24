@@ -11,13 +11,13 @@
         <meta name="robots" content="index, follow">
 
         <!-- Facebook Open Graph -->
-        <link rel="canonical" href="http://rafaelgarciadoblas.com/" />
+        <link rel="canonical" href="https://rafaelgarciadoblas.com/" />
         <meta property="og:title" content="Proud Software Developer">
         <meta property="og:site_name" content="Rafael Garcia Doblas">
-        <meta property="og:url" content="http://rafaelgarciadoblas.com">
+        <meta property="og:url" content="https://rafaelgarciadoblas.com">
         <meta property="og:description" content="<?= $ogDescription ?>">
         <meta property="og:type" content="website"> 
-        <meta property="og:image" content="http://rafaelgarciadoblas.com/public/images/card.jpg">
+        <meta property="og:image" content="https://rafaelgarciadoblas.com/public/images/card.jpg">
 
 
         <!-- Twitter Card -->
@@ -25,7 +25,7 @@
         <meta name="twitter:site" content="@rafamalaga86">
         <meta name="twitter:title" content="<?= $twitterTitle ?>">
         <meta name="twitter:description" content="<?= $twitterDescription ?>">
-        <meta name="twitter:image:src" content="http://rafaelgarciadoblas.com/public/images/card2.jpg">
+        <meta name="twitter:image:src" content="https://rafaelgarciadoblas.com/public/images/card2.jpg">
 
         <!-- Favicons and icons -->
         <link rel="apple-touch-icon" sizes="57x57" href="/public/images/favicons/apple-touch-icon-57x57.png">
