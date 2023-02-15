@@ -331,9 +331,13 @@ var spinner = new Spinner(opts).spin(target);
 
 // PUT MY EMAIL
 
+// var mym = document.querySelector(".mym"),
+//     lhs = "rafamalaga86";
+//     rhs = "gmail.com";
+
 var mym = document.querySelector(".mym"),
-    lhs = "rafamalaga86";
-    rhs = "gmail.com";
+    lhs = "rafael";
+    rhs = "thesoftwarefactory0.com";
 
 mym.innerHTML = "<A HREF=\"mailto" + ":" + lhs + "@" + rhs + "\">" + lhs + "@" + rhs + "<\/A>";
 

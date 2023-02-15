@@ -52,23 +52,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 
         <!-- Style Sheet -->
-        <link rel="stylesheet" href="/public/css/production/style.min.css">
-        
-
-        <?php /*
-        <!-- STYLESHEETS IN BOTH LESS AND CSS -->
-        <link rel="stylesheet" href="/public/css/normalize.css">
-        <link rel="stylesheet" href="/public/icons/style.css">
-        <link rel="stylesheet" href="/public/css/form-component.css">
-        <link rel="stylesheet" href="/public/css/morphing-component.css">
-        <link rel="stylesheet/less" href="/public/css/rafastyle.less">
-
-
-        <!-- LESS JS -->
-        <script>var less = { env:"development", dumpLineNumbers:'mediaquery'};</script>
-        <script src="/public/js/less-1.7.4.min.js"></script>
-
-        */ ?>
+        <link rel="stylesheet" href="/public/css/styles.css">
 
     </head>
 
@@ -78,7 +62,7 @@
 
             <section class="s-navigation">
                 <nav class="hold">
-                    <a href="/" class="left dis-mobile"><h2>Rafael García Doblas</h2></a>
+                    <a href="/" class="left dis-mobile"><h2>Rafael García Doblas <span class="white">in</span> TheSoftwareFactory0</h2></a>
                     <?php
                     /* <a href="#projects-anchor"><span>Projects</span></a> */
 
@@ -86,7 +70,7 @@
                         <a class="languages" href="/<?= $languageCode === 'en' ? '' : $languageCode . '/' ?>"><span><?= $language ?></span></a><!--
                     <?php
                     } ?>
-                i--><a class="dis-mobile" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf"><span>Curriculum Vitae</span></a><!--
+                i--><!-- <a class="dis-mobile" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf"><span>Curriculum Vitae</span></a>--><!--
                 i--><a class="contact" href="#contact-anchor"><span>Contact me</span></a>
                 </nav>
             </section>
@@ -94,7 +78,8 @@
 
             <header class="full-screen-section">
                 <div class="hold">
-                    <h3>Hi <span class="red">There!</span></h3>
+                    <!-- <h3>Hi <span class="red">There!</span></h3> -->
+                    <h3>The<span class="red">Software</span>Factory0</h3>
                     <h1><?= $h1 ?></h1>
                     <p><?= $whatIAm ?></p>
                     <!-- <a class="button learn-more" href="#introduction-anchor">Learn more</a> -->
@@ -325,9 +310,10 @@
 
             <section class="s-intermediate">
                 <div class="hold">
-                    <a class="button button-effect icon-signup" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf">
+                    <h2 style="padding-top: 20px;"><?= $examplesOfMyWork ?></h2>
+                    <!-- <a class="button button-effect icon-signup" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf">
                         <span><?= $downloadMyCV ?></span>
-                    </a>
+                    </a> -->
 
                 </div>
             </section>
@@ -402,7 +388,7 @@
                                 <q><?= $testimonial1Quote ?></q>
                                 <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
                                 <h5 class="name"><?= $testimonial1Person ?></h5>
-                                <h6 class="sub-title"><?= $testimonial1Position ?></h6>
+                                <!-- <h6 class="sub-title"><?= $testimonial1Position ?></h6> -->
                             </blockquote>
                         </article>
                         <article>
@@ -411,7 +397,7 @@
                                 <q><?= $testimonial2Quote ?></q>
                                 <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
                                 <h5 class="name"><?= $testimonial2Person ?></h5>
-                                <h6 class="sub-title"><?= $testimonial2Position ?></h6>
+                                <!-- <h6 class="sub-title"><?= $testimonial2Position ?></h6> -->
                             </blockquote>
                         </article>
                     </ul>
@@ -519,7 +505,7 @@
                     <span class="final-message"></span>
                 </form><!-- /simform -->
 
-                <small><p>Email: <span class="mym"><?= $activateJS ?></span> | © Copyright <?php echo date("Y"); ?> <?= $rightsReserved ?></p></small>
+                <small><p>Email: <span class="mym"><?= $activateJS ?></span> | © TheSoftwareFactory0 LLC <?php echo date("Y"); ?> <?php // $rightsReserved ?></p></small>
 
             </div>
         </footer>

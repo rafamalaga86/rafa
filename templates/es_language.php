@@ -24,18 +24,19 @@ $section1P2           = 'Sigo las mejores prácticas al programar, como TDD, Uni
 $section1P3           = 'Soy Ingeniero de Informática por la Universidad de Málaga, España.';
 $section1P4           = 'En total, tengo cuatro años de experiencia como desarrollador de software. He trabajado en España, Inglaterra y Alemania, como empleado y como autónomo.';
 
+$examplesOfMyWork     = 'Buscas ejemplos de mi trabajo?';
 $downloadMyCV         = 'Descarga mi CV';
 $myCodeIsPrivate      = 'La mayoría de mi código es privado, lo siento. Pero puedes encontrar algo en mi cuenta de GitHub (casi todo es de hace años, ¡lo siento!)';
 
 $testimonial1Title    = 'Rafael es un desarrollador con mucho talento';
 $testimonial1Quote    = 'Rafael es un desarrollador con mucho talento que ha sido un verdadero activo para nuestra empresa, donde estuvo a cargo de proyectos que eran de gran valor para los servicios que ofrecemos. Él está totalmente en el trabajo y tiene la habilidad de balancear la carga de trabajo con buena agilidad mientras pone atención meticulosa en los detalles.';
 $testimonial1Person   = 'Arni Lochner';
-$testimonial1Position = 'Director en Wonderlabs';
+// $testimonial1Position = 'Director en Wonderlabs';
 
 $testimonial2Title    = 'Perfecto manejo del tiempo y atención en el detalle';
 $testimonial2Quote    = 'Rafael es una de las personas con más talento y dedicación con las que he tenido el placer de trabajar. Durante este tiempo en Wonderlabs, Rafael ha manejado proyectos completos desde el comienzo hasta el final, con perfecto manejo del tiempo y atención al detalle.';
 $testimonial2Person   = 'Craig Curchin';
-$testimonial2Position = 'Production Director en Wonderlabs';
+// $testimonial2Position = 'Production Director en Wonderlabs';
 
 $ctaH2                = 'Este es <span>Rafa</span>.';
 $ctaP                 = 'Quiero decir, soy yo. Contesto mis emails, contesto el teléfono, y me encanta ayudar a clientes a encontrar soluciones a los retos de los negocios.';
