@@ -24,7 +24,7 @@ $section1P2           = 'I follow best practises, TDD, Unit and Integration test
 $section1P3           = 'I have an Engineering in Information Technology from Málaga University in Spain.';
 $section1P4           = 'In total, I have four years experience as a software developer. I have been working in Spain, England and Germany, as an employee and as a freelancer.';
 
-$examplesOfMyWork     = 'Looking for examples of my work?';
+$companiesIWorkedFor  = 'Some companies I worked for as a Software Engineer:';
 $downloadMyCV         = 'Download my CV';
 $myCodeIsPrivate      = 'Most of my code is private, sorry. But you can find a little in my GitHub account (is kind of old now, sorry!).';
 

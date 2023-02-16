@@ -1158,6 +1158,9 @@ h5,h6{
 .white{
     color:white;
 }
+.gray{
+    color: #4e4e56;
+}
 .button,a.button{
     background:#da635d;
     border:none;
@@ -1742,6 +1745,9 @@ header .arrow i::before{
     position:relative;
     display:block;
     width:100%
+}
+.s-portfolio.brands figure img{
+    opacity: 1;
 }
 .s-portfolio figure:hover img{
     opacity:.2

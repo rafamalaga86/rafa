@@ -79,7 +79,7 @@
             <header class="full-screen-section">
                 <div class="hold">
                     <!-- <h3>Hi <span class="red">There!</span></h3> -->
-                    <h3>The<span class="red">Software</span>Factory0</h3>
+                    <h3>The<span class="red">Software</span>Factory<span class="red">0</span></h3>
                     <h1><?= $h1 ?></h1>
                     <p><?= $whatIAm ?></p>
                     <!-- <a class="button learn-more" href="#introduction-anchor">Learn more</a> -->
@@ -310,7 +310,7 @@
 
             <section class="s-intermediate">
                 <div class="hold">
-                    <h2 style="padding-top: 20px;"><?= $examplesOfMyWork ?></h2>
+                    <h2 style="padding-top: 30px; padding-bottom: 30px;"><?= $companiesIWorkedFor ?></h2>
                     <!-- <a class="button button-effect icon-signup" href="/public/others/Rafael%20Garcia%20Doblas%20CV.pdf">
                         <span><?= $downloadMyCV ?></span>
                     </a> -->
@@ -318,8 +318,7 @@
                 </div>
             </section>
 
-
-            <?php  /*
+<!-- 
             <section class="s-portfolio">
                 <div id="projects-anchor"></div>
                 
@@ -359,9 +358,49 @@
                     </figcaption>           
                 </figure>
             </section>
-            */ ?>  
+ -->
 
+            <section class="s-portfolio brands">
+                <div id="projects-anchor"></div>
+                
+                <figure>
+                    <img src="/public/images/projects/jasper.png" alt="jasperpim">
+                    <figcaption>
+                        <h4></h4>
+                        <p>Jasper PIM</p>
+                        <a href="//jasperpim.com" rel="nofollow"></a>
+                    </figcaption>           
+                </figure>
+                
+                <figure>
+                    <img src="/public/images/projects/dcmn.png" alt="dcmn">
+                    <figcaption>
+                        <h4></h4>
+                        <p>DCMN</p>
+                        <a href="//dcmn.com" rel="nofollow"></a>
+                    </figcaption>           
+                </figure>
 
+                <figure>
+                    <img src="/public/images/projects/eigensonne.png" alt="eigensonne">
+                    <figcaption>
+                        <h4></h4>
+                        <p>EIGENSONNE</p>
+                        <a href="//eigensonne.com" rel="nofollow"></a>
+                    </figcaption>           
+                </figure>
+ 
+                <figure>
+                    <img src="/public/images/projects/homecare.png" alt="homecarepm">
+                    <figcaption>
+                        <h4></h4>
+                        <p>HOMECARE PROPERTY MANAGEMENT</p>
+                        <a href="//homecarepm.com"></a>
+                    </figcaption>           
+                </figure>
+            </section>
+
+<!-- 
 
             <section class="s-intermediate">
                 <div class="hold">
@@ -377,7 +416,7 @@
 
                 </div>
             </section>
-
+ -->
 
 
             <section class="s-testimonials">
@@ -388,6 +427,10 @@
                                 <q><?= $testimonial1Quote ?></q>
                                 <img src="/public/images/testi-arni.jpg" alt="arni lochner wonderlabs">
                                 <h5 class="name"><?= $testimonial1Person ?></h5>
+                                <div>
+                                    <a class="gray" href="//twitter.com/arnilochner"><i class="icon-twitter"></i></a>
+                                    <a class="gray" href="//www.linkedin.com/in/arnilochner/?originalSubdomain=uk"><i class="icon-linkedin"></i></a>
+                                </div>
                                 <!-- <h6 class="sub-title"><?= $testimonial1Position ?></h6> -->
                             </blockquote>
                         </article>
@@ -397,6 +440,10 @@
                                 <q><?= $testimonial2Quote ?></q>
                                 <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
                                 <h5 class="name"><?= $testimonial2Person ?></h5>
+                                <div>
+                                    <a class="gray" href="//twitter.com/craigcurchin"><i class="icon-twitter"></i></a>
+                                    <a class="gray" href="//www.linkedin.com/in/craigcurchin/?originalSubdomain=uk"><i class="icon-linkedin"></i></a>
+                                </div>
                                 <!-- <h6 class="sub-title"><?= $testimonial2Position ?></h6> -->
                             </blockquote>
                         </article>

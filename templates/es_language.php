@@ -24,7 +24,7 @@ $section1P2           = 'Sigo las mejores prácticas al programar, como TDD, Uni
 $section1P3           = 'Soy Ingeniero de Informática por la Universidad de Málaga, España.';
 $section1P4           = 'En total, tengo cuatro años de experiencia como desarrollador de software. He trabajado en España, Inglaterra y Alemania, como empleado y como autónomo.';
 
-$examplesOfMyWork     = 'Buscas ejemplos de mi trabajo?';
+$companiesIWorkedFor  = 'Empresas para las que he trabajado como Ingeniero de Software:';
 $downloadMyCV         = 'Descarga mi CV';
 $myCodeIsPrivate      = 'La mayoría de mi código es privado, lo siento. Pero puedes encontrar algo en mi cuenta de GitHub (casi todo es de hace años, ¡lo siento!)';
 
