@@ -62,7 +62,11 @@
 
             <section class="s-navigation">
                 <nav class="hold">
-                    <a href="/" class="left dis-mobile"><h2>Rafael García Doblas <span class="white">in</span> TheSoftwareFactory0</h2></a>
+                    <a href="/" class="left dis-mobile">
+                        <h2>Rafael García Doblas
+                            <?php //  <span class="white">in</span>TheSoftwareFactory0 ?>
+                        </h2>
+                    </a>
                     <?php
                     /* <a href="#projects-anchor"><span>Projects</span></a> */
 
@@ -552,7 +556,7 @@
                     <span class="final-message"></span>
                 </form><!-- /simform -->
 
-                <small><p>Email: <span class="mym"><?= $activateJS ?></span> | © TheSoftwareFactory0 LLC <?php echo date("Y"); ?> <?php // $rightsReserved ?></p></small>
+                <small><p>Email: <span class="mym"><?= $activateJS ?></span> | © <?php echo date("Y"); ?> <?php $rightsReserved ?></p></small>
 
             </div>
         </footer>

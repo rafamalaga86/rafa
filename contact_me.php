@@ -16,7 +16,8 @@ if ($_POST) {
                 : $defaultLanguage;
 
     require __DIR__ . '/templates/' . $language . '_language.php';
-    $to_Email = "rafael@thesoftwarefactory0.com";
+    $to_Email = "rafamalaga86@gmail.com";
+    // $to_Email = "rafael@thesoftwarefactory0.com";
 
     // Check $_POST vars are set, exit if any missing
     if (!isset($_POST["userName"]) || !isset($_POST["userEmail"]) || !isset($_POST["userSubject"]) || !isset($_POST["userMessage"])) {
