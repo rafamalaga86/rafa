@@ -82,8 +82,8 @@
 
             <header class="full-screen-section">
                 <div class="hold">
-                    <!-- <h3>Hi <span class="red">There!</span></h3> -->
-                    <h3>The<span class="red">Software</span>Factory<span class="red">0</span></h3>
+                    <h3>Hi <span class="red">There!</span></h3>
+                    <?php // <h3>The<span class="red">Software</span>Factory<span class="red">0</span></h3> ?>
                     <h1><?= $h1 ?></h1>
                     <p><?= $whatIAm ?></p>
                     <!-- <a class="button learn-more" href="#introduction-anchor">Learn more</a> -->
@@ -442,7 +442,7 @@
                             <blockquote>
                                 <h3 class="summary"><?= $testimonial2Title ?></h3>
                                 <q><?= $testimonial2Quote ?></q>
-                                <img src="/public/images/testi-craig.jpg" alt="arni lochner wonderlabs">
+                                <img src="/public/images/testi-craig.jpg" alt="craig curching wonderlabs">
                                 <h5 class="name"><?= $testimonial2Person ?></h5>
                                 <div>
                                     <a class="gray" href="//twitter.com/craigcurchin"><i class="icon-twitter"></i></a>
@@ -473,7 +473,7 @@
             </section>
 
             <section class="s-cta-mobile">
-                <img src="/public/images/s-cta-bg-mobile.jpg" alt="rafael garcia doblas">
+                <img src="/public/images/s-cta-bg-mobile.jpg" alt="">
 
 <?php /*
                 <div class="d-ring-mail">
