@@ -11,18 +11,18 @@ $otherLanguages       = [
     // 'es' => 'Español'
 ];
 
-$titleTag             = 'Rafael García Doblas, proud Software Developer';
-$metaDescription      = 'I do OO PHP (Zend, Laravel), Javascript and Python on a daily basis, always with Git. Follow best practises, TDD, Unit and Integration testing, Design Patterns... Engineer in Information Technology from Málaga University in Spain.';
+$titleTag             = 'Rafael García Doblas, proud Software Engineer';
+$metaDescription      = 'I do Object Oriented PHP with Laravel, Javascript and Python on a daily basis, always with Git. Follow best practises, TDD, Unit and Integration testing, Design Patterns... Engineer in Information Technology from Málaga University in Spain.';
 $ogDescription        = 'Is having development skills like having superpowers? Coffee, beer, motorbikes and software development are my passions.';
 $twitterTitle         = $titleTag;
 $twitterDescription   = 'Is having development skills like having superpowers?';
 $h1                   = 'I am <strong>Rafael García Doblas</strong>';
-$whatIAm              = 'A proud <span class="red">software developer</span><span class="what-i-love" data-what="travelling,sublime text,noodle soup,motorbikes">. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></span>';
+$whatIAm              = 'A proud <span class="red">software engineer</span><span class="what-i-love" data-what="travelling,sublime text,noodle soup,motorbikes">. I love <span class="curly-brackets">{{</span> <span class="red like"> motorbikes </span> <span class="curly-brackets">}}</span></span>';
 
-$section1P1           = 'I do OO <strong>PHP</strong> (<strong>Zend</strong>,<strong>Laravel</strong>) and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>. I enjoy work as a part of a team. ';
+$section1P1           = 'I am Senior Software Engineer that do Object Oriented <strong>PHP</strong> with <strong>Laravel</strong> and <strong>Javascript</strong> on a daily basis, always with <strong>Git</strong>.';
 $section1P2           = 'I follow best practises, TDD, Unit and Integration testing, Design Patterns...';
-$section1P3           = 'I have an Engineering in Information Technology from Málaga University in Spain.';
-$section1P4           = 'In total, I have four years experience as a software developer. I have been working in Spain, England and Germany, as an employee and as a freelancer.';
+$section1P3           = 'Last years I have been working as a Lead Developer in different companies, being on charge of making architectural and technology decisions.';
+$section1P4           = 'In total, I have <strong>TEN</strong> years experience as a Software Engineer, <strong>SIX</strong> with Laravel. I have been working in Spain, England and Germany, as an employee and as a freelancer.';
 
 $companiesIWorkedFor  = 'Some companies I worked for as a Software Engineer:';
 $downloadMyCV         = 'Download my CV';

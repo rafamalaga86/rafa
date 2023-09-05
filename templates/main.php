@@ -127,12 +127,12 @@
 
 
                     <div class="d-comments box">
-                        <h3><strong>PHP</strong> + <strong>Javascript</strong></h3>
+                        <h3><strong>PHP</strong> + <strong>Laravel</strong></h3>
                         <p>
                             <span class="margin"><?= $section1P1 ?></span>
-                            <span class="margin"><?= $section1P2 ?></span>
                             <span class="margin"><?= $section1P3 ?></span>
                             <span class="margin"><?= $section1P4 ?></span>
+                            <span class="margin"><?= $section1P2 ?></span>
                         </p>
                         <!-- <p>I think that taking the risk of trying a new technology is always woth it.</p><br> -->
                     </div>
@@ -674,18 +674,13 @@
 
         <?php /*
                 <script src="/public/js/fastclick.js"></script>
-
                 <script src="/public/js/classie.js"></script>
                 <script src="/public/js/modernizr.custom.js"></script>
                 <script src="/public/js/stepsForm.js"></script>
-
                 <script src="/public/js/morphingdevice.js"></script>
-                
                 <script src="/public/js/foundation.js"></script>
                 <script src="/public/js/foundation.reveal.js"></script>
-
                 <script src="/public/js/spin.min.js"></script>
-
                 <script src="/public/js/rafascript.js"></script>
         */ ?>
 
